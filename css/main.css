@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+body {
+	font-family: "微软雅黑", "宋体", Arial, 'Times New Roman';
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+img {
+	border: none;
+}
+#wrap,
+#header {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #000000;
+	border: 1px solid green;
+	/* debug */
+}
+#header {
+	height: 100px;
+}
+#banner {
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	border: 1px dotted red;
+	/* debug */
+}
+#content {
+	width: 960px;
+	height: 100px;
+	border: 1px solid blue;
+	/* debug */
+}
+#footer {
+	width: 960px;
+	height: 100px;
+	border: 1px dashed red;
+	/* debug */
+}
