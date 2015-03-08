@@ -9,6 +9,8 @@ body {
 a {
 	text-decoration: none;
 	color: #000000;
+	outline: none;
+	blr: expression(this.onFocus=this.blur());
 }
 img {
 	border: none;
@@ -17,14 +19,95 @@ img {
 #header {
 	width: 960px;
 	margin: 0 auto;
-	font-size: 12px;
-	color: #000000;
-	border: 1px solid green;
-	/* debug */
 }
 #header {
-	height: 100px;
+	height: 60px;
+	position: relative;
+	margin: 30px auto;
 }
+#header a,
+#header span {
+	font-size: 14px;
+	color: #6f6f6f;
+}
+#logo {
+	float: left;
+	width: 280px;
+	height: 60px;
+}
+#logo span {
+	position: absolute;
+	bottom: 5px;
+}
+/* nav begin */
+
+#nav {
+	float: right;
+	height: 60px;
+	width: 680px;
+}
+#nav .main_nav {
+	height: 20px;
+	position: absolute;
+	bottom: 10px;
+	right: 40px;
+	float: right;
+}
+#nav .main_nav a {
+	display: block;
+	height: 25px;
+	text-align: center;
+	overflow: hidden;
+}
+#nav span {
+	float: left;
+	padding-top: 5px;
+}
+#nav .navs {
+	width: 80px;
+	float: left;
+	padding: 5px 10px 0 10px;
+}
+#nav .navs:hover {
+	background: url(img/nav_flag.jpg) no-repeat center top;
+}
+*html .main_nav .navs {
+	/* only for ie6 */
+	
+	overflow: hidden;
+}
+#nav .navs a:hover {
+	font-weight: 900;
+	color: #000000;
+}
+#nav .sub_nav {
+	display: none;
+	width: 80px;
+	position: relative;
+	z-index: 1000;
+	opacity: 0.8;
+	filter: Alpha(opacity=80);
+}
+#nav .sub_nav a:link,
+#nav .sub_nav a:visited {
+	background: #f9f9f9;
+}
+#nav .clear {
+	clear: both;
+	height: 1px;
+	line-height: 1px;
+	font-size: 1px;
+}
+#nav .nav_cart {
+	display: block;
+	position: absolute;
+	width: 25px;
+	height: 20px;
+	bottom: 3px;
+	right: 0px;
+	background: url(img/nav_cart.jpg) no-repeat center;
+}
+/* nav end */
 /* banner begin */
 
 #banner,
