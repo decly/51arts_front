@@ -1,0 +1,85 @@
+/* nav begin */
+
+#nav {
+	float: right;
+	height: 60px;
+	width: 600px;
+	position: relative;
+}
+#nav .main_nav {
+	height: 20px;
+	position: absolute;
+	bottom: 5px;
+	_bottom: 0;
+	right: 30px;
+	float: right;
+}
+#nav .main_nav a {
+	display: block;
+	height: 25px;
+	text-align: center;
+	padding-bottom: -5px;
+}
+#nav .nav_sep {
+	float: left;
+	padding-top: 5px;
+	_padding-top: 8px;
+}
+#nav .navs {
+	width: 80px;
+	height: 20px;
+	float: left;
+	padding: 5px 10px 0 10px;
+	_line-height: 28px;
+}
+#nav .navs:hover {
+	background: url("img/nav_flag.jpg") no-repeat center top;
+}
+*html #nav .nav_a:hover {
+	/* only for ie6 */
+	
+	background: url("img/nav_flag.jpg") no-repeat center top;
+}
+*html #nav .navs {
+	/* only for ie6 */
+	
+	overflow: hidden;
+}
+#nav .navs a:hover {
+	font-weight: 900;
+	color: #000000;
+}
+#nav .sub_nav {
+	display: none;
+	width: 80px;
+	position: relative;
+	z-index: 1000;
+	opacity: 0.8;
+	filter: Alpha(opacity=80);
+	_top: -8px;
+}
+#nav .sub_nav a {
+	position: relative;
+}
+#nav .sub_nav a:link,
+#nav .sub_nav a:visited {
+	background: #f9f9f9;
+}
+#nav .clear {
+	clear: both;
+	width: 1px;
+	height: 1px;
+	line-height: 1px;
+	font-size: 1px;
+}
+#nav .nav_cart {
+	display: block;
+	position: absolute;
+	width: 25px;
+	height: 20px;
+	bottom: 0px;
+	right: 0px;
+	background: url(img/nav_cart.jpg) no-repeat center;
+	cursor: pointer;
+}
+/* nav end */

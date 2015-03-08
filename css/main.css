@@ -20,6 +20,8 @@ img {
 	width: 960px;
 	margin: 0 auto;
 }
+/* header begin */
+
 #header {
 	height: 60px;
 	position: relative;
@@ -42,142 +44,8 @@ img {
 	left: 185px;
 	bottom: 0;
 }
-/* nav begin */
-
-#nav {
-	float: right;
-	height: 60px;
-	width: 600px;
-	position: relative;
-}
-#nav .main_nav {
-	height: 20px;
-	position: absolute;
-	bottom: 5px;
-	_bottom: 0;
-	right: 30px;
-	float: right;
-}
-#nav .main_nav a {
-	display: block;
-	height: 25px;
-	text-align: center;
-	padding-bottom:-5px;
-}
-#nav .nav_sep {
-	float: left;
-	padding-top: 5px;
-	_padding-top: 8px;
-}
-#nav .navs {
-	width: 80px;
-	height: 20px;
-	float: left;
-	padding: 5px 10px 0 10px;
-	_line-height: 28px;
-}
-#nav .navs:hover {
-	background: url("img/nav_flag.jpg") no-repeat center top;
-}
-*html #nav .nav_a:hover {
-	/* only for ie6 */
-	background: url("img/nav_flag.jpg") no-repeat center top;
-}
-*html #nav .navs {
-	/* only for ie6 */	
-	overflow: hidden;
-}
-#nav .navs a:hover {
-	font-weight: 900;
-	color: #000000;
-}
-#nav .sub_nav {
-	display: none;
-	width: 80px;
-	position: relative;
-	z-index: 1000;
-	opacity: 0.8;
-	filter: Alpha(opacity=80);
-	_top: -8px;
-}
-#nav .sub_nav a {
-	position: relative;
-}
-#nav .sub_nav a:link,
-#nav .sub_nav a:visited {
-	background: #f9f9f9;
-}
-#nav .clear {
-	clear: both;
-	width: 1px;
-	height: 1px;
-	line-height: 1px;
-	font-size: 1px;
-}
-#nav .nav_cart {
-	display: block;
-	position: absolute;
-	width: 25px;
-	height: 20px;
-	bottom: 0px;
-	right: 0px;
-	background: url(img/nav_cart.jpg) no-repeat center;
-	cursor: pointer;
-}
-/* nav end */
-/* banner begin */
-
-#banner,
-.slidebox {
-	width: 100%;
-	height: 450px;
-	margin: 0 auto;
-	overflow: hidden;
-	position: relative;
-}
-.slidepic {
-	position: absolute;
-	width: 9999em;
-}
-.slidepic li,
-.slidepic img {
-	display: block;
-	width: 1920px;
-	height: 450px;
-	overflow: hidden;
-	float: left;
-}
-.slidebtn {
-	position: absolute;
-	bottom: 10px;
-	left: 50%;
-	float: left;
-	margin: 0 auto;
-}
-.slidebtn li {
-	background: #FFFFFF;
-	border: 1px solid #D00000;
-	cursor: pointer;
-	float: left;
-	font-family: arial;
-	height: 18px;
-	line-height: 18px;
-	width: 18px;
-	margin: 4px;
-	text-align: center;
-	color: #D00000;
-}
-.slidebtn li.current {
-	background: #FF0000;
-	border: 1px solid #FFFFFF;
-	height: 18px;
-	line-height: 18px;
-	width: 18px;
-	margin: 4px;
-	color: #FFFFFF;
-	font-weight: 800;
-}
-/* banner end */
+/* header end */
+/* content begin */
 
 #content {
 	width: 960px;
@@ -185,6 +53,8 @@ img {
 	border: 1px solid blue;
 	/* debug */
 }
+/* content end */
+
 #footer {
 	width: 960px;
 	height: 100px;
