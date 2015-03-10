@@ -15,8 +15,16 @@ a {
 img {
 	border: none;
 }
-#wrap,
-#header {
+#wrap {
+	width: 100%;
+	margin: 0 auto;
+}
+.fullwidth {
+	width: 100%;
+	margin: 0 auto;
+	background: #f7f7f7;
+}
+.fitwidth {
 	width: 960px;
 	margin: 0 auto;
 }
@@ -46,17 +54,14 @@ img {
 	bottom: 0;
 }
 /* header end */
-/* content begin */
-
-#content {
-	background: yellow;
-	/* debug */
-}
+/* repos begin */
 
 #repos {
 	height: 100px;
-	background: green;;
+	background: green;
+	;
 }
+/* repos end */
 
 #act_wrap {
 	background: red;
@@ -64,13 +69,10 @@ img {
 }
 #login {
 	background: gold;
-	float:left;
+	float: left;
 	width: 250px;
 	height: 250px;
 }
-
-/* content end */
-
 #footer {
 	width: 960px;
 	height: 100px;
