@@ -1,71 +1,95 @@
 #rmenu .izl-rmenu {
 	position: fixed;
 	left: 100%;
-	margin-left: -70px;	
+	margin-left: -47px;
 	bottom: 10px;
-	padding-bottom: 73px;
+	padding-bottom: 50px;
 	z-index: 999;
 	display: none;
 }
 #rmenu .izl-rmenu .btn {
-	width: 70px;
-	height: 70px;
-	margin-bottom: 1px;
-	/*border: 1px solid red;*/
+	width: 45px;
+	height: 45px;
+	margin-bottom: 3px;
+	border: 1px solid #d7d7d7;
 	cursor: pointer;
 	position: relative;
 }
 #rmenu .izl-rmenu .btn-wx {
-	/*background: url(../img/r_wx.png) 0px 0px no-repeat;*/
-	background-color: #78c340;
+	background: url(img/rmenu_btn_wx.jpg) 0px 0px no-repeat;
 }
 #rmenu .izl-rmenu .btn-wx:hover {
-	background-color: #58a81c;
+	border: 1px solid #939392;
 }
 #rmenu .izl-rmenu .btn-wx .wxpic {
 	position: absolute;
-	left: -240px;
+	left: -251px;
 	top: 0px;
 	display: none;
-	width: 240px;
-	height: 240px;
+	width: 250px;
+	height: 250px;
 }
 #rmenu .izl-rmenu .btn-mark {
-	background-color: #fbb01f;
+	background: url(img/rmenu_btn_mark.jpg) 0px 0px no-repeat;
 }
 #rmenu .izl-rmenu .btn-mark:hover {
-	background-color: #ff811b;
+	border: 1px solid #939392;
 }
 #rmenu .izl-rmenu .btn-mark .mark-info {
-	background-color: #ff811b;
+	background-color: #939392;
 	position: absolute;
-	width: 160px;
-	left: -160px;
-	top: 0px;
-	line-height: 70px;
+	width: 140px;
+	left: -141px;
+	top: -1px;
+	line-height: 47px;
 	color: #FFF;
 	font-size: 18px;
 	text-align: center;
 	display: none;
 }
-/*#rmenu .izl-rmenu .btn-mark {
-	background: url(../img/r_qq.png) 0px 0px no-repeat;
-	background-color: #6da9de;
+#rmenu .izl-rmenu .btn-share {
+	line-height: 45px;
+	color: #9c9d99;
+	font-size: 14px;
+	text-align: center;
+	background: url(img/rmenu_btn_share.jpg) 0px 0px no-repeat;
 }
-#rmenu .izl-rmenu .btn-mark:hover {
-	background-color: #488bc7;
+#rmenu .izl-rmenu .btn-share:hover {
+	border: 1px solid #939392;
 }
-#rmenu .izl-rmenu a.btn-mark,
-#rmenu .izl-rmenu a.btn-mark:visited {
-	background: url(../img/r_qq.png) 0px 0px no-repeat;
-	background-color: #6da9de;
-	text-decoration: none;
-	display: block;
-}*/
-
+#rmenu .izl-rmenu .btn-share .share-info {
+	background-color: #939392;
+	position: absolute;
+	width: 140px;
+	left: -141px;
+	top: -1px;
+	line-height: 47px;
+	color: #FFF;
+	font-size: 18px;
+	text-align: center;
+	display: none;
+}
+#rmenu .izl-rmenu .btn-suggest {
+	background: url(img/rmenu_btn_sug.jpg) 0px 0px no-repeat;
+}
+#rmenu .izl-rmenu .btn-suggest:hover {
+	border: 1px solid #939392;
+}
+#rmenu .izl-rmenu .btn-suggest .suggest-info {
+	background-color: #939392;
+	position: absolute;
+	width: 140px;
+	left: -141px;
+	top: -1px;
+	line-height: 47px;
+	color: #FFF;
+	font-size: 18px;
+	text-align: center;
+	display: none;
+}
 #rmenu .izl-rmenu .btn-top {
-	background: url(../img/r_top.png) 0px 0px no-repeat;
-	background-color: #666666;
+	background: url(img/rmenu_btn_top.png) 0px 0px no-repeat;
+	background-color: #cccccc;
 }
 #rmenu .izl-rmenu .btn-top:hover {
 	background-color: #444;
