@@ -1,0 +1,72 @@
+#rmenu .izl-rmenu {
+	position: fixed;
+	left: 100%;
+	margin-left: -70px;	
+	bottom: 10px;
+	padding-bottom: 73px;
+	z-index: 999;
+	display: none;
+}
+#rmenu .izl-rmenu .btn {
+	width: 70px;
+	height: 70px;
+	margin-bottom: 1px;
+	/*border: 1px solid red;*/
+	cursor: pointer;
+	position: relative;
+}
+#rmenu .izl-rmenu .btn-wx {
+	/*background: url(../img/r_wx.png) 0px 0px no-repeat;*/
+	background-color: #78c340;
+}
+#rmenu .izl-rmenu .btn-wx:hover {
+	background-color: #58a81c;
+}
+#rmenu .izl-rmenu .btn-wx .wxpic {
+	position: absolute;
+	left: -240px;
+	top: 0px;
+	display: none;
+	width: 240px;
+	height: 240px;
+}
+#rmenu .izl-rmenu .btn-mark {
+	background-color: #fbb01f;
+}
+#rmenu .izl-rmenu .btn-mark:hover {
+	background-color: #ff811b;
+}
+#rmenu .izl-rmenu .btn-mark .mark-info {
+	background-color: #ff811b;
+	position: absolute;
+	width: 160px;
+	left: -160px;
+	top: 0px;
+	line-height: 70px;
+	color: #FFF;
+	font-size: 18px;
+	text-align: center;
+	display: none;
+}
+/*#rmenu .izl-rmenu .btn-mark {
+	background: url(../img/r_qq.png) 0px 0px no-repeat;
+	background-color: #6da9de;
+}
+#rmenu .izl-rmenu .btn-mark:hover {
+	background-color: #488bc7;
+}
+#rmenu .izl-rmenu a.btn-mark,
+#rmenu .izl-rmenu a.btn-mark:visited {
+	background: url(../img/r_qq.png) 0px 0px no-repeat;
+	background-color: #6da9de;
+	text-decoration: none;
+	display: block;
+}*/
+
+#rmenu .izl-rmenu .btn-top {
+	background: url(../img/r_top.png) 0px 0px no-repeat;
+	background-color: #666666;
+}
+#rmenu .izl-rmenu .btn-top:hover {
+	background-color: #444;
+}
