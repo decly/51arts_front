@@ -17,6 +17,7 @@
 		<script type="text/javascript" src="js/banner.js"></script>
 		<script type="text/javascript" src="js/activity.js"></script>
 		<script type="text/javascript" src="js/rmenu.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 
 	<body>
@@ -181,31 +182,27 @@
 				<div id="act_wrap" class="fitwidth">
 
 					<div id="login_wrap">
-						<form>
-							<table>
-								<tr>
-									<td colspan="2">
-										<input type="text" name="username" id="username">
-									</td>
-								</tr>
-								<tr>
-									<td colspan="2">
-										<input type="password" name="password" id="password">
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<input type="text" name="verification" id="verify">
-									</td>
-									<td><a href="#" id="vry_code">7421</a></td>
-								</tr>
-								<tr>
-									<td>
-										<input type="button" value="登录" id="login"/>
-									</td>
-									<td><a href="#" id="forget-pwd">忘记密码？</a></td>
-								</tr>
-							</table>
+
+						<form action="" method="post">
+							<ul>
+								<li>
+									<input type="text" name="username" id="username" value="会员名/手机号/邮箱" />
+								</li>
+								<li>
+									<input type="password" name="password" id="password" value="密码" />
+								</li>
+								<li>
+									<input type="text" name="verification" id="verify" value="验证码" />
+									<a href="#" id="vry_code">7421</a>
+								</li>
+								<li>
+									<input type="submit" value="登录" id="login" />
+									<a href="#" id="forget-pwd">忘记密码？</a>
+								</li>
+								<li id="register">
+									<div><span>您还没有多元帐号?</span><a href="#">现在注册</a></div>
+								</li>
+							</ul>
 						</form>
 
 					</div>
