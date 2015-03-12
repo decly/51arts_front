@@ -26,7 +26,7 @@ img {
 	background: #f7f7f7;
 }
 .fitwidth {
-	width: 960px;
+	width: 1000px;
 	margin: 0 auto;
 }
 /* header begin */
@@ -35,7 +35,7 @@ img {
 	height: 60px;
 	position: relative;
 	margin: 30px auto;
-	_z-index: 10;
+	z-index: 10;
 }
 #header a,
 #header li {
@@ -60,18 +60,23 @@ img {
 #repos {
 	margin: 50px auto;
 }
+#repos table {
+	margin-left: -10px;
+	border-collapse: collapse;
+}
 #repos td {
 	text-align: center;
-	color: #aaaaaa;
-	width: 160px;
-	text-decoration: underline;
-	padding-top: 10px;
+	width: 150px;
+	padding: 5px 10px;
 }
 #repos img {
 	width: 150px;
 	height: 90px;
 	filter: alpha(opacity=90);
 	opacity: 0.9;
+}
+#repos #repos-title a {
+	text-decoration: underline;
 }
 #repos #repos-title a:hover {
 	color: black;
@@ -93,7 +98,6 @@ img {
 	height: 250px;
 }
 #footer {
-	width: 960px;
 	height: 1000px;
 	background: indianred;
 	/* debug */
