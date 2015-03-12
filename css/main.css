@@ -91,12 +91,32 @@ img {
 	background: red;
 	height: 250px;
 }
-#login {
+/* login_wrap start */
+#login_wrap {
 	background: gold;
 	float: left;
 	width: 250px;
 	height: 250px;
 }
+
+#login_wrap td {
+	width: 100px;
+	padding: 10px 10px;
+	border: 1px solid red;
+}
+
+#login_wrap #username,
+#login_wrap #password {
+	width: 200px;
+}
+#login_wrap #verify,
+#login_wrap #vry_code, 
+#login_wrap #login,
+#login_wrap #forget-pwd {
+	width: 100px;
+}
+
+/* login_wrap start */
 #footer {
 	height: 1000px;
 	background: indianred;
