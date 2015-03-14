@@ -24,10 +24,12 @@ img {
 	width: 100%;
 	margin: 0 auto;
 	background: #f7f7f7;
+	letter-spacing: 2px;
 }
 .fitwidth {
 	width: 1000px;
 	margin: 0 auto;
+	letter-spacing: 2px;
 }
 /* header begin */
 
@@ -209,7 +211,7 @@ img {
 
 #sale_wrap {
 	padding: 80px 0;
-	/*background: blueviolet;*/
+	_padding-left: 20px;
 }
 #saleinfo {
 	height: 25px;
@@ -246,6 +248,7 @@ img {
 }
 #sale_scroll .saletype {
 	font-weight: 900;
+	color: #000;
 }
 #salemore {
 	display: block;
@@ -259,9 +262,53 @@ img {
 #salemore:hover {
 	font-weight: 900;
 }
-#saleimg {
-	height: 500px;
-	background: blue;
+#saleitem {
+	margin-top: 25px;
+}
+#saleitem table {
+	border-collapse: separate;
+	border-spacing: 20px 0;
+	margin-left: -20px;
+}
+#saleitem td {
+	position: relative;
+}
+#saleitem img {
+	width: 490px;
+	height: 335px;
+	float: left;
+}
+#saleitem td div,
+#saleitem td p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	line-height: 40px;
+	width: 490px;
+	color: #fff;
+	cursor: pointer;
+}
+#saleitem td div {
+	background: #000;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+#saleitem .item_name {
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+#saleitem .item_info {
+	display: block;
+	margin-right: 10px;
+	;
+	float: right;
+	font-weight: 900;
+}
+#saleitem .item_price {
+	color: red;
+	font-weight: 900;
 }
 /* sale end */
 

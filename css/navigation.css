@@ -5,6 +5,7 @@
 	height: 60px;
 	width: 600px;
 	position: relative;
+	letter-spacing:0;
 }
 #nav .main_nav {
 	height: 20px;

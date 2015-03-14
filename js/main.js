@@ -37,7 +37,7 @@ $(document).ready(function() { // text scroll for sale info
 
 		function scrolling() {
 			if (ScrollBox.scrollTop % height != 0) {
-				ScrollBox.scrollTop += 2;
+				ScrollBox.scrollTop += 1;
 				if (ScrollBox.scrollTop >= ScrollBox.scrollHeight / 2) ScrollBox.scrollTop = 0;
 			} else {
 				clearInterval(scrollT);

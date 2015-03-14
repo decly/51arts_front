@@ -1,3 +1,6 @@
+#rmenu {
+	_display: none;
+}
 #rmenu .izl-rmenu {
 	position: fixed;
 	left: 100%;
