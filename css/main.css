@@ -174,7 +174,7 @@ img {
 #login_wrap #vry_code {
 	position: absolute;
 	bottom: 5;
-	font-size: 14px;
+	font-size: 12px;
 	background: #e4e4e4;
 	text-align: center;
 	color: #fff;
@@ -205,6 +205,65 @@ img {
 	font-weight: 900;
 }
 /* login_wrap start */
+/* sale begin */
+
+#sale_wrap {
+	padding: 80px 0;
+	/*background: blueviolet;*/
+}
+#saleinfo {
+	height: 25px;
+}
+#onsale {
+	float: left;
+	display: block;
+	width: 100px;
+	height: 25px;
+	margin-right: 30px;
+	background: url("img/onsale_text.png") no-repeat center;
+}
+#sale_scroll {
+	float: left;
+	line-height: 25px;
+	height: 25px;
+	width: 700px;
+	overflow: hidden;
+}
+#sale_scroll ul {
+	margin: 0px 10px;
+	padding: 0px;
+	list-style-type: none;
+}
+#sale_scroll ul li {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin: 0;
+	padding: 0px;
+}
+#sale_scroll ul li span {
+	margin-right: 10px;
+}
+#sale_scroll .saletype {
+	font-weight: 900;
+}
+#salemore {
+	display: block;
+	height: 25px;
+	width: 100px;
+	float: right;
+	line-height: 25px;
+	text-align: right;
+	text-decoration: underline;
+}
+#salemore:hover {
+	font-weight: 900;
+}
+#saleimg {
+	height: 500px;
+	background: blue;
+}
+/* sale end */
 
 #footer {
 	height: 1000px;
