@@ -86,128 +86,130 @@ img {
 	opacity: 1.0;
 }
 /* repos end */
+
 #activity {
 	position: relative;
 	height: 370px;
 }
-#act_wrap {	
+#act_wrap {
 	position: absolute;
 	top: 50%;
-	left:50%;
-	margin-left:-500px;
-	margin-top:-125px;
-	height:250px;	
-	border:1px solid red;
+	left: 50%;
+	margin-left: -500px;
+	margin-top: -125px;
+	height: 250px;
+	border: 1px solid red;
 }
 /* login_wrap start */
+
 #login_wrap {
 	background: #fff;
 	float: left;
 	width: 275px;
 	height: 250px;
-	
 }
-
-
 #login_wrap li {
 	width: 275px;
 	height: 30px;
-	padding-top:20px;
+	padding-top: 20px;
 	padding-left: 30px;
 	position: relative;
 }
-
+#login_wrap #inputlabels {
+	position:absolute;
+	top: 20px;
+	left:40px;
+	z-index: 20;
+	font-size: 12px;
+	line-height: 25px;
+	color: #6f6f6f;
+}
 #login_wrap #username,
-
 #login_wrap #password {
 	width: 200px;
 	height: 25px;
-	font-size:12px;
+	font-size: 12px;
 	line-height: 25px;
 	border: 1px solid #e4e4e4;
 	color: #6f6f6f;
-	padding-left:10px;
+	padding-left: 10px;
+	
+	/*position: absolute;
+	top: 0;
+	left:0;*/
 }
 #login_wrap #verify,
 #login_wrap #login {
 	height: 25px;
 	line-height: 25px;
-	font-size:12px;
+	font-size: 12px;
 	color: #6f6f6f;
-	margin-right:10px;
+	margin-right: 10px;
 }
 #login_wrap #verify {
-	padding-left:10px;
+	padding-left: 10px;
 	border: 1px solid #e4e4e4;
 	width: 90px;
 }
 #login_wrap #login {
 	width: 100px;
-	height:30px;
-	border:none;
+	height: 30px;
+	border: none;
 	background: #dd5451;
 	color: #fff;
 }
 #login_wrap #login:hover {
 	border: 1px solid #e4e4e4;
 }
-
 #login_wrap #vry_code,
 #login_wrap #forget-pwd {
 	width: 95px;
 	height: 28px;
 	line-height: 28px;
 }
-#login_wrap #forget-pwd {	
-	font-size:12px;
+#login_wrap #forget-pwd {
+	font-size: 12px;
 	color: #6f6f6f;
-	padding-left:10px;
+	padding-left: 10px;
 }
 #login_wrap #forget-pwd:hover {
-	color:red;
+	color: red;
 }
 #login_wrap #vry_code {
 	position: absolute;
-	bottom:5;
-	font-size:14px;
+	bottom: 5;
+	font-size: 14px;
 	background: #e4e4e4;
 	text-align: center;
-	color:#fff;	
-	
+	color: #fff;
 }
-
-
-#login_wrap #register {	
-	padding-left:0;
-	
+#login_wrap #register {
+	padding-left: 0;
 }
-
-
 #login_wrap #register div {
 	position: absolute;
-	bottom:0;
-	height:30px;
-	width:275px;
+	bottom: 0;
+	height: 30px;
+	width: 275px;
 	background: #e4e4e4;
 	line-height: 30px;
-	color:#666666;	
-	
+	color: #666666;
 }
 #login_wrap #register span {
-	margin-left:30px;
-	font-size:12px;
+	margin-left: 30px;
+	font-size: 12px;
 }
-#login_wrap #register a{
+#login_wrap #register a {
 	color: red;
-	margin-left:25px;
-	font-size:12px;
+	margin-left: 25px;
+	font-size: 12px;
 	text-decoration: underline;
 }
 #login_wrap #register a:hover {
 	font-weight: 900;
 }
-
 /* login_wrap start */
+
 #footer {
 	height: 1000px;
 	background: indianred;

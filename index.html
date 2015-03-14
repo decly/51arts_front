@@ -186,13 +186,22 @@
 						<form action="" method="post">
 							<ul>
 								<li>
-									<input type="text" name="username" id="username" value="会员名/手机号/邮箱" />
+									<label  for="username">
+										<span id="inputlabels">会员名/手机号/邮箱</span>
+										<input type="text" name="username" id="username"/>
+									</label>
 								</li>
 								<li>
-									<input type="password" name="password" id="password" value="密码" />
+									<label  for="password">
+										<span id="inputlabels">密码</span>
+										<input type="password" name="password" id="password" />
+									</label>
 								</li>
 								<li>
-									<input type="text" name="verification" id="verify" value="验证码" />
+									<label for="verify">
+										<span id="inputlabels">验证码</span>
+										<input type="text" name="verification" id="verify" />
+									</label>
 									<a href="#" id="vry_code">7421</a>
 								</li>
 								<li>
