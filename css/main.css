@@ -397,13 +397,11 @@ img {
 /* classitem begin */
 
 #classitem {
-	/*background: green;*/
-	height: 5000px;
-	
+	/*height: 5000px;*/
 }
 
 #classitem .classitem_wrap {
-	background: yellow;
+	/*background: yellow;*/
 	padding: 50px 0;
 }
 
@@ -452,17 +450,51 @@ img {
 	padding-left: 30px;
 }
 
+
+
+
+
+
 #classitem table {
 	border-collapse: separate;
-	border-spacing: 13px 0;
+	border-spacing: 13px;
 	margin-left: -13px;
 	_margin-top: -10px;
 }
-
-#classitem table img {
+#classitem table td,
+#classitem table td img,
+#classitem table td p {
 	width: 240px;
 	height: 240px;
+	position: relative;
 }
+#classitem table td img {
+	float: left;
+}
+#classitem table td p {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	display: none;
+}
+#classitem table td p span {
+	margin-top: 60px;
+	display: block;
+	line-height: 35px;
+}
+#classitem table td p a {
+	display: block;
+	margin: 25px auto;
+	padding: 0 10px;
+	width: 70px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	background: #666666;
+}
+
+
 
 #muyuan {
 	
