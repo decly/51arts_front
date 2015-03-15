@@ -63,3 +63,19 @@ $(document).ready(function() { // hover for items
 		$(this).children('p').css({'display':'none'});
 	}
 });
+
+
+$(document).ready(function() { // hover for artists 
+
+	$('#artcircle li a').hover(artistshover, artistsleave);
+	
+	function artistshover() {
+		$(this).children('p').css({'display':'block'});
+		$(this).children('span').css({'display':'block'});
+	}
+	function artistsleave() {	
+		$(this).children('p').css({'display':'none'});
+		$(this).children('span').css({'display':'none'});
+	}
+});
+
