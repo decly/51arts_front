@@ -399,13 +399,10 @@ img {
 #classitem {
 	/*height: 5000px;*/
 }
-
 #classitem .classitem_wrap {
 	/*background: yellow;*/
-	padding: 50px 0;
+	padding-top: 50px;
 }
-
-
 #classitem .classtitile {
 	width: 100px;
 	height: 65px;
@@ -423,25 +420,25 @@ img {
 }
 #classitem .class_bgline {
 	width: 853px;
-	height:16px;
+	height: 16px;
 	margin: 0 auto;
 	background: url(img/class_bg_line.png) no-repeat top;
 }
 #classitem .item_classify {
 	width: 853px;
-	height:16px;
+	height: 16px;
 	line-height: 16px;
-	margin: 10px auto;	
+	margin: 10px auto;
 }
 #classitem .item_classify .item_classify_title {
 	margin-left: -30px;
 	width: 883px;
 }
 #classitem .item_classify li {
-	float:left;
+	float: left;
 }
 #classitem .item_classify li a:hover {
-	color:red;
+	color: red;
 }
 #classitem .little_title {
 	color: #000;
@@ -449,12 +446,6 @@ img {
 	padding-right: 12px;
 	padding-left: 30px;
 }
-
-
-
-
-
-
 #classitem table {
 	border-collapse: separate;
 	border-spacing: 13px;
@@ -494,28 +485,22 @@ img {
 	background: #666666;
 }
 
-
-
-#muyuan {
-	
-}
 #muyuan .classtitile {
-	background: url(img/titile_muyuan.png) no-repeat top;
+	background: url(img/title_muyuan.png) no-repeat top;
 }
-
-
-
-
+#taoyuan .classtitile {
+	background: url(img/title_taoyuan.png) no-repeat top;
+}
+#qiyuan .classtitile {
+	background: url(img/title_qiyuan.png) no-repeat top;
+}
+#shiyuan .classtitile {
+	background: url(img/title_shiyuan.png) no-repeat top;
+}
+#yinyuan .classtitile {
+	background: url(img/title_yinyuan.png) no-repeat top;
+}
 /* classitem end */
-
-
-
-
-
-
-
-
-
 
 #footer {
 	height: 1000px;
