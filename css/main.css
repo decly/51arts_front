@@ -312,6 +312,51 @@ img {
 }
 /* sale end */
 
+.modtitle {
+	width: 168px;
+	height: 168px;
+	margin: 0 auto;
+	position: relative;
+}
+.modtitle span {
+	position: absolute;
+	width: 168px;
+	left: 0;
+	bottom: 30px;
+	text-align: center;
+	color: #6f6f6f;
+}
+/* newitem begin */
+
+#newitem {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+#newitem .modtitle {
+	background: url(img/newitem_title.png) no-repeat center;
+}
+#newitem table {
+	margin-left: -15px;
+	_margin-left: 0;
+	border-collapse: separate;
+	border-spacing: 15px;
+}
+#newitem table td {
+	width: 205px;
+	height: 205px;
+}
+#newitem table td img {
+	width: 205px;
+	height: 205px;
+	float: left;
+}
+#newitem .bigitem,
+#newitem .bigitem img {
+	width: 340px;
+	height: 425px;
+}
+/* newitem end */
+
 #footer {
 	height: 1000px;
 	background: indianred;
