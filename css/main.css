@@ -289,8 +289,10 @@ img {
 	height: 40px;
 	line-height: 40px;
 	width: 490px;
-	color: #fff;
 	cursor: pointer;
+}
+#saleitem td p span {
+	color: #fff;
 }
 #saleitem td div {
 	background: #000;
