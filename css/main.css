@@ -394,6 +394,96 @@ img {
 	color: #fff;
 }
 /* newitem end */
+/* classitem begin */
+
+#classitem {
+	/*background: green;*/
+	height: 5000px;
+	
+}
+
+#classitem .classitem_wrap {
+	background: yellow;
+	padding: 50px 0;
+}
+
+
+#classitem .classtitile {
+	width: 100px;
+	height: 65px;
+	margin: 20px auto;
+	position: relative;
+	cursor: pointer;
+}
+#classitem .classtitile span {
+	position: absolute;
+	width: 100px;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	color: #6f6f6f;
+}
+#classitem .class_bgline {
+	width: 853px;
+	height:16px;
+	margin: 0 auto;
+	background: url(img/class_bg_line.png) no-repeat top;
+}
+#classitem .item_classify {
+	width: 853px;
+	height:16px;
+	line-height: 16px;
+	margin: 10px auto;	
+}
+#classitem .item_classify .item_classify_title {
+	margin-left: -30px;
+	width: 883px;
+}
+#classitem .item_classify li {
+	float:left;
+}
+#classitem .item_classify li a:hover {
+	color:red;
+}
+#classitem .little_title {
+	color: #000;
+	font-weight: 900;
+	padding-right: 12px;
+	padding-left: 30px;
+}
+
+#classitem table {
+	border-collapse: separate;
+	border-spacing: 13px 0;
+	margin-left: -13px;
+	_margin-top: -10px;
+}
+
+#classitem table img {
+	width: 240px;
+	height: 240px;
+}
+
+#muyuan {
+	
+}
+#muyuan .classtitile {
+	background: url(img/titile_muyuan.png) no-repeat top;
+}
+
+
+
+
+/* classitem end */
+
+
+
+
+
+
+
+
+
 
 #footer {
 	height: 1000px;
