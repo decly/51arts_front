@@ -402,6 +402,7 @@ img {
 }
 #classitem .classitem_wrap {
 	/*background: yellow;*/
+	
 	padding-top: 50px;
 }
 #classitem .classtitile {
@@ -485,7 +486,6 @@ img {
 	color: #fff;
 	background: #666666;
 }
-
 #muyuan .classtitile {
 	background: url(img/title_muyuan.png) no-repeat top center;
 }
@@ -503,14 +503,10 @@ img {
 }
 /* classitem end */
 /* artcircle begin */
+
 #artcircle_wrap {
 	margin-top: 50px;
 	padding: 60px 0;
-}
-#artcircle {
-	
-	background: green;
-	/*height: 1000px;*/
 }
 #artists_big_wrap {
 	position: relative;
@@ -521,40 +517,52 @@ img {
 #artcircle .artists_big {
 	position: absolute;
 	top: 0;
-	right:0;
+	right: 0;
 }
 #artcircle .artists_big li {
 	float: left;
 	width: 230px;
-	height:315px;
+	height: 315px;
 	padding: 10px;
 	margin-left: 40px;
 	background: #fff;
 }
 #artcircle .artists_big li img {
 	width: 230px;
-	height:130px;
+	height: 130px;
 }
-#artcircle .artists_big li h5,
-#artcircle .artists_big li p {
+#artcircle .artists_big li h5 {
 	color: #6f6f6f;
 	margin-top: 20px;
+}
+#artcircle .artists_big li p {
+	color: #6f6f6f;
+	margin-top: 10px;
+	width: 230px;
+	height: 100px;
+	line-height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 #artcircle .artists_big li h4 {
 	margin-top: 10px;
 	font-weight: 900;
 	font-size: 15px;
+	width: 230px;
+	height: 25px;
+	line-height: 25px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
-
-
 #artcircle #artists_small_wrap {
 	margin-top: 30px;
 	height: 95px;
+	_margin-left: -16px;
 }
 #artcircle .artists_small {
 	margin-left: -18px;
-	/*height: 95px;*/
-	
+	_width: 1050px;
 }
 #artcircle .artists_small li {
 	float: left;
@@ -564,29 +572,29 @@ img {
 #artcircle .artists_small li,
 #artcircle .artists_small li img {
 	width: 95px;
-	height:95px;
+	height: 95px;
 }
-
 #artcircle .artists_small li p,
 #artcircle .artists_small li span {
 	position: absolute;
 	display: none;
 	left: 0;
 	bottom: 0;
+	_bottom: 5px;
 	width: 95px;
 	height: 25px;
 	color: #fff;
 	text-align: center;
 	line-height: 25px;
+	cursor: pointer;
 }
 #artcircle .artists_small li p {
 	filter: alpha(opacity=70);
 	opacity: 0.7;
 	background: #000;
 }
-
-
 /* artcircle end */
+
 #footer {
 	height: 1000px;
 	background: indianred;

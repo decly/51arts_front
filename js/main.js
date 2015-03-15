@@ -52,15 +52,26 @@ $(document).ready(function() { // text scroll for sale info
 $(document).ready(function() { // hover for items
 
 	$('table.show_iteminfo td').hover(itemhover, itemleave);
-	
+
 	function itemhover() {
-		$(this).find('img').css({'filter':'alpha(opacity=30)', 'opacity':'0.3'});
-		$(this).children('p').css({'display':'block'});
+		$(this).find('img').css({
+			'filter': 'alpha(opacity=30)',
+			'opacity': '0.3'
+		});
+		$(this).children('p').css({
+			'display': 'block'
+		});
 	}
+
 	function itemleave() {
-		
-		$(this).find('img').css({'filter':'alpha(opacity=100)', 'opacity':'1.0'});
-		$(this).children('p').css({'display':'none'});
+
+		$(this).find('img').css({
+			'filter': 'alpha(opacity=100)',
+			'opacity': '1.0'
+		});
+		$(this).children('p').css({
+			'display': 'none'
+		});
 	}
 });
 
@@ -68,14 +79,22 @@ $(document).ready(function() { // hover for items
 $(document).ready(function() { // hover for artists 
 
 	$('#artcircle li a').hover(artistshover, artistsleave);
-	
-	function artistshover() {
-		$(this).children('p').css({'display':'block'});
-		$(this).children('span').css({'display':'block'});
-	}
-	function artistsleave() {	
-		$(this).children('p').css({'display':'none'});
-		$(this).children('span').css({'display':'none'});
-	}
-});
 
+	function artistshover() {
+		$(this).children('p').css({
+			'display': 'block'
+		});
+		$(this).children('span').css({
+			'display': 'block'
+		});
+	}
+
+	function artistsleave() {
+		$(this).children('p').css({
+			'display': 'none'
+		});
+		$(this).children('span').css({
+			'display': 'none'
+		});
+	}	
+});
