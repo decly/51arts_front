@@ -502,7 +502,74 @@ img {
 	background: url(img/title_yinyuan.png) no-repeat top;
 }
 /* classitem end */
+/* artcircle begin */
+#artcircle_wrap {
+	margin-top: 50px;
+	padding: 60px 0;
+}
+#artcircle {
+	
+	background: green;
+	/*height: 1000px;*/
+}
+#artists_big_wrap {
+	position: relative;
+	height: 335px;
+	background: url(img/artcircle_bg.png) no-repeat;
+	background-position: 60px 35px;
+}
+#artcircle .artists_big {
+	position: absolute;
+	top: 0;
+	right:0;
+}
+#artcircle .artists_big li {
+	float: left;
+	width: 230px;
+	height:315px;
+	padding: 10px;
+	margin-left: 40px;
+	background: #fff;
+}
+#artcircle .artists_big li img {
+	width: 230px;
+	height:130px;
+}
+#artcircle .artists_big li h5,
+#artcircle .artists_big li p {
+	color: #6f6f6f;
+	margin-top: 20px;
+}
+#artcircle .artists_big li h4 {
+	margin-top: 10px;
+	font-weight: 900;
+	font-size: 15px;
+}
 
+
+#artcircle #artists_small_wrap {
+	margin-top: 30px;
+	height: 95px;
+}
+#artcircle .artists_small {
+	margin-left: -18px;
+	/*height: 95px;*/
+	
+}
+#artcircle .artists_small li {
+	float: left;
+	margin-left: 18px;
+}
+#artcircle .artists_small li,
+#artcircle .artists_small li img {
+	width: 95px;
+	height:95px;
+}
+
+
+
+
+/* artcircle end */
 #footer {
 	height: 1000px;
 	background: indianred;
