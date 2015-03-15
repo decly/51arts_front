@@ -47,3 +47,19 @@ $(document).ready(function() { // text scroll for sale info
 		setTimeout(start, delay);
 	}
 });
+
+
+$(document).ready(function() { // hover for items
+
+	$('table.show_iteminfo td').hover(itemhover, itemleave);
+	
+	function itemhover() {
+		$(this).find('img').css({'filter':'alpha(opacity=30)', 'opacity':'0.3'});
+		$(this).children('p').css({'display':'block'});
+	}
+	function itemleave() {
+		
+		$(this).find('img').css({'filter':'alpha(opacity=100)', 'opacity':'1.0'});
+		$(this).children('p').css({'display':'none'});
+	}
+});

@@ -13,6 +13,9 @@ a {
 	color: #6f6f6f;
 	blr: expression(this.onFocus=this.blur());
 }
+span {
+	color: #6f6f6f;
+}
 img {
 	border: none;
 }
@@ -317,6 +320,7 @@ img {
 	height: 168px;
 	margin: 0 auto;
 	position: relative;
+	cursor: pointer;
 }
 .modtitle span {
 	position: absolute;
@@ -341,19 +345,51 @@ img {
 	border-collapse: separate;
 	border-spacing: 15px;
 }
-#newitem table td {
+#newitem table td,
+#newitem table td img,
+#newitem table td p {
 	width: 205px;
 	height: 205px;
+	position: relative;
 }
 #newitem table td img {
-	width: 205px;
-	height: 205px;
 	float: left;
 }
+#newitem table td p {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	display: none;
+}
+#newitem table td p span {
+	margin-top: 50px;
+	display: block;
+	line-height: 35px;
+}
+#newitem table td p a {
+	display: block;
+	margin: 25px auto;
+	padding: 0 10px;
+	width: 70px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	background: #666666;
+}
 #newitem .bigitem,
-#newitem .bigitem img {
+#newitem .bigitem img,
+#newitem .bigitem p {
 	width: 340px;
 	height: 425px;
+}
+#newitem .bigitem p span {
+	margin-top: 120px;
+}
+#newitem .bigitem p a {
+	margin: 30px auto;
+	padding: 0 10px;
+	color: #fff;
 }
 /* newitem end */
 
