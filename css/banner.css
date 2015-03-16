@@ -1,8 +1,11 @@
 /* banner begin */
 
-#banner,
+#banner {
+	height: 465px;
+	_height: 475px;
+	background: #fff;
+}
 .slidebox {
-	height: 450px;
 	overflow: hidden;
 	position: relative;
 }
@@ -20,32 +23,19 @@
 }
 #banner .slidebtn {
 	position: absolute;
-	bottom: 10px;
-	left: 50%;
-	float: left;
+	bottom: 0;
+	left: 48%;
 	margin: 0 auto;
 }
 #banner .slidebtn li {
-	background: #FFFFFF;
-	border: 1px solid #D00000;
 	cursor: pointer;
 	float: left;
-	font-family: arial;
-	height: 18px;
-	line-height: 18px;
-	width: 18px;
-	margin: 4px;
-	text-align: center;
-	color: #D00000;
+	height: 5px;
+	width: 5px;
+	margin: 0px 5px;
+	background: url(img/banner_btn_null.png) no-repeat center;
 }
 #banner .slidebtn li.current {
-	background: #FF0000;
-	border: 1px solid #FFFFFF;
-	height: 18px;
-	line-height: 18px;
-	width: 18px;
-	margin: 4px;
-	color: #FFFFFF;
-	font-weight: 800;
+	background: url(img/banner_btn_dotted.png) no-repeat center;
 }
 /* banner end */
