@@ -672,9 +672,72 @@ img {
 	color: #fff;
 }
 /* salerank end */
+/* footer begin */
 
-#footer {
+#footer_wrap {
 	height: 1000px;
-	background: indianred;
-	/* debug */
 }
+#footer {
+	background: yellowgreen;
+	border: 1px solid green;
+	overflow: hidden;
+}
+#footer #ft_nav_wrap {
+	width: 750px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#footer #ft_nav_wrap img {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-right:40px;
+}
+#footer #ft_nav {
+	float: right;
+	line-height: 25px;
+}
+
+
+
+#footer #ft_nav .ft_sec_nav {
+	clear: both;
+}
+#footer #ft_nav .ft_sec_nav li {
+	float: left;
+	margin-left: 5px;
+	
+}
+
+#footer #ft_nav .ft_title a {
+	font-weight: 900;
+	display: block;
+	width: 80px;
+	color:#000;
+}
+#footer #ft_nav a:hover {
+	color: red;
+}
+
+#footer  #ft_shot {
+	width: 600px;
+	background: red;
+	margin: 0 auto;
+}
+#footer  #ft_shot li {
+	float: left;
+	width:150px;
+	padding-left: 50px;
+	background: yellow;
+	/*border: 1px solid red;*/
+}
+#footer #ft_shot .ft_shot_0,
+#footer #ft_shot .ft_shot_1,
+#footer #ft_shot .ft_shot_2 {
+	
+}
+
+
+
+
+/* footer end */
