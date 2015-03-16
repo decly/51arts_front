@@ -102,7 +102,7 @@ $(document).ready(function() { // hover for artists
 
 $(document).ready(function() { // hover for sale rank
 
-	$('#salerank td div').hover(itemhover, itemleave);
+	$('#salerank .salerank_item td').hover(itemhover, itemleave);
 
 	function itemhover() {
 		$(this).children('img').css({

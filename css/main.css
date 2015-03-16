@@ -597,8 +597,7 @@ img {
 /* salerank begin */
 
 #salerank {
-	background: yellow;
-	height: 1000px;
+	margin: 80px auto;
 }
 #salerank_info {
 	height: 25px;
@@ -608,10 +607,10 @@ img {
 	display: block;
 	width: 100px;
 	height: 25px;
-	background: url("img/onsale_text.png") no-repeat center;
+	background: url("img/salerank_bg.png") no-repeat center;
 }
 #salerank_info #salerank_title {
-	margin-left: 10px;
+	margin-left: 5px;
 	height: 25px;
 	line-height: 25px;
 }
@@ -625,7 +624,7 @@ img {
 	line-height: 25px;
 }
 #salerank_info ul li a {
-	font-size: 16px;
+	font-size: 14px;
 }
 #salerank_info ul li a:hover {
 	color: red;
@@ -635,41 +634,32 @@ img {
 }
 #salerank table {
 	border-collapse: separate;
-	border-spacing: 25px;
+	border-spacing: 25px 10px;
 	margin-left: -25px;
 }
-#salerank table td {
-	width: 180px;
-	height: 210px;
-	position: relative;
-	background: red;
-}
-#salerank table td div,
-#salerank table td div img {
-	position: absolute;
+#salerank table .salerank_item td,
+#salerank table .salerank_item td img {
 	width: 180px;
 	height: 180px;
-	top: 0;
-	left: 0;
-	background: gold;
+	position: relative;
 }
-#salerank table td p {
-	position: absolute;
-	bottom: 0;
-	width: 180px;
-	color: #6F6F6F;
-	text-align: center;
-	text-decoration: underline;
-}
-#salerank table td a {
+#salerank table .salerank_item td a {
 	display: none;
 	position: absolute;
 	top: 80px;
 	left: 50px;
 	width: 80px;
+	height: 25px;
+	line-height: 25px;
 	text-align: center;
 	background: #000;
 	color: #fff;
+}
+#salerank table .salerank_name,
+#salerank table .salerank_name span {
+	text-align: center;
+	text-decoration: underline;
+	color: #6F6F6F;
 }
 /* salerank end */
 /* footer begin */
