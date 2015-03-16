@@ -34,18 +34,7 @@ $(document).ready(function() {
 			$(this).find(".mark-info").fadeIn("fast");
 		}).mouseleave(function() {
 			$(this).find(".mark-info").fadeOut("fast");
-		}).click(function() {
-			try {
-				if (document.all) { // IE
-					window.external.addFavorite(window.location, document.title);
-				} else {
-					window.sidebar.addPanel(document.title, window.location);
-				}
-			} catch (e) {
-				var ctrl = (navigator.userAgent.toLowerCase()).indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL';
-				alert('您可以使用快捷键 ' + ctrl + ' + D 添加到书签');
-			}
-		});
+		}).click(favorites);
 
 		$(this).find(".btn-share").mouseenter(function() {
 			$(this).find(".share-info").fadeIn("fast");

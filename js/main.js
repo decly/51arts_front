@@ -125,3 +125,8 @@ $(document).ready(function() { // hover for sale rank
 		});
 	}
 });
+
+
+$(document).ready(function() { // footer shotcut	
+	$('#footer .ft_shot_2').click(favorites);
+});
