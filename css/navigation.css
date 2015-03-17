@@ -5,7 +5,7 @@
 	height: 60px;
 	width: 600px;
 	position: relative;
-	letter-spacing:0;
+	letter-spacing: 0;
 }
 #nav .main_nav {
 	height: 20px;
@@ -61,6 +61,7 @@
 }
 #nav .sub_nav a {
 	position: relative;
+	text-decoration: underline;
 }
 #nav .sub_nav a:link,
 #nav .sub_nav a:visited {
