@@ -1,4 +1,10 @@
-$(document).ready(function() { // set default for login 	
+$(document).ready(function() {  // for banner and fullwidth to adjust width
+	$('#wrap').css({
+		'min-width': $('#wrap').width() + 'px'
+	});
+});
+
+$(document).ready(function() { // set default for login
 	$('#login_wrap input').focus(function() {
 		$(this).siblings('span').css({
 			'display': 'none'

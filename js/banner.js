@@ -5,7 +5,6 @@ $(document).ready(function() {
 	var swtimer;
 
 	$('.slidepic').css("margin-left", -($('.slidepic img').width() - $('.slidebox').width()) / 2);
-
 	$('.slidebtn li').mouseover(function() {
 		idx = $('.slidebtn li').index(this);
 		showpic(idx);
