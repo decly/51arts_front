@@ -6,9 +6,11 @@
 	height: 250px;
 	width: 700px;
 }
-#act .slide-pic {
+#act .slide-pic,
+#act .slide-pic img {
 	overflow: hidden;
-	width: 500px;
+	width: 700px;
+	height: 250px;
 }
 #act .slide-pic li {
 	display: none;
@@ -19,7 +21,7 @@
 #act .slide-li {
 	right: 0px;
 	top: 0px;
-	margin-right: 15px;
+	margin-right: 10px;
 	position: absolute;
 	
 }
