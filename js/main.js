@@ -1,4 +1,4 @@
-$(document).ready(function() {  // for banner and fullwidth to adjust width
+$(document).ready(function() { // for banner and fullwidth to adjust width
 	$('#wrap').css({
 		'min-width': $('#wrap').width() + 'px'
 	});
@@ -130,9 +130,4 @@ $(document).ready(function() { // hover for sale rank
 			'display': 'none'
 		});
 	}
-});
-
-
-$(document).ready(function() { // footer shotcut	
-	$('#footer .ft_shot_2').click(favorites);
 });
