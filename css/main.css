@@ -1,6 +1,8 @@
 /* logo_custom bg start */
 
 #logo_custom {
+	width: 117px;
+	height: 35px;
 	background: url("img/logo_index_bg.jpg") no-repeat left bottom;
 }
 /* logo_custom bg end */

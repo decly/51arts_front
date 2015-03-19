@@ -135,8 +135,6 @@ img {
 #logo_custom {
 	float: left;
 	margin-left: 10px;
-	width: 150px;
-	height: 35px;
 	cursor: pointer;
 }
 /* header end */
@@ -191,7 +189,7 @@ img {
 #nav .nav_a:hover {
 	font-weight: 900;
 }
-#nav .sub_nav a:hover {	
+#nav .sub_nav a:hover {
 	color: #DC5154;
 }
 #nav .sub_nav {
