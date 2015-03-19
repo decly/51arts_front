@@ -61,7 +61,7 @@ img {
 }
 #top #login_top:hover,
 #top a:hover {
-	color: red;
+	color: #DC5154;
 }
 #search {
 	float: right;
@@ -127,15 +127,16 @@ img {
 }
 #logo {
 	float: left;
-	width: 300px;
-	height: 60px;
+	width: 189px;
+	height: 55px;
 	cursor: pointer;
-	background: url("img/logo.jpg") no-repeat left bottom;
+	background: url("img/logo_bg.jpg") no-repeat left bottom;
 }
-#logo span {
-	position: absolute;
-	left: 185px;
-	bottom: 0;
+#logo_custom {
+	float: left;
+	margin-left: 10px;
+	width: 150px;
+	height: 35px;
 }
 /* header end */
 /* nav begin */
@@ -186,9 +187,11 @@ img {
 	
 	overflow: hidden;
 }
-#nav .navs a:hover {
+#nav .nav_a:hover {
 	font-weight: 900;
-	color: #000000;
+}
+#nav .sub_nav a:hover {	
+	color: #DC5154;
 }
 #nav .sub_nav {
 	display: none;
@@ -267,7 +270,7 @@ img {
 	color: #000;
 }
 #footer #ft_nav a:hover {
-	color: red;
+	color: #DC5154;
 }
 #footer #ft_shot {
 	width: 600px;
@@ -285,7 +288,7 @@ img {
 	text-decoration: underline;
 }
 #footer #ft_shot li a:hover {
-	color: red;
+	color: #DC5154;
 }
 #footer #ft_shot .ft_shot_1 {
 	background: url("img/footer_bg_01.png") no-repeat left;
