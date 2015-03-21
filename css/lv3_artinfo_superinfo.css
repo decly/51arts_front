@@ -161,6 +161,10 @@
 	width: 110px;
 	height: 30px;
 	line-height: 30px;
+	color: #000;
+}
+#page_ctl ul li:hover {
+	color: #DC5154;
 }
 #page_select {
 	border-left: 1px solid #e0e0e0;
