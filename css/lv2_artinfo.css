@@ -199,8 +199,7 @@ a:hover {
 #art_eye {
 	float: left;
 	width: 658px;
-	/*height: 415px;*/
-	/*background: green;*/
+	
 	
 	padding-top: 45px;
 	border-top: 1px solid #c2c2c2;
@@ -296,7 +295,52 @@ a:hover {
 /* art decode start*/
 
 #art_decode {
-	height: 443px;
-	background: green;
+	/*height: 443px;*/
+	/*background: green;*/
+	padding-top: 45px;
+	border-top: 1px solid #c2c2c2;
 }
+
+#art_decode_title {
+	height: 30px;
+	
+	margin-bottom: 25px;
+	position: relative;
+	background: url("img/lv2_artinfo_artdecode_title.png") no-repeat left bottom;
+}
+#art_decode_title a {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#art_decode_list {
+	margin-left: -20px;
+}
+#art_decode_list li {
+	float: left;
+	margin-left: 20px;
+}
+#art_decode_list li img {
+	width: 235px;
+	height: 185px;
+}
+#art_decode_list li div {
+	width: 213px;
+	border: 1px solid #e0e0e0;
+	border-top: none;
+	padding: 10px;
+}
+#art_decode_list li div h4 {
+	margin: 10px auto;
+	color: #000;
+	font-weight: 900;
+}
+#art_decode_list li div p {
+	line-height: 20px;
+	height: 80px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
 /* art decode end*/
