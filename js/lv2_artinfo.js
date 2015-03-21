@@ -1,19 +1,10 @@
 $(document).ready(function() { // hover for click sort
 
-	$('#click_sort ul li').hover(itemhover, itemleave);
+	$('#click_sort ul li').mouseover(itemhover);
 
 	function itemhover() {
-		
-		$(this).find('.click_sort_float').css({
-			'display': 'block'
-		});
-	}
-
-	function itemleave() {
-		
-		$(this).find('.click_sort_float').css({
-			'display': 'none'
-		});
+		$(this).siblings().find('.click_sort_float').slideUp('fast');
+		$(this).find('.click_sort_float').slideDown('fast');
 	}
 
 });

@@ -1,12 +1,11 @@
 .content_block {
 	margin-bottom: 80px;
 	overflow: hidden;
-	background: red;
+	/*background: red;*/
 }
 a:hover {
 	color: #DC5154;
 }
-
 /* banner start*/
 
 #banner {
@@ -39,31 +38,25 @@ a:hover {
 }
 #hot_info_title span {
 	position: absolute;
-	bottom:0;
+	bottom: 0;
 	left: 95px;
 }
-
 #hot_info_list hr {
-	border : 1px dashed #d1d1d1;
-	margin:28px auto;
+	border: 1px dashed #d1d1d1;
+	margin: 28px auto;
 }
-
 #hot_info_list li {
-	
 	height: 87px;
 	position: relative;
-	
 }
-
 #hot_info_list li img {
-	
 	height: 87px;
 	width: 87px;
 }
 #hot_info_list li div {
 	position: absolute;
-	top:12px;
-	left:100px;
+	top: 12px;
+	left: 100px;
 }
 #hot_info_list li div p {
 	overflow: hidden;
@@ -80,14 +73,11 @@ a:hover {
 #super_info {
 	float: left;
 	width: 658px;
-	height: 680px;
-	background: green;
 	padding-top: 45px;
 	border-top: 1px solid #c2c2c2;
 }
-
 #super_info_title {
-	height:30px;
+	height: 30px;
 	width: 658px;
 	position: relative;
 	margin-bottom: 30px;
@@ -95,19 +85,16 @@ a:hover {
 }
 #super_info_title a {
 	position: absolute;
-	bottom:0;
-	right:0;
+	bottom: 0;
+	right: 0;
 }
-
 #super_info_list li {
 	position: relative;
-	
 }
 #super_info_list li img {
 	width: 230px;
 	height: 140px;
 }
-
 #super_info_list li div {
 	position: absolute;
 	left: 230px;
@@ -128,66 +115,56 @@ a:hover {
 #super_info_list li div p {
 	overflow: hidden;
 }
-
 #super_info_list hr {
-	border : 1px dashed #d1d1d1;
-	margin:26px auto;
+	border: 1px dashed #d1d1d1;
+	margin: 24px auto;
 }
-
 /* super info end*/
 /* click sort start*/
 
 #click_sort {
 	float: right;
 	width: 288px;
-	height: 725px;
+	height: 587px;
 	padding-top: 45px;
-	background: green;
 	padding-left: 20px;
 	padding-right: 10px;
 	border-top: 1px solid #c2c2c2;
-	overflow: hidden;
 }
-
 #click_sort_title {
 	height: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 	position: relative;
 	background: url("img/lv2_artinfo_clicksort_title.png") no-repeat left bottom;
 }
 #click_sort_title span {
 	position: absolute;
-	bottom:0;
+	bottom: 0;
 	left: 95px;
 }
-
 #click_sort_list {
-	background: yellow;
-	/*margin:0px;*/
-	border: 1px solid red;
 	width: 260px;
 }
 #click_sort_list li {
 	list-style-type: none;
-	list-style-position:inside;
+	list-style-position: inside;
 	list-style-image: url(img/lv2_artinfo_clicksort_dot.png);
 }
 #click_sort_list li a {
-	color:#000;
+	color: #000;
 	font-weight: 600;
 	font-size: 14px;
+	overflow: hidden;
 }
 #click_sort_list li a:hover {
 	color: #DC5154;
 }
-
 #click_sort_list hr {
-	border : 1px dashed #d1d1d1;
-	margin:14px auto;
+	border: 1px dashed #d1d1d1;
+	margin: 14px auto;
 }
 #click_sort_list .click_sort_float {
 	height: 170px;
-	background: gold;
 	overflow: hidden;
 	display: none;
 }
@@ -203,6 +180,9 @@ a:hover {
 	margin-bottom: 15px;
 	color: #8d8d8d;
 	overflow: hidden;
+}
+#click_sort_list .click_sort_show {
+	display: block;
 }
 /* click sort end*/
 /* art eye start*/
