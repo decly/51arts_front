@@ -199,8 +199,6 @@ a:hover {
 #art_eye {
 	float: left;
 	width: 658px;
-	
-	
 	padding-top: 45px;
 	border-top: 1px solid #c2c2c2;
 }
@@ -262,10 +260,7 @@ a:hover {
 	height: 415px;
 	background: green;
 	position: relative;
-	
-	
 }
-
 #opus_show img {
 	width: 310px;
 	height: 415px;
@@ -274,7 +269,7 @@ a:hover {
 	width: 290px;
 	height: 80px;
 	position: absolute;
-	left:0;
+	left: 0;
 	bottom: 0;
 	background: #000;
 	color: #fff;
@@ -285,25 +280,20 @@ a:hover {
 	padding: 10px;
 }
 #opus_show_info p {
-	margin-top:10px;
+	margin-top: 10px;
 	overflow: hidden;
 	line-height: 20px;
 	height: 40px;
 }
-
 /* opus show end*/
 /* art decode start*/
 
 #art_decode {
-	/*height: 443px;*/
-	/*background: green;*/
 	padding-top: 45px;
 	border-top: 1px solid #c2c2c2;
 }
-
 #art_decode_title {
 	height: 30px;
-	
 	margin-bottom: 25px;
 	position: relative;
 	background: url("img/lv2_artinfo_artdecode_title.png") no-repeat left bottom;
@@ -313,7 +303,6 @@ a:hover {
 	bottom: 0;
 	right: 0;
 }
-
 #art_decode_list {
 	margin-left: -20px;
 }
@@ -342,5 +331,4 @@ a:hover {
 	overflow: hidden;
 	margin-bottom: 10px;
 }
-
 /* art decode end*/
