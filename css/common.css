@@ -13,9 +13,10 @@ a {
 	color: #6f6f6f;
 	blr: expression(this.onFocus=this.blur());
 }
-span {
-	color: #6f6f6f;
-}
+/*span {
+	color: #a9a9a9;
+}*/
+
 img {
 	border: none;
 }
@@ -33,6 +34,33 @@ img {
 	width: 1000px;
 	margin: 0 auto;
 	letter-spacing: 2px;
+}
+.color_black {
+	color: #000;
+}
+.color_white {
+	color: #fff;
+}
+.color_gray {
+	color: #6f6f6f;
+}
+.color_lightgray {
+	color: #a9a9a9;
+}
+.color_text {
+	color: #666666;
+}
+.font_bold {
+	font-weight: 900;
+}
+.font_thin {
+	font-weight: 500;
+}
+.hover_color:hover {
+	color: #DC5154;
+}
+.wrap_top_border {
+	border-top: 1px solid #c2c2c2;
 }
 /* top begin */
 
