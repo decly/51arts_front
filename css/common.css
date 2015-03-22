@@ -56,7 +56,8 @@ img {
 .font_thin {
 	font-weight: 500;
 }
-.hover_color:hover {
+.hover_color:hover,
+.hover_color a:hover {
 	color: #DC5154;
 }
 .wrap_top_border {

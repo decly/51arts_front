@@ -9,13 +9,13 @@
 #content_wrap {
 	overflow: hidden;
 	margin-top: 70px;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 }
 #content_left {
 	float: left;
 	width: 680px;
 	overflow: hidden;
-	/*background: green;*/
+	
 }
 #content_right {
 	float: right;
@@ -191,8 +191,135 @@
 
 
 
+/* comment start */
+
+#comment {
+	background: #f7f7f7;
+	padding: 20px;
+	
+	
+}
+#comment_write {
+	
+	width: 640px;
+	overflow: hidden;
+}
+#my_icon,
+#my_icon img {
+	float: left;
+
+	height: 70px;
+	width: 70px;
+	background: #d0d0d0;
+}
+
+#comment_write form {
+	
+	float: left;
+	margin-left: 15px;
+	height: 110px;
+	width: 550px;；
+}
+#comment_write form textarea {
+	height: 68px;
+	width: 550px;
+	overflow-y:auto;
+	border: 1px solid #e0e0e0;
+}
+#comment_write form input {
+	margin-top: 10px;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	
+	float:right;
+	border: none;
+	background: #e06360;
+	color: #fff;
+}
+
+#comment_area {
+	margin-top: 30px;
+}
+#comment_area_list li {
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #e0e0e0;
+	overflow: hidden;
+}
+
+#comment_area_list li .cmt_usericon {
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+
+#comment_area_list li .cmt_text {
+	float:left;
+	width: 600px;
+	overflow: hidden;
+	
+}
+
+#comment_area_list li .cmt_usertext {
+	width: 600px;
+	
+	
+	overflow: hidden;
+}
+
+#comment_area_list .cmt_usertext a {
+	float :left;
+	margin: 0 10px;
+	width: 70px;
+	overflow: hidden;
+	color:#e06360;
+}
+
+#comment_area_list .cmt_usertext p {
+	float: right;
+	overflow: hidden;
+	width: 510px;
+}
+#comment_area_list .cmt_misc {
+	margin-top: :;px;
+	width: 600px;
+	float: left;
+	
+}
+#comment_area_list .cmt_time  {
+	font-size: 12px;
+	padding-left: 10px;
+}
+#comment_area_list .cmt_reply {
+	float: right;
+	font-size: 12px;
+}
+
+#cmt_page_ctl {
+	width: 680px;
+	overflow: hidden;
+}
+#cmt_page_ctl ul {
+	width:150px;
+	margin: 0 auto;
+}
+#cmt_page_ctl ul li {
+	float: left;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	
+}
 
 
+#cmt_page_ctl ul .cmt_sepa {
+	border-right: 1px solid #e0e0e0;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+/* comment end */
 
 
 
