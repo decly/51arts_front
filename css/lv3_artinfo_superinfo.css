@@ -6,24 +6,22 @@
 }
 /* logo_custom bg end */
 /* banner start */
+
 #banner {
 	height: 300px;
-	background: red;
 	position: relative;
 }
-
 #banner img {
 	height: 300px;
 	width: 1000px;
 }
-
 #banner div {
 	position: absolute;
 	height: 40px;
-	width: 999px;
+	width: 1000px;
 	text-align: center;
 	bottom: 0;
-	left:0;
+	left: 0;
 	background: #000;
 	filter: alpha(opacity=70);
 	opacity: 0.7;
@@ -35,49 +33,33 @@
 }
 /* banner end */
 
-
-
-
-
-
-
-
 #content_wrap {
 	overflow: hidden;
 	margin-top: 70px;
+	margin-bottom: 50px;
 }
-
-
 #content_left {
 	float: left;
 	width: 640px;
-	height: 2000px;
 	overflow: hidden;
-	/*background: green;*/
 	padding-top: 45px;
 	border-top: 1px solid #c2c2c2;
 }
-
 #content_right {
 	float: right;
 	width: 313px;
-	height: 2000px;
 	overflow: hidden;
-	background: blue;
-	padding-top: 30px;
+	padding-top: 45px;
 	border-top: 1px solid #c2c2c2;
 }
-
 /* super info start */
+
 #super_info_title {
 	height: 30px;
 	width: 125px;
 	margin-bottom: 30px;
 	background: url("img/lv2_artinfo_superinfo_title.png") no-repeat left bottom;
 }
-
-
-
 #super_info_list li {
 	position: relative;
 }
@@ -91,7 +73,6 @@
 	top: 0;
 	height: 96px;
 	padding: 0 20px 20px 20px;
-	
 	border: 1px solid #e0e0e0;
 	border-left: none;
 }
@@ -115,19 +96,15 @@
 }
 #super_info_list .info_time {
 	float: left;
-
 }
-
 #super_info_list .info_comment {
 	float: right;
-
 }
 #super_info_list .comment_praise {
 	width: 14px;
 	height: 14px;
 	padding-left: 18px;
 	background: url("img/lv3_artinfo_superinfo_praise.jpg") no-repeat left;
-	
 }
 #super_info_list .info_time span,
 #super_info_list .info_comment span,
@@ -141,9 +118,6 @@
 	border: 1px dashed #d1d1d1;
 	margin: 20px auto;
 }
-
-
-
 #page_ctl {
 	width: 640px;
 	margin-top: 25px;
@@ -152,7 +126,7 @@
 	border-bottom: 1px solid #e0e0e0;
 }
 #page_ctl ul {
-	width:332px;
+	width: 332px;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -160,34 +134,141 @@
 	float: left;
 	width: 110px;
 	height: 30px;
+}
+#page_ctl ul li a {
 	line-height: 30px;
 	color: #000;
 }
-#page_ctl ul li:hover {
+#page_ctl ul li a:hover {
 	color: #DC5154;
 }
 #page_select {
 	border-left: 1px solid #e0e0e0;
 	border-right: 1px solid #e0e0e0;
 }
-
 #page_select select {
 	border: none;
-	margin-top:6px;
+	margin-top: 6px;
 	height: 18px;
-	font-size: 16px
-	line-height: 16px
+	font-size: 16px line-height: 16px
 }
-
-
 /* super info end */
+/* hot info start*/
 
+#hot_info {
+	width: 313px;
+	overflow: hidden;
+}
+#hot_info_title {
+	height: 30px;
+	margin-bottom: 30px;
+	background: url("img/lv2_artinfo_hotinfo_title.png") no-repeat left bottom;
+}
+#hot_info_list hr {
+	border: 1px dashed #d1d1d1;
+	margin: 18px auto;
+}
+#hot_info_list li {
+	height: 72px;
+	position: relative;
+}
+#hot_info_list li img {
+	height: 72px;
+	width: 125px;
+}
+#hot_info_list li div {
+	position: absolute;
+	top: 0px;
+	left: 135px;
+}
+#hot_info_list li div p {
+	overflow: hidden;
+	margin-top: 15px;
+	line-height: 20px;
+	height: 40px;
+	color: #000;
+}
+#hot_info_list li div p:hover {
+	color: #DC5154;
+}
+/* hot info end*/
+/* opus show start*/
 
+#opus_show {
+	margin-top: 40px;
+	width: 313px;
+	height: 310px;
+	position: relative;
+}
+#opus_show img {
+	width: 313px;
+	height: 310px;
+}
+#opus_show_info {
+	width: 313px;
+	height: 60px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #000;
+	color: #fff;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	text-align: center;
+	overflow: hidden;
+	padding: 20px 10px;
+}
+#opus_show_info p {
+	width: 293px;
+	margin-top: 5px;
+	overflow: hidden;
+	line-height: 20px;
+	height: 40px;
+}
+/* opus show end*/
+/* salerank begin */
 
-
-
-
-
-
-
-
+#salerank {
+	margin-top: 45px;
+	padding-top: 45px;
+	border-top: 1px solid #c2c2c2;
+}
+#salerank_info #salerank_bg {
+	display: block;
+	width: 100px;
+	height: 25px;
+	background: url("img/salerank_title.png") no-repeat center;
+}
+#salerank table {
+	border-collapse: separate;
+	border-spacing: 13px 18px;
+	margin-left: -13px;
+	margin-top: 20px;
+}
+#salerank table td {
+	width: 150px;
+	height: 155px;
+}
+#salerank table td a {
+	display: block;
+	float: left;
+	width: 150px;
+	height: 155px;
+}
+#salerank table td img {
+	width: 150px;
+	height: 130px;
+}
+#salerank table td h4 {
+	width: 148px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	font-weight: 500;
+	border: 1px solid #c2c2c2;
+	border-top: none;
+}
+#salerank table a:hover {
+	color: #DC5154;
+}
+/* salerank end */
