@@ -164,6 +164,11 @@
 	margin-bottom: 30px;
 	background: url("img/lv2_artinfo_hotinfo_title.png") no-repeat left bottom;
 }
+#hot_info_title a {
+	display: block;
+	width: 91px;
+	height: 30px;
+}
 #hot_info_list hr {
 	border: 1px dashed #d1d1d1;
 	margin: 18px auto;

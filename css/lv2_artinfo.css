@@ -42,6 +42,11 @@ a:hover {
 	position: relative;
 	background: url("img/lv2_artinfo_hotinfo_title.png") no-repeat left bottom;
 }
+#hot_info_title a {
+	display: block;
+	width: 91px;
+	height: 25px;
+}
 #hot_info_title span {
 	position: absolute;
 	bottom: 0;
@@ -144,6 +149,11 @@ a:hover {
 	margin-bottom: 25px;
 	position: relative;
 	background: url("img/lv2_artinfo_clicksort_title.png") no-repeat left bottom;
+}
+#click_sort_title a {
+	display: block;
+	width: 91px;
+	height: 24px;
 }
 #click_sort_title span {
 	position: absolute;
