@@ -9,8 +9,8 @@ $(document).ready(function() {
 	});
 });
 
-
-$(document).ready(function() { // set default for search
+//  for search
+$(document).ready(function() {
 	$('#keyword').focus(function() {
 		$('#keyword_def').css({
 			'display': 'none'
@@ -21,8 +21,11 @@ $(document).ready(function() { // set default for search
 				'display': 'inline'
 			});
 	});
+
+	$.divselect("#divselect", "#inputselect");
 });
 
-$(document).ready(function() { // footer shotcut	
+// footer shotcut	
+$(document).ready(function() {
 	$('#footer .ft_shot_2').click(favorites);
 });

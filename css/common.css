@@ -66,7 +66,8 @@ img {
 /* top begin */
 
 #top_wrap {
-	overflow: hidden;
+	/*overflow: hidden;*/
+	
 	padding: 5px 0;
 }
 #top {
@@ -105,7 +106,8 @@ img {
 	border: 1px solid #b5b5b5;
 	background: #f7f7f7;
 }
-#search #filter,
+/*#search #filter,*/
+
 #search #keyword,
 #search #submit {
 	border: none;
@@ -116,12 +118,13 @@ img {
 	background: #f7f7f7;
 	vertical-align: middle
 }
-#search #filter {
+/*#search #filter {
 	line-height: 28px;
 	cursor: pointer;
 	padding: 5px;
 	width: 65px;
-}
+}*/
+
 #search #keyword {
 	width: 300px;
 	border: none;
@@ -140,6 +143,51 @@ img {
 	line-height: 28px;
 	color: #c2c2c2;
 }
+/* div select start */
+
+#divselect {
+	position: relative;
+	z-index: 10000;
+}
+#divselect cite {
+	width: 40px;
+	height: 28px;
+	line-height: 28px;
+	display: block;
+	color: #838383;
+	cursor: pointer;
+	font-style: normal;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 5px;
+	background: url(img/search_select_bg.png) no-repeat right center;
+}
+#divselect ul {
+	width: 65px;
+	border: 1px solid #b5b5b5;
+	border-top: none;
+	background-color: #f7f7f7;
+	position: absolute;
+	z-index: 20000;
+	margin-top: -1px;
+	margin-left: -1px;
+	display: none;
+}
+#divselect ul li {
+	height: 28px;
+	line-height: 28px;
+	padding-left: 5px;
+}
+#divselect ul li a {
+	display: block;
+	height: 28px;
+	color: #6f6f6f;
+	padding-left: 10px;
+}
+#divselect ul li a:hover {
+	color: #DC5154;
+}
+/* div select end */
 /* top end */
 /* header begin */
 
