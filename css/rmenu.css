@@ -18,20 +18,6 @@
 	cursor: pointer;
 	position: relative;
 }
-#rmenu .izl-rmenu .btn-wx {
-	background: url(img/rmenu_btn_wx.jpg) 0px 0px no-repeat;
-}
-#rmenu .izl-rmenu .btn-wx:hover {
-	border: 1px solid #939392;
-}
-#rmenu .izl-rmenu .btn-wx .wxpic {
-	position: absolute;
-	left: -251px;
-	top: 0px;
-	display: none;
-	width: 250px;
-	height: 250px;
-}
 #rmenu .izl-rmenu .btn-mark {
 	background: url(img/rmenu_btn_mark.jpg) 0px 0px no-repeat;
 }
@@ -50,12 +36,56 @@
 	text-align: center;
 	display: none;
 }
+#rmenu .izl-rmenu .btn-wx {
+	background: url(img/rmenu_btn_wx.jpg) 0px 0px no-repeat;
+}
+#rmenu .izl-rmenu .btn-wx:hover {
+	border: 1px solid #939392;
+}
+#rmenu .izl-rmenu .btn-wx .wxpic {
+	position: absolute;
+	left: -251px;
+	top: 0px;
+	display: none;
+	width: 250px;
+	height: 250px;
+}
+
+
+#rmenu .izl-rmenu .btn-qq {
+	background: url(img/rmenu_btn_qq.jpg) 0px 0px no-repeat;
+}
+#rmenu .izl-rmenu .btn-qq:hover {
+	border: 1px solid #939392;
+}
+#rmenu .izl-rmenu .btn-qq .qq-info {
+	background-color: #939392;
+	position: absolute;
+	width: 140px;
+	left: -141px;
+	top: -1px;
+	line-height: 47px;
+	color: #FFF;
+	font-size: 18px;
+	text-align: center;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
 #rmenu .izl-rmenu .btn-share {
 	line-height: 45px;
 	color: #9c9d99;
 	font-size: 14px;
 	text-align: center;
-	background: url(img/rmenu_btn_share.jpg) 0px 0px no-repeat;
+	background: #fff;
+	/*background: url(img/rmenu_btn_share.jpg) 0px 0px no-repeat;*/
 }
 #rmenu .izl-rmenu .btn-share:hover {
 	border: 1px solid #939392;
