@@ -202,8 +202,8 @@ img {
 }
 #logo {
 	float: left;
-	width: 189px;
-	height: 55px;
+	width: 221px;
+	height: 63px;
 	cursor: pointer;
 	background: url("img/logo_bg.jpg") no-repeat left bottom;
 }
@@ -211,7 +211,7 @@ img {
 	float: left;
 	margin-left: 10px;
 	cursor: pointer;
-	height: 35px;
+	height: 38px;
 }
 /* header end */
 /* nav begin */
@@ -274,6 +274,8 @@ img {
 	position: relative;
 	z-index: 1000;
 	opacity: 0.8;
+	padding-top: 5px;
+	background: #f9f9f9;
 	filter: Alpha(opacity=80);
 	_top: -8px;
 }
