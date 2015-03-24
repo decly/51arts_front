@@ -23,125 +23,87 @@
 	opacity: 0.8;
 }
 /* repos end */
-
+/* activity start */
 #activity {
-	position: relative;
-	height: 370px;
+	/*position: relative;*/
+	/*height: 370px;*/
+	overflow: hidden;
 }
 #act_wrap {
-	position: absolute;
+	/*position: absolute;
 	top: 50%;
 	left: 50%;
 	margin-left: -500px;
 	margin-top: -125px;
-	height: 250px;
+	height: 250px;*/
+	margin: 55px auto;
+	overflow: hidden;
 }
-/* login_wrap start */
 
-#login_wrap {
+#art_headlines {
+	border: 1px solid #e0e0e0;
 	background: #fff;
-	float: left;
-	width: 275px;
-	height: 250px;
-}
-#login_wrap li {
-	width: 245px;
-	height: 30px;
-	padding-top: 20px;
-	padding-left: 30px;
+	height: 243px;
+	width: 250px;
+	padding: 10px;
+	float: right;
 	position: relative;
 }
-#login_wrap #inputlabels {
-	position: absolute;
-	top: 20px;
-	_top: 23px;
-	left: 40px;
-	z-index: 20;
-	font-size: 12px;
-	line-height: 25px;
-	color: #6f6f6f;
+#art_headlines h4 {
+	font-weight: 600;
+	margin-bottom: 15px;
 }
-#login_wrap #username,
-#login_wrap #password {
+#art_headlines h4 span {
+	font-size: 15px;
+	font-weight: 600;
+}
+#art_headlines ul li {
+	width: 250px;
+	height: 18px;
+	border-bottom: 1px dashed #e0e0e0;
+	margin-top: 10px;
+	padding-bottom: 4px;
+}
+#art_headlines ul li div a {
+	float: left;
+	display: block;
 	width: 200px;
-	height: 25px;
-	font-size: 12px;
-	line-height: 25px;
-	border: 1px solid #e4e4e4;
-	color: #6f6f6f;
-	padding-left: 10px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;	
+	color: #666666;
+	overflow: hidden;
 }
-#login_wrap #verify,
-#login_wrap #login {
-	height: 25px;
-	line-height: 25px;
-	font-size: 12px;
-	color: #6f6f6f;
-	margin-right: 10px;
-}
-#login_wrap #verify {
-	padding-left: 10px;
-	border: 1px solid #e4e4e4;
-	width: 90px;
-}
-#login_wrap #login {
-	width: 100px;
-	height: 30px;
-	border: none;
+#art_headlines ul li div span {
 	background: #dd5451;
-	color: #fff;
-}
-#login_wrap #login:hover {
-	border: 1px solid #e4e4e4;
-}
-#login_wrap #vry_code,
-#login_wrap #forget-pwd {
-	width: 95px;
-	height: 28px;
-	line-height: 28px;
-}
-#login_wrap #forget-pwd {
-	font-size: 12px;
-	color: #6f6f6f;
-	padding-left: 10px;
-}
-#login_wrap #forget-pwd:hover {
-	color: #DC5154;
-}
-#login_wrap #vry_code {
-	position: absolute;
-	bottom: 5;
-	font-size: 12px;
-	background: #e4e4e4;
+	display: block;
+	float: left;
+	width: 45px;	
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;	
 	text-align: center;
 	color: #fff;
+	margin-right: 5px;
 }
-#login_wrap #register {
-	padding-left: 0;
+
+#art_headlines ul li div a:hover {
+	color: #DC5154;
 }
-#login_wrap #register div {
+
+
+
+
+#art_headlines #art_headlines_sale {
+	width: 250px;
+	height: 76px;
 	position: absolute;
-	bottom: 0;
-	height: 30px;
-	width: 275px;
-	background: #e4e4e4;
-	line-height: 30px;
-	color: #666666;
+	bottom:10px;
+	left:10px;
 }
-#login_wrap #register span {
-	margin-left: 30px;
-	font-size: 12px;
-}
-#login_wrap #register a {
-	color: red;
-	margin-left: 25px;
-	font-size: 12px;
-	text-decoration: underline;
-}
-#login_wrap #register a:hover {
-	font-weight: 900;
-}
-/* login_wrap start */
+/* activity end */
+
+
 /* sale begin */
 
 #sale_wrap {
