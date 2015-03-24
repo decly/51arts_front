@@ -413,7 +413,7 @@
 	position: relative;
 	height: 335px;
 	background: url(img/artcircle_bg.png) no-repeat;
-	background-position: 60px 35px;
+	background-position: 30px 35px;
 }
 #artcircle .artists_big {
 	position: absolute;
@@ -422,14 +422,14 @@
 }
 #artcircle .artists_big li {
 	float: left;
-	width: 230px;
+	width: 188px;
 	height: 315px;
 	padding: 10px;
-	margin-left: 40px;
+	margin-left: 18px;
 	background: #fff;
 }
 #artcircle .artists_big li img {
-	width: 230px;
+	width: 190px;
 	height: 130px;
 }
 #artcircle .artists_big li h5 {
@@ -437,9 +437,9 @@
 	margin-top: 20px;
 }
 #artcircle .artists_big li p {
-	color: #6f6f6f;
+	color: #8d8d8d;
 	margin-top: 10px;
-	width: 230px;
+	width: 188px;
 	height: 100px;
 	line-height: 20px;
 	overflow: hidden;
@@ -450,13 +450,14 @@
 	font-weight: 900;
 	font-size: 15px;
 	color: #000;
-	width: 230px;
+	width: 188px;
 	height: 25px;
 	line-height: 25px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	cursor: pointer;
+	letter-spacing: 0;
 }
 #artcircle .artists_big li a:hover,
 #artcircle .artists_big li a:hover h4 {
