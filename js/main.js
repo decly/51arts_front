@@ -4,17 +4,32 @@ $(document).ready(function() { // for banner and fullwidth to adjust width
 	});
 });
 
-$(document).ready(function() { // set default for login
-	$('#login_wrap input').focus(function() {
-		$(this).siblings('span').css({
-			'display': 'none'
-		});
-	}).blur(function() {
-		if (this.value.length == 0)
-			$(this).siblings('span').css({
-				'display': 'inline'
-			});
+
+$(document).ready(function() { // for artist signed
+	$(document).ready(function() {
+
+	var floathtml = "<a id=\"artist_signed_float\" href=\"#\"></a>";
+
+	$("#artist_signed").html(floathtml);
+	
+	var lastRmenuStatus = false;
+	$(window).scroll(function() {
+		var _top = $(window).scrollTop();
+		if (_top > 200) {
+			$("#artist_signed_float").data("expanded", true);
+		} else {
+			$("#artist_signed_float").data("expanded", false);
+		}
+		if ($("#artist_signed_float").data("expanded") != lastRmenuStatus) {
+			lastRmenuStatus = $("#artist_signed_float").data("expanded");
+			if (lastRmenuStatus) {
+				$("#artist_signed_float").slideDown();
+			} else {
+				$("#artist_signed_float").slideUp();
+			}
+		}
 	});
+});
 });
 
 

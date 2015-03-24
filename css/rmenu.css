@@ -3,8 +3,7 @@
 }
 #rmenu .izl-rmenu {
 	position: fixed;
-	left: 100%;
-	margin-left: -47px;
+	right: 0;
 	bottom: 10px;
 	padding-bottom: 50px;
 	z-index: 999;
@@ -50,8 +49,6 @@
 	width: 250px;
 	height: 250px;
 }
-
-
 #rmenu .izl-rmenu .btn-qq {
 	background: url(img/rmenu_btn_qq.jpg) 0px 0px no-repeat;
 }
@@ -70,15 +67,6 @@
 	text-align: center;
 	display: none;
 }
-
-
-
-
-
-
-
-
-
 #rmenu .izl-rmenu .btn-share {
 	line-height: 45px;
 	color: #9c9d99;

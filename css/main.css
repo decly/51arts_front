@@ -1,4 +1,19 @@
+/* artist signed start */
 
+#artist_signed {
+	_display: none;
+}
+#artist_signed_float {
+	display: none;
+	width: 65px;
+	height: 270px;
+	position: fixed;
+	left: 10px;
+	top: 150px;
+	z-index: 99;
+	background: url(img/artist_signed_bg.jpg) top no-repeat;
+}
+/* artist signed end */
 /* repos begin */
 
 #repos {
@@ -17,16 +32,17 @@
 	width: 150px;
 	height: 90px;
 }
-
 #repos #repos-img a:hover img {
 	filter: alpha(opacity=80);
 	opacity: 0.8;
 }
 /* repos end */
 /* activity start */
+
 #activity {
 	/*position: relative;*/
 	/*height: 370px;*/
+	
 	overflow: hidden;
 }
 #act_wrap {
@@ -36,10 +52,10 @@
 	margin-left: -500px;
 	margin-top: -125px;
 	height: 250px;*/
+	
 	margin: 55px auto;
 	overflow: hidden;
 }
-
 #art_headlines {
 	border: 1px solid #e0e0e0;
 	background: #fff;
@@ -70,7 +86,7 @@
 	width: 200px;
 	height: 18px;
 	line-height: 18px;
-	font-size: 14px;	
+	font-size: 14px;
 	color: #666666;
 	overflow: hidden;
 }
@@ -78,32 +94,25 @@
 	background: #dd5451;
 	display: block;
 	float: left;
-	width: 45px;	
+	width: 45px;
 	height: 18px;
 	line-height: 18px;
-	font-size: 14px;	
+	font-size: 14px;
 	text-align: center;
 	color: #fff;
 	margin-right: 5px;
 }
-
 #art_headlines ul li div a:hover {
 	color: #DC5154;
 }
-
-
-
-
 #art_headlines #art_headlines_sale {
 	width: 250px;
 	height: 76px;
 	position: absolute;
-	bottom:10px;
-	left:10px;
+	bottom: 10px;
+	left: 10px;
 }
 /* activity end */
-
-
 /* sale begin */
 
 #sale_wrap {
