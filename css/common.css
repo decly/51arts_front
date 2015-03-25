@@ -295,13 +295,28 @@ img {
 #nav .nav_cart {
 	display: block;
 	position: absolute;
-	width: 25px;
-	height: 20px;
-	bottom: 0px;
+	width: 33px;
+	height: 23px;
+	bottom: 4px;
 	right: 0px;
-	background: url(img/nav_cart.jpg) no-repeat center;
+	background: url(img/nav_cart.jpg) no-repeat bottom left;
 	cursor: pointer;
 }
+#nav .nav_cart_cnt {
+	display: none;
+	position: absolute;
+	width: 13px;
+	height: 13px;
+	right: 0px;
+	top: 0px;
+	background: url(img/nav_cart_cnt.png) no-repeat top right;
+	cursor: pointer;
+	color: #fff;
+	line-height: 13px;
+	font-size: 10px;
+	text-align: center;
+}
+
 /* nav end */
 /* footer begin */
 

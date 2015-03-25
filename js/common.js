@@ -25,6 +25,24 @@ $(document).ready(function() {
 	$.divselect("#divselect", "#inputselect");
 });
 
+
+// for shopping cart count
+$(document).ready(function() {
+	var cart_timer;
+	var check_interval = 1000;
+	cart_timer = setInterval(checking_cart_cnt, check_interval);
+
+	function checking_cart_cnt() {
+		var cnt = parseInt($('#nav .nav_cart_cnt').text());
+		if (!isNaN(cnt) && cnt != 0) {
+			$('#nav .nav_cart_cnt').css({
+				'display': 'block'
+			});
+		}
+	}
+});
+
+
 // footer shotcut	
 $(document).ready(function() {
 	$('#footer .ft_shot_2').click(favorites);
