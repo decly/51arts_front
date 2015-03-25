@@ -36,15 +36,17 @@
 										<div id="divselect">
 											<cite>筛选</cite>
 											<ul>
-												<li><a href="javascript:;" selectid="1">所有</a>
+												<li><a href="javascript:;" selectid="1">木元</a>
 												</li>
-												<li><a href="javascript:;" selectid="2">筛选</a>
+												<li><a href="javascript:;" selectid="2">陶元</a>
 												</li>
-												<li><a href="javascript:;" selectid="3">筛选</a>
+												<li><a href="javascript:;" selectid="3">漆元</a>
 												</li>
-												<li><a href="javascript:;" selectid="4">筛选</a>
+												<li><a href="javascript:;" selectid="4">石元</a>
 												</li>
-												<li><a href="javascript:;" selectid="5">筛选</a>
+												<li><a href="javascript:;" selectid="5">艺元</a>
+												</li>
+												<li><a href="javascript:;" selectid="6">银元</a>
 												</li>
 											</ul>
 										</div>
@@ -78,27 +80,26 @@
 				<div id="nav">
 					<ul class="main_nav">
 						<li class="navs">
-							<a href="#" class="nav_a">首页</a>
-							<ul id="subNav_1" class="sub_nav"></ul>
+							<a href="index.html" class="nav_a">首页</a>
 						</li>
 
 						<li class="nav_sep">/</li>
 						<li class="navs">
 							<a href="#" class="nav_a">艺术仓库</a>
 							<ul id="subNav_2" class="sub_nav">
-								<li><a href="#">红木</a>
+								<li><a href="#">木元</a>
 								</li>
-								<li><a href="#">陶瓷</a>
+								<li><a href="#">陶元</a>
 								</li>
-								<li><a href="#">漆器</a>
+								<li><a href="#">漆元</a>
 								</li>
-								<li><a href="#">玉石</a>
+								<li><a href="#">玉元</a>
 								</li>
-								<li><a href="#">书画</a>
+								<li><a href="#">艺元</a>
 								</li>
-								<li><a href="#">银器</a>
+								<li><a href="#">银元</a>
 								</li>
-								<li><a href="#">其他</a>
+								<li><a href="#">多元</a>
 								</li>
 							</ul>
 						</li>
@@ -130,9 +131,9 @@
 						</li>
 						<li class="nav_sep">/</li>
 						<li class="navs">
-							<a href="#" class="nav_a">艺术情报</a>
+							<a href="lv2_artinfo.html" class="nav_a">艺术情报</a>
 							<ul id="subNav_5" class="sub_nav">
-								<li><a href="#">重磅快讯</a>
+								<li><a href="lv3_artinfo_superinfo.html">重磅快讯</a>
 								</li>
 								<li><a href="#">艺术解码</a>
 								</li>
@@ -144,7 +145,11 @@
 						<li class="clear"></li>
 
 					</ul>
-					<a href="#"><span class="nav_cart"></span></a>
+					<a href="#">
+						<span class="nav_cart">
+							<span class="nav_cart_cnt"></span>
+						</span>
+					</a>
 				</div>
 			</div>
 			<div id="rmenu"></div>
@@ -420,8 +425,6 @@
 			<div id="footer_wrap" class="fullwidth">
 				<div id="footer" class="fitwidth">
 					<div id="ft_nav_wrap">
-						<img src="img/weixin_code.jpg" alt="二维码" />
-						<img src="img/weixin_code.jpg" alt="二维码" />
 
 						<div id="ft_nav">
 							<ul>
@@ -431,13 +434,13 @@
 										</li>
 										<li><a href="#">购买流程</a>
 										</li>
-										<li>/</li>
+
 										<li><a href="#">支付方式</a>
 										</li>
-										<li>/</li>
+
 										<li><a href="#">提货方式</a>
 										</li>
-										<li>/</li>
+
 										<li><a href="#">竞拍保证</a>
 										</li>
 									</ul>
@@ -448,10 +451,10 @@
 										</li>
 										<li><a href="#">艺术家签约</a>
 										</li>
-										<li>/</li>
+
 										<li><a href="#">在线签约</a>
 										</li>
-										<li>/</li>
+
 										<li><a href="#">包装推广</a>
 										</li>
 									</ul>
@@ -460,18 +463,15 @@
 									<ul class="ft_sec_nav">
 										<li class="ft_title"><a href="#">专业服务</a>
 										</li>
-										<li><a href="#">VIP</a>
+										<li><a href="#">VIP/SVIP</a>
 										</li>
-										<li>/</li>
-										<li><a href="#">SVIP</a>
-										</li>
-										<li>/</li>
+
 										<li><a href="#">联动合作</a>
 										</li>
-										<li>/</li>
+
 										<li><a href="#">常见问题</a>
 										</li>
-										<li>/</li>
+
 										<li><a href="#">法律政策</a>
 										</li>
 									</ul>
@@ -482,33 +482,39 @@
 										</li>
 										<li><a href="#">网站地图</a>
 										</li>
-										<li>/</li>
+
 										<li><a href="#">品牌介绍</a>
 										</li>
-										<li>/</li>
+
 										<li><a href="#">联系我们</a>
 										</li>
-										<li>/</li>
+
 										<li><a href="#">友情链接</a>
 										</li>
 									</ul>
 								</li>
 							</ul>
 						</div>
+
+						<img src="img/ft_phone_code.jpg" alt="二维码" />
+						<img class="ft_second_code" src="img/ft_weixin_code.jpg" alt="二维码" />
+
 					</div>
 					<div id="ft_shot">
 						<ul>
-							<li class="ft_shot_1"><a href="#">回到首页</a>
+							<li><a href="#">回到首页</a>
 							</li>
+							<li class="ft_shot_sepa">/</li>
 							<li class="ft_shot_2"><a>收藏多元主义</a>
 							</li>
-							<li class="ft_shot_3"><a>400-100-8759</a>
+							<li class="ft_shot_sepa">/</li>
+							<li><a>服务热线：400-100-8759</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
-
+			<div id="ft_bottom" class="fitwidth"></div>
 		</div>
 	</body>
 
