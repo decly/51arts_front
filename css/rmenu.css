@@ -18,6 +18,7 @@
 	position: relative;
 }
 #rmenu .izl-rmenu .btn-mark {
+	background-color: #fff;
 	background: url(img/rmenu_btn_mark.jpg) 0px 0px no-repeat;
 }
 #rmenu .izl-rmenu .btn-mark:hover {
@@ -36,6 +37,7 @@
 	display: none;
 }
 #rmenu .izl-rmenu .btn-wx {
+	background-color: #fff;
 	background: url(img/rmenu_btn_wx.jpg) 0px 0px no-repeat;
 }
 #rmenu .izl-rmenu .btn-wx:hover {
@@ -50,6 +52,7 @@
 	height: 250px;
 }
 #rmenu .izl-rmenu .btn-qq {
+	background-color: #fff;
 	background: url(img/rmenu_btn_qq.jpg) 0px 0px no-repeat;
 }
 #rmenu .izl-rmenu .btn-qq:hover {
@@ -73,7 +76,7 @@
 	font-size: 14px;
 	text-align: center;
 	background: #fff;
-	/*background: url(img/rmenu_btn_share.jpg) 0px 0px no-repeat;*/
+	
 }
 #rmenu .izl-rmenu .btn-share:hover {
 	border: 1px solid #939392;
@@ -91,6 +94,7 @@
 	display: none;
 }
 #rmenu .izl-rmenu .btn-suggest {
+	background-color: #fff;
 	background: url(img/rmenu_btn_sug.jpg) 0px 0px no-repeat;
 }
 #rmenu .izl-rmenu .btn-suggest:hover {

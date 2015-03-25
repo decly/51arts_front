@@ -40,6 +40,6 @@
 }
 #act .slide-li li.current {
 	border: 1px solid #ffffff;
-	filter: alpha(opacity=50);
-	opacity: 0.5;
+	filter: alpha(opacity=40);
+	opacity: 0.4;
 }

@@ -121,8 +121,6 @@ img {
 	background: #f7f7f7;
 	vertical-align: middle
 }
-
-
 #search #keyword {
 	width: 300px;
 	border: none;
@@ -309,13 +307,13 @@ img {
 
 #footer_wrap {
 	padding: 60px 0;
-	margin-bottom: 100px;
+	background: #6c6c6c;
 }
 #footer {
 	overflow: hidden;
 }
 #footer #ft_nav_wrap {
-	width: 800px;
+	width: 700px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -323,58 +321,68 @@ img {
 	float: left;
 	width: 120px;
 	height: 120px;
-	margin-right: 40px;
+}
+#footer #ft_nav_wrap .ft_second_code {
+	margin-left: 40px;
 }
 #footer #ft_nav {
-	float: right;
-	line-height: 30px;
+	float: left;
+	line-height: 24px;
 }
 *html #ft_nav ul li {
 	margin-top: -10px;
 }
 #footer #ft_nav .ft_sec_nav {
-	clear: both;
+	float: left;
+	color: #fff;
 }
 #footer #ft_nav .ft_sec_nav li {
-	float: left;
-	margin-left: 5px;
+	color: #fff;
+	margin-right: 25px;
 	font-size: 14px;
+}
+#footer #ft_nav .ft_sec_nav li a {
+	color: #fff;
 }
 #footer #ft_nav .ft_title a {
 	font-weight: 900;
 	display: block;
 	width: 80px;
-	color: #000;
+	font-size: 16px;
+	margin-bottom: 5px;
 }
-#footer #ft_nav a:hover {
+#footer #ft_nav .ft_sec_nav li a:hover {
 	color: #DC5154;
 }
 #footer #ft_shot {
-	width: 600px;
+	width: 450px;
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 30px;
+	overflow: hidden;
 }
 #footer #ft_shot li {
 	float: left;
-	width: 150px;
 	height: 33px;
 	line-height: 33px;
-	padding-left: 40px;
 }
+#footer #ft_shot li,
 #footer #ft_shot li a {
-	text-decoration: underline;
+	color: #fff;
+}
+#footer #ft_shot .ft_shot_sepa {
+	margin: 0 15px;
 }
 #footer #ft_shot li a:hover {
 	color: #DC5154;
 }
-#footer #ft_shot .ft_shot_1 {
-	background: url("img/footer_bg_01.png") no-repeat left;
-}
 #footer #ft_shot .ft_shot_2 {
-	background: url("img/footer_bg_02.png") no-repeat left;
 	cursor: pointer;
 }
-#footer #ft_shot .ft_shot_3 {
-	background: url("img/footer_bg_03.png") no-repeat left;
-}
 /* footer end */
+/* ft bottom start */
+
+#ft_bottom {
+	height: 130px;
+	background: url(img/ft_bottom_bg.png) no-repeat center;
+}
+/* ft bottom end */
