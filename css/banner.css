@@ -1,8 +1,8 @@
 /* banner begin */
 
 #banner {
-	height: 465px;
-	_height: 475px;
+	height: 425px;
+	_height: 435px;
 	background: #fff;
 }
 .slidebox {
@@ -17,7 +17,7 @@
 #banner .slidepic img {
 	display: block;
 	width: 1920px;
-	height: 450px;
+	height: 410px;
 	overflow: hidden;
 	float: left;
 }
@@ -45,10 +45,12 @@
 	top:160px;
 	left:50%;
 	margin-left: -600px;
-	width: 30px;
-	height: 60px;
+	width: 33px;
+	height: 64px;
 	cursor: pointer;
-	background: url("img/picture_pre.png") no-repeat center;	
+	background: url("img/banner_pre.png") no-repeat center;	
+	filter: alpha(opacity=30);
+	opacity: 0.3;
 }
 
 #banner #banner_next {
@@ -56,10 +58,12 @@
 	top:160px;
 	right:50%;
 	margin-right: -600px;
-	width: 30px;
-	height: 60px;
+	width: 33px;
+	height: 64px;
 	cursor: pointer;
-	background: url("img/picture_next.png") no-repeat center;
+	background: url("img/banner_next.png") no-repeat center;
+	filter: alpha(opacity=30);
+	opacity: 0.3;
 }
 
 
