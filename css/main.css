@@ -389,3 +389,10 @@
 	background: #000;
 }
 /* artcircle end */
+/* ft bottom start */
+
+#ft_bottom {
+	height: 130px;
+	background: url(img/ft_bottom_bg.png) no-repeat center;
+}
+/* ft bottom end */
