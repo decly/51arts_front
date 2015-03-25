@@ -33,22 +33,6 @@ $(document).ready(function() { // for artist signed
 });
 
 
-// show box
-$(document).ready(function() {
-	$.showbox_in("#act"); // for activity
-	$.showbox_out("#hot_sale_showbox"); // for hot sale
-	$.showbox_out("#new_item_showbox"); // for new item
-});
-
-
-
-
-
-
-
-
-
-
 
 //$(document).ready(function() { // text scroll for sale info
 //	marquee(25, 10, 3000);
