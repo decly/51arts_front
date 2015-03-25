@@ -1,16 +1,16 @@
 // for banner
 $(document).ready(function() {
-	var size = $('.slidebtn>ul>li').length;
+	var size = $('#banner .slidebtn>ul>li').length;
 	var idx = 0;
 	var swtimer;
 	var interval = 4000;
-	$('.slidepic').css("margin-left", -($('.slidepic img').width() - $('.slidebox').width()) / 2);
-	$('.slidebtn li').mouseover(function() {
-		idx = $('.slidebtn li').index(this);
+	$('#banner .slidepic').css("margin-left", -($('#banner .slidepic img').width() - $('#banner.slidebox').width()) / 2);
+	$('#banner .slidebtn li').mouseover(function() {
+		idx = $('#banner .slidebtn li').index(this);
 		showpic(idx);
 	}).eq(0).mouseover();
 
-	$('.slidebox').hover(function() {
+	$('#banner.slidebox').hover(function() {
 		if (swtimer)
 			clearInterval(swtimer);
 	}, function() {
@@ -18,7 +18,7 @@ $(document).ready(function() {
 	}).trigger('mouseleave');
 
 
-	$('.slidebox').find('#banner_pre, #banner_next').bind('click', function() {
+	$('#banner.slidebox').find('#banner_pre, #banner_next').bind('click', function() {
 		var id = this.id;
 		if (id == 'banner_pre') {
 			idx--;
@@ -39,11 +39,11 @@ $(document).ready(function() {
 	}
 
 	function showpic(idx) {
-		var perwidth = $('.slidepic img').width();
-		$('.slidepic').stop(true, false).animate({
+		var perwidth = $('#banner .slidepic img').width();
+		$('#banner .slidepic').stop(true, false).animate({
 			left: -perwidth * idx
 		}, 500);
 
-		$('.slidebtn li').removeClass('current').eq(idx).addClass('current');
+		$('#banner .slidebtn li').removeClass('current').eq(idx).addClass('current');
 	}
 });

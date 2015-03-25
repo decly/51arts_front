@@ -32,43 +32,62 @@ $(document).ready(function() { // for artist signed
 });
 });
 
+// for artinfo slide
+$(document).ready(function() {
+	
+	var idx = 0;
+	var swtimer;
+	var interval = 1000;
+	var round_size = 3;
+	var size = $('#artinfo_list ul li').length - round_size;
+//	$('#artinfo_list li').mouseover(function() {
+//		idx = $('#banner .slidebtn li').index(this);
+//		showpic(idx);
+//	}).eq(0).mouseover();
 
+//	alert("size="+size);
+	$('#artinfo_list ul').hover(hover_timer, leave_timer).trigger('mouseleave');
+	$('#artinfo').siblings('#artinfo_pre, #artinfo_next').hover(hover_timer, leave_timer).trigger('mouseleave');
 
-//$(document).ready(function() { // text scroll for sale info
-//	marquee(25, 10, 3000);
-//
-//	function marquee(height, speed, delay) {
-//		var scrollT;
-//		var pause = false;
-//		var ScrollBox = document.getElementById("sale_scroll");
-//		if (document.getElementById("holder").offsetHeight <= height) return;
-//		var _tmp = ScrollBox.innerHTML.replace('holder', 'holder2');
-//		ScrollBox.innerHTML += _tmp;
-//		ScrollBox.onmouseover = function() {
-//			pause = true
-//		}
-//		ScrollBox.onmouseout = function() {
-//			pause = false
-//		}
-//		ScrollBox.scrollTop = 0;
-//
-//		function start() {
-//			scrollT = setInterval(scrolling, speed);
-//			if (!pause) ScrollBox.scrollTop += 2;
-//		}
-//
-//		function scrolling() {
-//			if (ScrollBox.scrollTop % height != 0) {
-//				ScrollBox.scrollTop += 1;
-//				if (ScrollBox.scrollTop >= ScrollBox.scrollHeight / 2) ScrollBox.scrollTop = 0;
-//			} else {
-//				clearInterval(scrollT);
-//				setTimeout(start, delay);
-//			}
-//		}
-//		setTimeout(start, delay);
-//	}
-//});
+	$('#artinfo').siblings('#artinfo_pre, #artinfo_next').bind('click', function() {
+		var id = this.id;
+//		alert("click: "+id)
+		if (id == 'artinfo_pre') {
+			idx--;
+			if (idx < 0) idx = size;
+		} else {
+			idx++;
+			if (idx > size) idx = 0;
+		}
+		showpic(idx);
+	});
+
+	function timer_showpic() {
+		idx++;
+		if (idx > size) {
+			idx = 0;
+		}
+		showpic(idx);
+	}
+
+	function showpic(idx) {
+		
+		var perwidth = $('#artinfo_list ul li').width()+parseInt($('#artinfo_list ul li').css('margin-right'));
+//		alert("showpic: "+idx+"perwidth: "+perwidth +"right:"+$('#artinfo_list ul li').css('margin-right'))	
+		$('#artinfo_list ul li').animate({
+			left: -perwidth * idx
+		}, 500);
+	}
+	
+	function hover_timer() {
+		if (swtimer)
+			clearInterval(swtimer);
+	}
+	function leave_timer() {
+		swtimer = setInterval(timer_showpic, interval);
+	}
+});
+
 
 
 $(document).ready(function() { // hover for items
