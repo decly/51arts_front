@@ -30,46 +30,41 @@ $(document).ready(function() { // for artist signed
 
 // for artinfo slide
 $(document).ready(function() {
-
 	var idx = 0;
 	var swtimer;
-	var interval = 1000;
+	var interval = 5000;
+	var slideinterval = 1200;
 	var round_size = 3;
-	var size = $('#artinfo_list ul li').length - round_size;
-	
+	var size = Math.ceil($('#artinfo_list ul li').length / round_size);
 
-//	alert("size="+size);
 	$('#artinfo_list ul').hover(hover_timer, leave_timer).trigger('mouseleave');;
 	$('#artinfo').siblings('#artinfo_pre, #artinfo_next').hover(hover_timer, leave_timer);
 
 	$('#artinfo').siblings('#artinfo_pre, #artinfo_next').bind('click', function() {
 		var id = this.id;
-		//		alert("click: "+id)
 		if (id == 'artinfo_pre') {
 			idx--;
-			if (idx < 0) idx = size;
+			if (idx < 0) idx = size - 1;
 		} else {
 			idx++;
-			if (idx > size) idx = 0;
+			if (idx >= size) idx = 0;
 		}
 		showpic(idx);
 	});
 
 	function timer_showpic() {
 		idx++;
-		if (idx > size) {
+		if (idx >= size) {
 			idx = 0;
 		}
 		showpic(idx);
 	}
 
 	function showpic(idx) {
-
-		var perwidth = $('#artinfo_list ul li').width() + parseInt($('#artinfo_list ul li').css('margin-right'));
-		//		alert("showpic: "+idx+"perwidth: "+perwidth +"right:"+$('#artinfo_list ul li').css('margin-right'))	
+		var perwidth = $('#artinfo').width() + parseInt($('#artinfo_list ul li').css('margin-right'));
 		$('#artinfo_list ul li').animate({
 			left: -perwidth * idx
-		}, 500);
+		}, slideinterval);
 	}
 
 	function hover_timer() {
@@ -129,33 +124,6 @@ $(document).ready(function() { // hover for artists
 			'display': 'none'
 		});
 		$(this).children('span').css({
-			'display': 'none'
-		});
-	}
-});
-
-
-$(document).ready(function() { // hover for sale rank
-
-	$('#salerank .salerank_item td').hover(itemhover, itemleave);
-
-	function itemhover() {
-		$(this).children('img').css({
-			'filter': 'alpha(opacity=50)',
-			'opacity': '0.5'
-		});
-		$(this).children('a').css({
-			'display': 'block'
-		});
-	}
-
-	function itemleave() {
-
-		$(this).children('img').css({
-			'filter': 'alpha(opacity=100)',
-			'opacity': '1.0'
-		});
-		$(this).children('a').css({
 			'display': 'none'
 		});
 	}
