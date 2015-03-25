@@ -133,8 +133,10 @@
 #artinfo_list {
 	margin-top: 20px;
 	width: 9999em;
+	overflow: hidden;
 }
 #artinfo_list ul li {
+	overflow: hidden;
 	position: relative;
 	width: 320px;
 	height: 85px;

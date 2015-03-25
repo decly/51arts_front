@@ -316,7 +316,6 @@ img {
 	font-size: 10px;
 	text-align: center;
 }
-
 /* nav end */
 /* footer begin */
 
@@ -344,12 +343,11 @@ img {
 	float: left;
 	line-height: 24px;
 }
-*html #ft_nav ul li {
-	margin-top: -10px;
-}
-#footer #ft_nav .ft_sec_nav {
+*html #ft_nav .ft_sec_nav {
 	float: left;
-	color: #fff;
+}
+#footer #ft_nav > ul > li {
+	float: left;
 }
 #footer #ft_nav .ft_sec_nav li {
 	color: #fff;
