@@ -6,12 +6,8 @@ $(document).ready(function() { // for banner and fullwidth to adjust width
 
 
 $(document).ready(function() { // for artist signed
-	$(document).ready(function() {
-
 	var floathtml = "<a id=\"artist_signed_float\" href=\"#\"></a>";
-
 	$("#artist_signed").html(floathtml);
-	
 	var lastRmenuStatus = false;
 	$(window).scroll(function() {
 		var _top = $(window).scrollTop();
@@ -30,28 +26,25 @@ $(document).ready(function() { // for artist signed
 		}
 	});
 });
-});
+
 
 // for artinfo slide
 $(document).ready(function() {
-	
+
 	var idx = 0;
 	var swtimer;
 	var interval = 1000;
 	var round_size = 3;
 	var size = $('#artinfo_list ul li').length - round_size;
-//	$('#artinfo_list li').mouseover(function() {
-//		idx = $('#banner .slidebtn li').index(this);
-//		showpic(idx);
-//	}).eq(0).mouseover();
+	
 
 //	alert("size="+size);
-	$('#artinfo_list ul').hover(hover_timer, leave_timer).trigger('mouseleave');
-	$('#artinfo').siblings('#artinfo_pre, #artinfo_next').hover(hover_timer, leave_timer).trigger('mouseleave');
+	$('#artinfo_list ul').hover(hover_timer, leave_timer).trigger('mouseleave');;
+	$('#artinfo').siblings('#artinfo_pre, #artinfo_next').hover(hover_timer, leave_timer);
 
 	$('#artinfo').siblings('#artinfo_pre, #artinfo_next').bind('click', function() {
 		var id = this.id;
-//		alert("click: "+id)
+		//		alert("click: "+id)
 		if (id == 'artinfo_pre') {
 			idx--;
 			if (idx < 0) idx = size;
@@ -71,18 +64,19 @@ $(document).ready(function() {
 	}
 
 	function showpic(idx) {
-		
-		var perwidth = $('#artinfo_list ul li').width()+parseInt($('#artinfo_list ul li').css('margin-right'));
-//		alert("showpic: "+idx+"perwidth: "+perwidth +"right:"+$('#artinfo_list ul li').css('margin-right'))	
+
+		var perwidth = $('#artinfo_list ul li').width() + parseInt($('#artinfo_list ul li').css('margin-right'));
+		//		alert("showpic: "+idx+"perwidth: "+perwidth +"right:"+$('#artinfo_list ul li').css('margin-right'))	
 		$('#artinfo_list ul li').animate({
 			left: -perwidth * idx
 		}, 500);
 	}
-	
+
 	function hover_timer() {
 		if (swtimer)
 			clearInterval(swtimer);
 	}
+
 	function leave_timer() {
 		swtimer = setInterval(timer_showpic, interval);
 	}
