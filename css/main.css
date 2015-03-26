@@ -14,95 +14,6 @@
 	background: url(img/artist_signed_bg.jpg) top no-repeat;
 }
 /* artist signed end */
-/* repos begin */
-
-#repos {
-	margin: 50px auto;
-}
-#repos table {
-	margin-left: -10px;
-	border-collapse: collapse;
-}
-#repos td {
-	text-align: center;
-	width: 150px;
-	padding: 5px 10px;
-}
-#repos img {
-	width: 150px;
-	height: 90px;
-}
-#repos #repos-img a:hover img {
-	filter: alpha(opacity=80);
-	opacity: 0.8;
-}
-/* repos end */
-/* activity start */
-
-#activity {
-	overflow: hidden;
-}
-#act_wrap {
-	margin: 55px auto;
-	overflow: hidden;
-}
-#art_headlines {
-	border: 1px solid #e0e0e0;
-	background: #fff;
-	height: 243px;
-	width: 250px;
-	padding: 10px;
-	float: right;
-	position: relative;
-}
-#art_headlines h4 {
-	font-weight: 600;
-	margin-bottom: 15px;
-}
-#art_headlines h4 span {
-	font-size: 15px;
-	font-weight: 600;
-}
-#art_headlines ul li {
-	width: 250px;
-	height: 18px;
-	border-bottom: 1px dashed #e0e0e0;
-	margin-top: 10px;
-	padding-bottom: 4px;
-}
-#art_headlines ul li div a {
-	float: left;
-	display: block;
-	width: 200px;
-	height: 18px;
-	line-height: 18px;
-	font-size: 14px;
-	color: #666666;
-	overflow: hidden;
-}
-#art_headlines ul li div span {
-	background: #dd5451;
-	display: block;
-	float: left;
-	width: 45px;
-	height: 18px;
-	line-height: 18px;
-	font-size: 14px;
-	text-align: center;
-	color: #fff;
-	margin-right: 5px;
-}
-#art_headlines ul li div a:hover {
-	color: #DC5154;
-}
-#art_headlines #art_headlines_sale {
-	width: 250px;
-	height: 76px;
-	position: absolute;
-	bottom: 10px;
-	left: 10px;
-}
-/* activity end */
 /* artinfo begin */
 
 #artinfo_wrap {
@@ -318,6 +229,7 @@
 #artcircle .artists_big li h5 {
 	color: #6f6f6f;
 	margin-top: 20px;
+	padding-left:8px;
 }
 #artcircle .artists_big li p {
 	color: #8d8d8d;
@@ -327,6 +239,7 @@
 	line-height: 20px;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	padding-left:8px;
 }
 #artcircle .artists_big li a h4 {
 	margin-top: 10px;
@@ -341,6 +254,7 @@
 	white-space: nowrap;
 	cursor: pointer;
 	letter-spacing: 0;
+	padding-left:8px;
 }
 #artcircle .artists_big li a:hover,
 #artcircle .artists_big li a:hover h4 {

@@ -40,25 +40,22 @@
 #banner .slidebtn li.current {
 	background: url(img/banner_btn_dotted.png) no-repeat center;
 }
-
-
 #banner #banner_pre {
 	position: absolute;
-	top:160px;
-	left:50%;
+	top: 160px;
+	left: 50%;
 	margin-left: -600px;
 	width: 33px;
 	height: 64px;
 	cursor: pointer;
-	background: url("img/slide_pre.png") no-repeat center;	
+	background: url("img/slide_pre.png") no-repeat center;
 	filter: alpha(opacity=30);
 	opacity: 0.3;
 }
-
 #banner #banner_next {
 	position: absolute;
-	top:160px;
-	right:50%;
+	top: 160px;
+	right: 50%;
 	margin-right: -600px;
 	width: 33px;
 	height: 64px;
@@ -67,11 +64,4 @@
 	filter: alpha(opacity=30);
 	opacity: 0.3;
 }
-
-
-
-
-
-
-
 /* banner end */
