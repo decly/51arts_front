@@ -1,3 +1,10 @@
+/* logo_custom bg start */
+
+#logo_custom {
+	width: 98px;
+	background: url("img/lv2_artrepos_logo.png") no-repeat left bottom;
+}
+/* logo_custom bg end */
 /* repos classify start */
 
 #repos_classify > ul {
@@ -35,6 +42,10 @@
 #repos_sort a {
 	border: 1px solid #e9e9e9;
 	padding: 0 5px;
+	height: 24px;
+	line-height: 24px;
+	display: block;
+	float: left;
 }
 #repos_sort a:hover {
 	color: #DC5154;
@@ -44,15 +55,18 @@
 }
 #sort_left .price_sort {
 	padding-right: 15px;
-	margin-left: 5px;
+	margin-left: 10px;
 	background: url("img/lv2_artrepos_pricesort_bg.png") no-repeat 90% center;
 }
 #sort_left .price_sort_drt {
 	background: #e9e9e9;
-	margin-left: -5px;
+	margin-right: 2px;
 }
 #sell_right {
 	float: right;
+}
+#sell_right a {
+	margin-left: 10px;
 }
 /* repos sort end */
 /* repos list start */
