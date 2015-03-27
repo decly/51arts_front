@@ -234,12 +234,14 @@
 #artcircle .artists_big li p {
 	color: #8d8d8d;
 	margin-top: 10px;
-	width: 188px;
+	width: 180px;
 	height: 100px;
 	line-height: 20px;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	padding-left:8px;
+	padding: 0 8px;
+	text-align: justify;
+	text-justify:inter-ideograph;
 }
 #artcircle .artists_big li a h4 {
 	margin-top: 10px;
@@ -260,10 +262,7 @@
 #artcircle .artists_big li a:hover h4 {
 	color: #DC5154;
 }
-#mytest,
-#mytest h4 {
-	font-weight: 900;
-}
+
 #artcircle #artists_small_wrap {
 	margin-top: 30px;
 	height: 95px;

@@ -34,7 +34,6 @@
 /* banner end */
 
 #content_wrap {
-	
 	margin-top: 70px;
 	margin-bottom: 50px;
 }
@@ -72,8 +71,6 @@
 	top: 0;
 	height: 96px;
 	padding: 0 20px 20px 20px;
-	border: 1px solid #e0e0e0;
-	border-left: none;
 }
 #super_info_list li a h3:hover,
 #super_info_list li a span:hover {
@@ -117,13 +114,10 @@
 	border: 1px dashed #d1d1d1;
 	margin: 20px auto;
 }
-
-
 #page_ctl {
 	width: 640px;
 	height: 30px;
 	margin-top: 25px;
-	
 	border-top: 1px solid #e0e0e0;
 	border-bottom: 1px solid #e0e0e0;
 }
@@ -144,15 +138,10 @@
 #page_ctl > ul li a:hover {
 	color: #DC5154;
 }
-
-
-
 #page_select {
 	border-left: 1px solid #e0e0e0;
 	border-right: 1px solid #e0e0e0;
 }
-
-
 /*
 #page_select select {
 	border: none;
@@ -160,8 +149,6 @@
 	height: 18px;
 	font-size: 16px line-height: 16px
 }*/
-
-
 /* div select start */
 
 #pagectl_divselect {
@@ -179,7 +166,6 @@
 	padding-left: 20px;
 	padding-right: 10px;
 	margin-right: 20px;
-	
 	background: url(img/lv3_artinfo_superinfo_pagectl_bg.png) no-repeat right center;
 }
 #pagectl_divselect ul {
@@ -196,7 +182,6 @@
 #pagectl_divselect ul li {
 	height: 30px;
 	line-height: 30px;
-	
 }
 #pagectl_divselect ul li a {
 	display: block;
@@ -204,15 +189,11 @@
 	color: #000;
 	text-align: left;
 	padding-left: 30px;
-	
 }
 #pagectl_divselect ul li a:hover {
 	color: #DC5154;
 }
 /* div select end */
-
-
-
 /* super info end */
 /* hot info start*/
 

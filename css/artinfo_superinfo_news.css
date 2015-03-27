@@ -129,6 +129,8 @@
 	margin: 20px auto;
 	width:524px;
 	text-indent: 2em;
+	text-align: justify;
+	text-justify:inter-ideograph;
 }
 #page_ctl {
 	margin-top: 50px;
