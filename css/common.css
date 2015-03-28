@@ -67,6 +67,10 @@ img {
 	height: 0;
 	width: 0;
 }
+.content_block {
+	margin-bottom: 80px;
+	overflow: hidden;
+}
 /* top begin */
 
 #top_wrap {
