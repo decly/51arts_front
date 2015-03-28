@@ -13,10 +13,9 @@ a {
 	color: #6f6f6f;
 	blr: expression(this.onFocus=this.blur());
 }
-/*span {
-	color: #a9a9a9;
-}*/
-
+a:hover {
+	color: #DC5154;
+}
 img {
 	border: none;
 }
@@ -65,6 +64,8 @@ img {
 }
 .clear_float {
 	clear: both;
+	height: 0;
+	width: 0;
 }
 /* top begin */
 

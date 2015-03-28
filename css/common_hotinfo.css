@@ -1,0 +1,71 @@
+.content_block {
+	margin-bottom: 80px;
+	overflow: hidden;
+}
+/* banner start*/
+
+#banner {
+	width: 658px;
+	height: 453px;
+	float: left;
+}
+#banner img {
+	width: 658px;
+	height: 453px;
+}
+/* banner end*/
+/* hot info start*/
+
+#hot_info {
+	float: right;
+	width: 288px;
+	height: 430px;
+	padding-right: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+	border-top: 1px solid #c2c2c2;
+	overflow: hidden;
+}
+#hot_info_title {
+	height: 25px;
+	margin-bottom: 28px;
+	position: relative;
+	background: url("img/lv2_artinfo_hotinfo_title.png") no-repeat left bottom;
+}
+#hot_info_title a {
+	display: block;
+	width: 91px;
+	height: 25px;
+}
+#hot_info_title span {
+	position: absolute;
+	bottom: 0;
+	left: 95px;
+}
+#hot_info_list hr {
+	border: 1px dashed #d1d1d1;
+	margin: 28px auto;
+}
+#hot_info_list li {
+	height: 87px;
+	position: relative;
+}
+#hot_info_list li img {
+	height: 87px;
+	width: 87px;
+}
+#hot_info_list li div {
+	position: absolute;
+	top: 12px;
+	left: 100px;
+}
+#hot_info_list li div p {
+	overflow: hidden;
+	margin-top: 5px;
+	color: #000;
+	font-weight: 900;
+}
+#hot_info_list li div p:hover {
+	color: #DC5154;
+}
+/* hot info end*/
