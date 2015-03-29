@@ -60,7 +60,10 @@ img {
 	color: #DC5154;
 }
 .wrap_top_border {
-	border-top: 1px solid #c2c2c2;
+	border-top: 1px solid #e0e0e0;
+}
+.wrap_bottom_border {
+	border-bottom: 1px solid #e0e0e0;
 }
 .clear_float {
 	clear: both;
