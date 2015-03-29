@@ -1,0 +1,523 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>多元主义-正在拍卖</title>
+		<meta name="keywords" content="多元主义;当代多元文化艺术；文创艺术品" />
+		<meta name="description" content="本来没有艺术......" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/common_rmenu.css" />
+		<link rel="stylesheet" type="text/css" href="css/auction_topic.css" />
+		<link rel="stylesheet" type="text/css" href="css/common_salerank.css" />
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/common_function.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/common_rmenu.js"></script>
+		<script type="text/javascript" src="js/common_salerank.js"></script>
+	</head>
+
+	<body>
+		<div id="wrap">
+
+			<div id="top_wrap" class="fullwidth">
+				<div id="top" class="fitwidth">
+					<div id="topleft">
+						<span id="welcome">您好，欢迎来到多元主义！</span>
+						<a href="#" id="login_top">登录</a>
+						<span>/</span>
+						<a href="#">注册</a>
+					</div>
+					<div id="search">
+
+						<form action="" method="post" name="search" id="top_form">
+							<table>
+								<tr>
+									<td>
+										<div id="divselect">
+											<cite>筛选</cite>
+											<ul>
+												<li><a href="javascript:;" selectid="1">木元</a>
+												</li>
+												<li><a href="javascript:;" selectid="2">陶元</a>
+												</li>
+												<li><a href="javascript:;" selectid="3">漆元</a>
+												</li>
+												<li><a href="javascript:;" selectid="4">石元</a>
+												</li>
+												<li><a href="javascript:;" selectid="5">艺元</a>
+												</li>
+												<li><a href="javascript:;" selectid="6">银元</a>
+												</li>
+											</ul>
+										</div>
+										<input name="" type="hidden" value="0" id="inputselect" />
+									</td>
+									<td>
+										<label for="keyword">
+											<span id="keyword_def">热门搜索：银器/玉石...</span>
+											<input id="keyword" type="text" name="searchvalue" />
+										</label>
+									</td>
+									<td>
+										<input id="submit" type="submit" name="submit" value="" />
+									</td>
+								</tr>
+							</table>
+						</form>
+
+					</div>
+
+				</div>
+			</div>
+			<div id="header" class="fitwidth">
+				<a href="#">
+					<div id="logo"></div>
+				</a>
+				<a href="#">
+					<div id="logo_custom"></div>
+				</a>
+
+				<div id="nav">
+					<ul class="main_nav">
+						<li class="navs">
+							<a href="index.html" class="nav_a">首页</a>
+						</li>
+
+						<li class="nav_sep">/</li>
+						<li class="navs">
+							<a href="#" class="nav_a">艺术仓库</a>
+							<ul id="subNav_2" class="sub_nav">
+								<li><a href="#">木元</a>
+								</li>
+								<li><a href="#">陶元</a>
+								</li>
+								<li><a href="#">漆元</a>
+								</li>
+								<li><a href="#">玉元</a>
+								</li>
+								<li><a href="#">艺元</a>
+								</li>
+								<li><a href="#">银元</a>
+								</li>
+								<li><a href="#">多元</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav_sep">/</li>
+						<li class="navs">
+							<a href="#" class="nav_a">艺术圈</a>
+							<ul id="subNav_3" class="sub_nav">
+								<li><a href="#">艺术家</a>
+								</li>
+								<li><a href="#">文创公司</a>
+								</li>
+								<li><a href="#">艺术爱好者</a>
+								</li>
+								<li><a href="#">签约/合作</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav_sep">/</li>
+						<li class="navs">
+							<a href="#" class="nav_a">在线拍卖</a>
+							<ul id="subNav_4" class="sub_nav">
+								<li><a href="#">预展</a>
+								</li>
+								<li><a href="#">拍卖中</a>
+								</li>
+								<li><a href="#">往期拍卖</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav_sep">/</li>
+						<li class="navs">
+							<a href="lv2_artinfo.html" class="nav_a">艺术情报</a>
+							<ul id="subNav_5" class="sub_nav">
+								<li><a href="lv3_artinfo_superinfo.html">重磅快讯</a>
+								</li>
+								<li><a href="#">艺术解码</a>
+								</li>
+								<li><a href="#">艺术眼</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="clear"></li>
+
+					</ul>
+					<a href="#">
+						<span class="nav_cart">
+							<span class="nav_cart_cnt"></span>
+						</span>
+					</a>
+				</div>
+			</div>
+			<div id="rmenu"></div>
+
+			<div id="banner" class="fullwidth slidebox">
+				<a href="#">
+					<img src="img/lv4_auction_topic_banner_01.jpg" alt="auction topic" />
+				</a>
+			</div>
+
+			<div id="item_wrap" class="fitwidth">
+				<div id="item_sort">
+					<a href="#">默认</a>
+					<a href="#" class="fixed_price">一口价</a>
+					<a href="#" class="price_sort">按价格</a>
+					<a href="#" class="price_sort_drt">从低到高</a>
+					<a href="#" class="price_sort_drt">从高到低</a>
+					<a href="#" class="price_sort">按出价次数</a>
+					<a href="#" class="price_sort_drt">从多到少</a>
+					<a href="#" class="price_sort_drt">从少到多</a>
+				</div>
+
+				<div id="item_list">
+
+					<table cellspacing="20px">
+						<tr>
+							<td>
+								<a href="#">
+									<div class="item_top">
+										<img src="img/lv4_auction_topic_itemlist_01.jpg" alt="art repos" />
+										<h4>近现代简约设计原木贵妃椅</h4>
+									</div>
+									<div class="item_bottom">
+										<p class="price">当前价<span>10000.00</span>元</p>
+										<p class="overtime">距结束<span>12时15分</span>
+										</p>
+										<p class="pricecnt">出价次数<span>152</span>次</p>
+									</div>
+								</a>
+							</td>
+							<td>
+								<a href="#">
+									<div class="item_top">
+										<img src="img/lv4_auction_topic_itemlist_02.jpg" alt="art repos" />
+										<h4>近现代简约设计原木贵妃椅</h4>
+									</div>
+									<div class="item_bottom">
+										<p class="price">当前价<span>10000.00</span>元</p>
+										<p class="overtime">距结束<span>12时15分</span>
+										</p>
+										<p class="pricecnt">出价次数<span>152</span>次</p>
+									</div>
+								</a>
+							</td>
+							<td>
+								<a href="#">
+									<div class="item_top">
+										<img src="img/lv4_auction_topic_itemlist_03.jpg" alt="art repos" />
+										<h4>近现代简约设计原木贵妃椅</h4>
+									</div>
+									<div class="item_bottom">
+										<p class="price">当前价<span>10000.00</span>元</p>
+										<p class="overtime">距结束<span>12时15分</span>
+										</p>
+										<p class="pricecnt">出价次数<span>152</span>次</p>
+									</div>
+								</a>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<a href="#">
+									<div class="item_top">
+										<img src="img/lv4_auction_topic_itemlist_04.jpg" alt="art repos" />
+										<h4>近现代简约设计原木贵妃椅</h4>
+									</div>
+									<div class="item_bottom">
+										<p class="price">当前价<span>10000.00</span>元</p>
+										<p class="overtime">距结束<span>12时15分</span>
+										</p>
+										<p class="pricecnt">出价次数<span>152</span>次</p>
+									</div>
+								</a>
+							</td>
+							<td>
+								<a href="#">
+									<div class="item_top">
+										<img src="img/lv4_auction_topic_itemlist_05.jpg" alt="art repos" />
+										<h4>近现代简约设计原木贵妃椅</h4>
+									</div>
+									<div class="item_bottom">
+										<p class="price">当前价<span>10000.00</span>元</p>
+										<p class="overtime">距结束<span>12时15分</span>
+										</p>
+										<p class="pricecnt">出价次数<span>152</span>次</p>
+									</div>
+								</a>
+							</td>
+							<td>
+								<a href="#">
+									<div class="item_top">
+										<img src="img/lv4_auction_topic_itemlist_06.jpg" alt="art repos" />
+										<h4>近现代简约设计原木贵妃椅</h4>
+									</div>
+									<div class="item_bottom">
+										<p class="price">当前价<span>10000.00</span>元</p>
+										<p class="overtime">距结束<span>12时15分</span>
+										</p>
+										<p class="pricecnt">出价次数<span>152</span>次</p>
+									</div>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="#">
+									<div class="item_top">
+										<img src="img/lv4_auction_topic_itemlist_07.jpg" alt="art repos" />
+										<h4>近现代简约设计原木贵妃椅</h4>
+									</div>
+									<div class="item_bottom">
+										<p class="price">当前价<span>10000.00</span>元</p>
+										<p class="overtime">距结束<span>12时15分</span>
+										</p>
+										<p class="pricecnt">出价次数<span>152</span>次</p>
+									</div>
+								</a>
+							</td>
+							<td>
+								<a href="#">
+									<div class="item_top">
+										<img src="img/lv4_auction_topic_itemlist_08.jpg" alt="art repos" />
+										<h4>近现代简约设计原木贵妃椅</h4>
+									</div>
+									<div class="item_bottom">
+										<p class="price">当前价<span>10000.00</span>元</p>
+										<p class="overtime">距结束<span>12时15分</span>
+										</p>
+										<p class="pricecnt">出价次数<span>152</span>次</p>
+									</div>
+								</a>
+							</td>
+							<td>
+								<a href="#">
+									<div class="item_top">
+										<img src="img/lv4_auction_topic_itemlist_09.jpg" alt="art repos" />
+										<h4>近现代简约设计原木贵妃椅</h4>
+									</div>
+									<div class="item_bottom">
+										<p class="price">当前价<span>10000.00</span>元</p>
+										<p class="overtime">距结束<span>12时15分</span>
+										</p>
+										<p class="pricecnt">出价次数<span>152</span>次</p>
+									</div>
+								</a>
+							</td>
+						</tr>
+
+					</table>
+				</div>
+			</div>
+
+			<div id="other_auction" class="fitwidth content_block wrap_top_border">
+				<div id="other_auction_title"><a href="#">查看更多</a>
+				</div>
+
+				<div id="other_auction_item">
+					<a href="#">
+						<div class="other_auction_left">
+							<img src="img/lv4_auction_topic_otherauction_01.jpg" alt="other auction" />
+							<div class="oth_auction_text">
+								<h2>现代工艺家具特别拍卖会</h2>
+								<p class="auctioncnt">拍卖件数<span>100</span>件</p>
+								<p class="overtime">距结束<span>12时15分</span>
+							</div>
+						</div>
+					</a>
+					<a href="#">
+						<div class="other_auction_right">
+							<img src="img/lv4_auction_topic_otherauction_02.jpg" alt="other auction" />
+							<div class="oth_auction_text">
+								<h2>现代工艺家具特别拍卖会</h2>
+								<p class="auctioncnt">拍卖件数<span>100</span>件</p>
+								<p class="overtime">距结束<span>12时15分</span>
+							</div>
+						</div>
+					</a>
+				</div>
+
+			</div>
+
+			<div id="salerank" class="fitwidth content_block">
+				<div id="salerank_info">
+					<span id="salerank_bg"></span>
+					<span id="salerank_title">/热门商品推荐</span>
+					<a href="#">查看更多</a>
+				</div>
+
+				<table cellspacing="25px">
+					<tr class="salerank_item">
+						<td>
+							<img src="img/salerank_01.jpg" alt="拍卖排行" />
+							<a href="#">查看详情</a>
+						</td>
+						<td>
+							<img src="img/salerank_02.jpg" alt="拍卖排行" />
+							<a href="#">查看详情</a>
+						</td>
+						<td>
+							<img src="img/salerank_03.jpg" alt="拍卖排行" />
+							<a href="#">查看详情</a>
+						</td>
+						<td>
+							<img src="img/salerank_04.jpg" alt="拍卖排行" />
+							<a href="#">查看详情</a>
+						</td>
+						<td>
+							<img src="img/salerank_05.jpg" alt="拍卖排行" />
+							<a href="#">查看详情</a>
+						</td>
+					</tr>
+					<tr class="salerank_name">
+						<td><span>明清红木家具</span>
+						</td>
+						<td><span>明清红木家具</span>
+						</td>
+						<td><span>明清红木家具</span>
+						</td>
+						<td><span>明清红木家具</span>
+						</td>
+						<td><span>明清红木家具</span>
+						</td>
+					</tr>
+
+					<tr class="salerank_item">
+						<td>
+							<img src="img/salerank_06.jpg" alt="拍卖排行" />
+							<a href="#">查看详情</a>
+						</td>
+						<td>
+							<img src="img/salerank_07.jpg" alt="拍卖排行" />
+							<a href="#">查看详情</a>
+						</td>
+						<td>
+							<img src="img/salerank_08.jpg" alt="拍卖排行" />
+							<a href="#">查看详情</a>
+						</td>
+						<td>
+							<img src="img/salerank_09.jpg" alt="拍卖排行" />
+							<a href="#">查看详情</a>
+						</td>
+						<td>
+							<img src="img/salerank_10.jpg" alt="拍卖排行" />
+							<a href="#">查看详情</a>
+						</td>
+					</tr>
+					<tr class="salerank_name">
+						<td><span>明清红木家具</span>
+						</td>
+						<td><span>明清红木家具</span>
+						</td>
+						<td><span>明清红木家具</span>
+						</td>
+						<td><span>明清红木家具</span>
+						</td>
+						<td><span>明清红木家具</span>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="footer_wrap" class="fullwidth">
+				<div id="footer" class="fitwidth">
+					<div id="ft_nav_wrap">
+
+						<div id="ft_nav">
+							<ul>
+								<li>
+									<ul class="ft_sec_nav">
+										<li class="ft_title"><a href="#">购买艺术</a>
+										</li>
+										<li><a href="#">购买流程</a>
+										</li>
+
+										<li><a href="#">支付方式</a>
+										</li>
+
+										<li><a href="#">提货方式</a>
+										</li>
+
+										<li><a href="#">竞拍保证</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="ft_sec_nav">
+										<li class="ft_title"><a href="#">合作艺术</a>
+										</li>
+										<li><a href="#">艺术家签约</a>
+										</li>
+
+										<li><a href="#">在线签约</a>
+										</li>
+
+										<li><a href="#">包装推广</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="ft_sec_nav">
+										<li class="ft_title"><a href="#">专业服务</a>
+										</li>
+										<li><a href="#">VIP/SVIP</a>
+										</li>
+
+										<li><a href="#">联动合作</a>
+										</li>
+
+										<li><a href="#">常见问题</a>
+										</li>
+
+										<li><a href="#">法律政策</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="ft_sec_nav">
+										<li class="ft_title"><a href="#">关&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;于</a>
+										</li>
+										<li><a href="#">网站地图</a>
+										</li>
+
+										<li><a href="#">品牌介绍</a>
+										</li>
+
+										<li><a href="#">联系我们</a>
+										</li>
+
+										<li><a href="#">友情链接</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+
+						<img src="img/ft_phone_code.jpg" alt="二维码" />
+						<img class="ft_second_code" src="img/ft_weixin_code.jpg" alt="二维码" />
+
+					</div>
+					<div id="ft_shot">
+						<ul>
+							<li><a href="#">回到首页</a>
+							</li>
+							<li class="ft_shot_sepa">/</li>
+							<li class="ft_shot_2"><a>收藏多元主义</a>
+							</li>
+							<li class="ft_shot_sepa">/</li>
+							<li><a>服务热线：400-100-8759</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+
+</html>
