@@ -5,52 +5,9 @@
 	background: url("img/lv2_auction_logo.jpg") no-repeat left bottom;
 }
 /* logo_custom bg end */
-/* banner begin */
-
-#banner {
-	height: 454px;
-	max-width: 1920px;
-	overflow: hidden;
-	background: #fff;
-}
-.slidebox {
-	overflow: hidden;
-	position: relative;
-}
-#banner .slidepic {
-	position: absolute;
-	width: 9999em;
-}
-#banner .slidepic li,
-#banner .slidepic img {
-	display: block;
-	width: 1920px;
-	height: 454px;
-	overflow: hidden;
-	float: left;
-}
-#banner .slidebtn {
-	position: absolute;
-	bottom: 22px;
-	left: 48%;
-	margin: 0 auto;
-}
-#banner .slidebtn li {
-	cursor: pointer;
-	float: left;
-	height: 5px;
-	width: 5px;
-	margin: 0px 5px;
-	background: url(img/banner_btn_null.png) no-repeat center;
-}
-#banner .slidebtn li.current {
-	background: url(img/banner_btn_dotted.png) no-repeat center;
-}
-/* banner end */
 /* auction today start */
 
 #auction_today {
-	
 	padding-top: 35px;
 	border-top: 1px solid #c2c2c2;
 	overflow: hidden;
@@ -100,7 +57,6 @@
 
 #auction_soon,
 #auction_before {
-	
 	padding-top: 35px;
 	border-top: 1px solid #c2c2c2;
 	overflow: hidden;
