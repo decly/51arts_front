@@ -40,3 +40,17 @@ $(document).ready(function() {
 	});
 	_thumbs.eq(0).click();
 });
+
+// for product plate
+$(document).ready(function() {
+	var _navs = $('#product_nav ul li');
+	var _plates = $('#product_plate > div');
+
+	_navs.click(function() {
+		var i = $.inArray(this, _navs);
+		_navs.removeClass('current').eq(i).addClass('current');
+		_plates.removeClass('current').eq(i).addClass('current');
+	});
+
+	_navs.eq(0).click();
+});
