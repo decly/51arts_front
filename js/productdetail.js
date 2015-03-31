@@ -52,5 +52,5 @@ $(document).ready(function() {
 		_plates.removeClass('current').eq(i).addClass('current');
 	});
 
-	_navs.eq(0).click();
+	_navs.eq(1).click();
 });

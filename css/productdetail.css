@@ -364,9 +364,15 @@
 #product_nav ul a {
 	color: #666666;
 }
+#product_nav ul a:hover {
+	color: #DC5154;
+}
 #product_nav ul li.current {
 	background: #fff;
 	border-bottom: 1px solid #fff;
+}
+#product_nav #comment_cnt {
+	letter-spacing: 0;
 }
 /* product nav end */
 /* product plate start */
@@ -385,3 +391,102 @@
 	display: block;
 }
 /* product plate end */
+/* product introduce start */
+
+#product_introduce {
+	padding-bottom: 50px;
+	border-bottom: 1px solid #e0e0e0;
+	text-align: center
+}
+/* product introduce end */
+/* product comment start */
+
+#comment_wrap {
+	width: 638px;
+	overflow: hidden;
+	padding: 0 30px;
+	border: 1px solid #e0e0e0;
+}
+#comment_area_list {
+	padding-top: 10px;
+}
+#comment_area_list li {
+	padding-bottom: 20px;
+	margin-top: 25px;
+	border-bottom: 1px solid #e0e0e0;
+	overflow: hidden;
+}
+#comment_area_list .cmt_text {
+	float: left;
+	width: 480px;
+	overflow: hidden;
+}
+#comment_area_list p.cmt_content {
+	text-align: justify;
+	text-justify: inter-ideograph;
+	overflow: hidden;
+	color: #666666;
+	line-height: 20px;
+}
+#comment_area_list p.short_info {
+	color: #c0c0c0;
+	line-height: 20px;
+}
+#comment_area_list .cmt_user {
+	float: left;
+	height: 40px;
+}
+#comment_area_list .cmt_username {
+	float: left;
+}
+#comment_area_list .cmt_username a {
+	display: block;
+	color: #666666;
+	overflow: hidden;
+	letter-spacing: 0;
+	width: 100px;
+	padding-right: 5px;
+	text-align: right;
+	line-height: 20px;
+	height: 20px;
+}
+#comment_area_list .cmt_username a:hover {
+	color: #DC5154;
+}
+#comment_area_list .cmt_username span {
+	display: block;
+	color: #c0c0c0;
+	overflow: hidden;
+	letter-spacing: 0;
+	width: 100px;
+	padding-right: 5px;
+	text-align: right;
+	line-height: 20px;
+	height: 20px;
+}
+#comment_area_list .cmt_usericon {
+	float: right;
+	height: 40px;
+	width: 40px;
+}
+#cmt_page_ctl {
+	width: 638px;
+	overflow: hidden;
+	margin: 15px 0;
+}
+#cmt_page_ctl ul {
+	width: 150px;
+	margin: 0 auto;
+}
+#cmt_page_ctl ul li {
+	float: left;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+}
+#cmt_page_ctl ul .cmt_sepa {
+	border-right: 1px solid #e0e0e0;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+/* product comment end */
