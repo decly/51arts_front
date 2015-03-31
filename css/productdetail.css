@@ -490,3 +490,32 @@
 	margin-right: 10px;
 }
 /* product comment end */
+/* guess you like start */
+
+#guessyoulike {} #guessyoulike table {
+	border-collapse: separate;
+	border-spacing: 14px 18px;
+	margin-left: 11px;
+	margin-top: -18px;
+}
+#guessyoulike table tr td {
+	width: 207px;
+	overflow: hidden;
+}
+#guessyoulike table tr td img {
+	width: 207px;
+	height: 207px;
+	float: left;
+}
+#guessyoulike .productname {
+	border: 1px solid #e0e0e0;
+	border-top: none;
+	clear: both;
+}
+#guessyoulike .productname h4 {
+	text-align: center;
+	font-weight: 500;
+	height: 40px;
+	line-height: 40px;
+}
+/* guess you like end */
