@@ -4,7 +4,7 @@ $(document).ready(function() {
 	var tophtml = "\
 	<div id=\"izl_rmenu\" class=\"izl-rmenu\"> \
 		<div class=\"btn btn-mark\"> \
-			<div class=\"mark-info\">添加到收藏</div> \
+			<div class=\"mark-info\">回到首页</div> \
 		</div> \
 		<div class=\"btn btn-wx\"> \
 			<img class=\"wxpic\" src=\"img/weixin_code.jpg\"/> \

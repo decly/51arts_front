@@ -3,7 +3,8 @@
 }
 #rmenu .izl-rmenu {
 	position: fixed;
-	right: 0;
+	left: 50%;
+	margin-left: 594px;
 	bottom: 10px;
 	padding-bottom: 50px;
 	z-index: 999;
@@ -22,19 +23,23 @@
 	background: url(img/rmenu_btn_mark.jpg) 0px 0px no-repeat;
 }
 #rmenu .izl-rmenu .btn-mark:hover {
-	border: 1px solid #939392;
+	border: 1px solid #dd5451;
 }
 #rmenu .izl-rmenu .btn-mark .mark-info {
-	background-color: #939392;
+	background-color: #fff;
 	position: absolute;
-	width: 140px;
-	left: -141px;
-	top: -1px;
-	line-height: 47px;
-	color: #FFF;
-	font-size: 18px;
+	width: 35px;
+	padding:5px;
+	height: 35px;
+	left: 0;
+	top: 0;
+	line-height: 17px;
+	color: #dd5451;
+	font-size: 14px;
 	text-align: center;
 	display: none;
+	text-align: center;
+	
 }
 #rmenu .izl-rmenu .btn-wx {
 	background-color: #fff;

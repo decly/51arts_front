@@ -41,14 +41,12 @@
 	float: left;
 	width: 640px;
 	padding-top: 45px;
-	border-top: 1px solid #c2c2c2;
 }
 #content_right {
 	float: right;
 	width: 313px;
 	overflow: hidden;
 	padding-top: 45px;
-	border-top: 1px solid #c2c2c2;
 }
 /* super info start */
 
@@ -271,7 +269,6 @@
 #salerank {
 	margin-top: 45px;
 	padding-top: 45px;
-	border-top: 1px solid #c2c2c2;
 }
 #salerank_info #salerank_bg {
 	display: block;
