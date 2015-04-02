@@ -1,7 +1,7 @@
 #rmenu {
 	_display: none;
 }
-#rmenu .izl-rmenu {
+#rmenu .izl_rmenu {
 	position: fixed;
 	left: 50%;
 	margin-left: 594px;
@@ -10,45 +10,31 @@
 	z-index: 999;
 	display: none;
 }
-#rmenu .izl-rmenu .btn {
-	width: 45px;
-	height: 45px;
+#rmenu .izl_rmenu .btn {
+	width: 41px;
+	height: 41px;
 	margin-bottom: 3px;
 	border: 1px solid #d7d7d7;
 	cursor: pointer;
 	position: relative;
+	display: block;
 }
-#rmenu .izl-rmenu .btn-mark {
-	background-color: #fff;
-	background: url(img/rmenu_btn_mark.jpg) 0px 0px no-repeat;
-}
-#rmenu .izl-rmenu .btn-mark:hover {
+#rmenu .izl_rmenu .btn:hover {
 	border: 1px solid #dd5451;
 }
-#rmenu .izl-rmenu .btn-mark .mark-info {
-	background-color: #fff;
-	position: absolute;
-	width: 35px;
-	padding:5px;
-	height: 35px;
-	left: 0;
-	top: 0;
-	line-height: 17px;
-	color: #dd5451;
-	font-size: 14px;
-	text-align: center;
-	display: none;
-	text-align: center;
-	
+#rmenu .izl_rmenu .btn_index {
+	background: url(img/rmenu_btn_index.jpg) 0px 0px no-repeat;
 }
-#rmenu .izl-rmenu .btn-wx {
-	background-color: #fff;
+#rmenu .izl_rmenu .btn_index:hover {
+	background: url(img/rmenu_btn_index_hover.jpg) 0px 0px no-repeat;
+}
+#rmenu .izl_rmenu .btn_wx {
 	background: url(img/rmenu_btn_wx.jpg) 0px 0px no-repeat;
 }
-#rmenu .izl-rmenu .btn-wx:hover {
-	border: 1px solid #939392;
+#rmenu .izl_rmenu .btn_wx:hover {
+	background: url(img/rmenu_btn_wx_hover.jpg) 0px 0px no-repeat;
 }
-#rmenu .izl-rmenu .btn-wx .wxpic {
+#rmenu .izl_rmenu .btn_wx .wxpic {
 	position: absolute;
 	left: -251px;
 	top: 0px;
@@ -56,71 +42,29 @@
 	width: 250px;
 	height: 250px;
 }
-#rmenu .izl-rmenu .btn-qq {
-	background-color: #fff;
+#rmenu .izl_rmenu .btn_qq {
 	background: url(img/rmenu_btn_qq.jpg) 0px 0px no-repeat;
 }
-#rmenu .izl-rmenu .btn-qq:hover {
-	border: 1px solid #939392;
+#rmenu .izl_rmenu .btn_qq:hover {
+	background: url(img/rmenu_btn_qq_hover.jpg) 0px 0px no-repeat;
 }
-#rmenu .izl-rmenu .btn-qq .qq-info {
-	background-color: #939392;
-	position: absolute;
-	width: 140px;
-	left: -141px;
-	top: -1px;
-	line-height: 47px;
-	color: #FFF;
-	font-size: 18px;
-	text-align: center;
-	display: none;
+#rmenu .izl_rmenu .btn_share {
+	background: url(img/rmenu_btn_share.jpg) 0px 0px no-repeat;
 }
-#rmenu .izl-rmenu .btn-share {
-	line-height: 45px;
-	color: #9c9d99;
-	font-size: 14px;
-	text-align: center;
-	background: #fff;
-	
+#rmenu .izl_rmenu .btn_share:hover {
+	background: url(img/rmenu_btn_share_hover.jpg) 0px 0px no-repeat;
 }
-#rmenu .izl-rmenu .btn-share:hover {
-	border: 1px solid #939392;
-}
-#rmenu .izl-rmenu .btn-share .share-info {
-	background-color: #939392;
-	position: absolute;
-	width: 140px;
-	left: -141px;
-	top: -1px;
-	line-height: 47px;
-	color: #FFF;
-	font-size: 18px;
-	text-align: center;
-	display: none;
-}
-#rmenu .izl-rmenu .btn-suggest {
-	background-color: #fff;
+#rmenu .izl_rmenu .btn_suggest {
 	background: url(img/rmenu_btn_sug.jpg) 0px 0px no-repeat;
 }
-#rmenu .izl-rmenu .btn-suggest:hover {
-	border: 1px solid #939392;
+#rmenu .izl_rmenu .btn_suggest:hover {
+	background: url(img/rmenu_btn_sug_hover.jpg) 0px 0px no-repeat;
 }
-#rmenu .izl-rmenu .btn-suggest .suggest-info {
-	background-color: #939392;
-	position: absolute;
-	width: 140px;
-	left: -141px;
-	top: -1px;
-	line-height: 47px;
-	color: #FFF;
-	font-size: 18px;
-	text-align: center;
-	display: none;
-}
-#rmenu .izl-rmenu .btn-top {
+#rmenu .izl_rmenu .btn_top {
 	background: url(img/rmenu_btn_top.png) 0px 0px no-repeat;
 	background-color: #cccccc;
 }
-#rmenu .izl-rmenu .btn-top:hover {
+#rmenu .izl_rmenu .btn_top:hover {
+	border: 1px solid #d7d7d7;
 	background-color: #444;
 }

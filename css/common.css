@@ -92,8 +92,8 @@ img {
 	padding-right: 25px;
 	margin-left: 0;
 }
-#top span,
-#top a {
+#topleft span,
+#topleft a {
 	color: #000;
 	margin-left: -5px;
 }
@@ -142,10 +142,11 @@ img {
 }
 #search #keyword_def {
 	position: absolute;
-	left: 100px;
+	left: 80px;
 	top: 2px;
 	line-height: 28px;
 	color: #c2c2c2;
+	font-size: 12px;
 }
 /* div select start */
 
@@ -154,7 +155,7 @@ img {
 	z-index: 10000;
 }
 #divselect cite {
-	width: 60px;
+	width: 45px;
 	height: 28px;
 	line-height: 28px;
 	display: block;
@@ -169,7 +170,7 @@ img {
 	background: url(img/search_select_bg.png) no-repeat right center;
 }
 #divselect ul {
-	width: 85px;
+	width: 70px;
 	border: 1px solid #b5b5b5;
 	border-top: none;
 	background-color: #f7f7f7;
@@ -190,9 +191,13 @@ img {
 	color: #6f6f6f;
 	padding-left: 10px;
 	font-size: 12px;
+	letter-spacing: 2px;
 }
 #divselect ul li a:hover {
 	color: #DC5154;
+}
+#divselect ul li a.short_text {
+	letter-spacing: 15px;
 }
 /* div select end */
 /* top end */
