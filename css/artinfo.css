@@ -41,7 +41,7 @@
 #super_info_list li div h3 {
 	font-size: 16px;
 	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	color: #000;
 }
 #super_info_list li div p {
@@ -53,8 +53,7 @@
 	text-align: justify;
 	text-justify: inter-ideograph;
 }
-#super_info_list hr {
-	border: 1px dashed #d1d1d1;
+#super_info_list div.dotted_line {
 	margin: 24px auto;
 }
 /* super info end*/
@@ -92,18 +91,20 @@
 	list-style-position: inside;
 	list-style-image: url(img/lv2_artinfo_clicksort_dot.png);
 }
+#click_sort_list li.current > a {
+	font-weight: 600;
+}
 #click_sort_list li a {
 	color: #000;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 14px;
 	overflow: hidden;
 }
 #click_sort_list li a:hover {
 	color: #DC5154;
 }
-#click_sort_list hr {
-	border: 1px dashed #d1d1d1;
-	margin: 14px auto;
+#click_sort_list div.dotted_line {
+	margin: 16px auto;
 }
 #click_sort_list .click_sort_float {
 	height: 170px;

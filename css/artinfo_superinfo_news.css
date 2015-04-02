@@ -298,8 +298,8 @@
 	height: 30px;
 	margin: 0 auto;
 }
-#hot_info_list hr {
-	border: 1px dashed #d1d1d1;
+#hot_info_list div.dotted_line {
+	
 	margin: 18px auto;
 }
 #hot_info_list li {

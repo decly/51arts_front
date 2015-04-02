@@ -37,8 +37,7 @@
 	bottom: 0;
 	left: 95px;
 }
-#hot_info_list hr {
-	border: 1px dashed #d1d1d1;
+#hot_info_list div.dotted_line {
 	margin: 28px auto;
 }
 #hot_info_list li {
@@ -53,6 +52,10 @@
 	position: absolute;
 	top: 12px;
 	left: 100px;
+}
+#hot_info_list li div h4 {
+	color: #8d8d8d;
+	font-weight: 500;
 }
 #hot_info_list li div p {
 	overflow: hidden;
