@@ -9,7 +9,7 @@
 
 #artists {
 	padding-top: 35px;
-	border-top: 1px solid #c2c2c2;
+	
 }
 #artists_title {
 	height: 30px;
@@ -90,7 +90,7 @@
 #artorg {
 	margin-top: 80px;
 	padding-top: 35px;
-	border-top: 1px solid #c2c2c2;
+	
 	overflow: hidden;
 }
 #artorg_title {
@@ -140,7 +140,7 @@
 	margin-top: 80px;
 	margin-bottom: 80px;
 	padding-top: 35px;
-	border-top: 1px solid #c2c2c2;
+
 	overflow: hidden;
 }
 #art_collector_title {

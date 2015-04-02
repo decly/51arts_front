@@ -293,9 +293,9 @@ img {
 	display: none;
 	position: relative;
 	z-index: 1000;
-	opacity: 0.8;
 	background: #f9f9f9;
-	filter: Alpha(opacity=80);
+	filter: Alpha(opacity=85);
+	opacity: 0.85;
 	_top: -8px;
 	text-align: center;
 	padding-bottom: 5px;

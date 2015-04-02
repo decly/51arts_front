@@ -2,7 +2,7 @@
 
 #logo_custom {
 	width: 98px;
-	background: url("img/lv2_artinfo_logo.png") no-repeat left bottom;
+	background: url("img/lv2_artinfo_logo.jpg") no-repeat left bottom;
 }
 /* logo_custom bg end */
 /* super info start*/
@@ -11,7 +11,6 @@
 	float: left;
 	width: 658px;
 	padding-top: 45px;
-	border-top: 1px solid #c2c2c2;
 }
 #super_info_title {
 	height: 30px;
@@ -68,7 +67,6 @@
 	padding-top: 45px;
 	padding-left: 20px;
 	padding-right: 10px;
-	border-top: 1px solid #c2c2c2;
 }
 #click_sort_title {
 	height: 30px;
@@ -135,7 +133,6 @@
 	float: left;
 	width: 658px;
 	padding-top: 45px;
-	border-top: 1px solid #c2c2c2;
 }
 #art_eye_title {
 	height: 30px;
@@ -223,7 +220,6 @@
 
 #art_decode {
 	padding-top: 45px;
-	border-top: 1px solid #c2c2c2;
 }
 #art_decode_title {
 	height: 30px;
