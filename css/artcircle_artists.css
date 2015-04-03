@@ -69,11 +69,20 @@
 	line-height: 60px;
 }
 #artists_classify .classify_title {
-	width: 65px;
+	width: 70px;
 	text-align: center;
 	text-align: justify;
 	margin-right: 0;
 	color: #a0a0a0;
+	letter-spacing: 2px;
+}
+#artists_classify span.nbsp_font {
+	font-family: 'Times New Roman';
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	#artists_classify span.nbsp_font {
+		letter-spacing: 1px;
+	}
 }
 #artists_classify > ul > li > ul > li {
 	margin: 0 12px;

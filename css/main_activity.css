@@ -41,9 +41,9 @@
 	height: 70px;
 }
 #act .slide-li li.current {
-	border: 1px solid #ffffff;
-	filter: alpha(opacity=40);
-	opacity: 0.4;
+	border: 1px solid #fff;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
 }
 /* act end */
 /* sale and new start */

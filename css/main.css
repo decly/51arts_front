@@ -117,7 +117,6 @@
 	text-align: center;
 	color: #6f6f6f;
 	color: #a3a3a3;
-	
 }
 #classitem .class_bgline {
 	width: 853px;
@@ -163,8 +162,7 @@
 	_margin-top: -10px;
 }
 #classitem table td,
-#classitem table td img,
-#classitem table td p {
+#classitem table td img {
 	width: 240px;
 	height: 240px;
 	position: relative;
@@ -173,26 +171,37 @@
 	float: left;
 }
 #classitem table td p {
+	width: 240px;
+	height: 170px;
+	padding-top: 70px;
 	position: absolute;
 	top: 0;
 	left: 0;
 	text-align: center;
 	display: none;
+	color: #666666;
 }
-#classitem table td p span {
-	margin-top: 60px;
+#classitem table td p span.item_name {
+	display: inline;
+	line-height: 20px;
+	text-align: bottom;
+	border-bottom: 1px solid #b1ada9;
+}
+#classitem table td p span.item_price {
+	line-height: 20px;
 	display: block;
-	line-height: 35px;
+	margin-top: 35px;
 }
 #classitem table td p a {
 	display: block;
-	margin: 25px auto;
+	margin: 10px auto;
 	padding: 0 10px;
 	width: 70px;
 	height: 25px;
 	line-height: 25px;
 	color: #fff;
 	background: #dd5451;
+	text-align: center;
 }
 #muyuan .classtitile {
 	background: url(img/title_muyuan.png) no-repeat top center;
@@ -221,11 +230,7 @@
 	height: 335px;
 	background: url(img/artcircle_bg.png) no-repeat;
 	background-position: 30px 35px;
-
 }
-
-
-
 #artcircle .artists_big {
 	position: absolute;
 	top: 0;
@@ -279,11 +284,6 @@
 	letter-spacing: 0;
 	padding-left: 8px;
 }
-
-
-
-
-
 #artcircle #artists_small_wrap {
 	margin-top: 30px;
 	height: 95px;

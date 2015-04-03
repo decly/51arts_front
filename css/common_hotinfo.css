@@ -15,7 +15,7 @@
 #hot_info {
 	float: right;
 	width: 288px;
-	height: 430px;
+	height: 433px;
 	padding-right: 10px;
 	padding-left: 20px;
 	padding-top: 20px;
@@ -38,7 +38,7 @@
 	left: 95px;
 }
 #hot_info_list div.dotted_line {
-	margin: 28px auto;
+	margin: 29px auto;
 }
 #hot_info_list li {
 	height: 87px;

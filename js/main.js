@@ -85,8 +85,8 @@ $(document).ready(function() { // hover for items
 
 	function itemhover() {
 		$(this).find('img').css({
-			'filter': 'alpha(opacity=30)',
-			'opacity': '0.3'
+			'filter': 'alpha(opacity=20)',
+			'opacity': '0.2'
 		});
 		$(this).children('p').css({
 			'display': 'block'
