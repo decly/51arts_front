@@ -140,3 +140,14 @@
 	background: #fff;
 }
 /* page control end */
+
+
+
+/* lv3 banner begin */
+
+#lv3_banner {
+	height: 297px;
+	overflow: hidden;
+	margin-bottom: 65px;
+}
+/* lv3 banner end */
