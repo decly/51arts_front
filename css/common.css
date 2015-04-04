@@ -215,7 +215,6 @@ img {
 }
 #header a,
 #header li {
-	
 	color: #6f6f6f;
 }
 #logo {
@@ -257,6 +256,7 @@ img {
 }
 #nav .nav_sep {
 	float: left;
+	font-size: 14px;
 	padding-top: 5px;
 	_padding-top: 8px;
 }
@@ -266,6 +266,12 @@ img {
 	float: left;
 	padding-top: 5px;
 	_line-height: 28px;
+}
+#nav .navs_index {
+	width: 80px;
+}
+#nav .navs_index .nav_a {
+	width: 60px;
 }
 #nav .navs:hover {
 	background: url("img/nav_flag.jpg") no-repeat center top;
