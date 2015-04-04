@@ -15,6 +15,11 @@
 	height: 300px;
 	width: 1000px;
 }
+#banner #banner_bg {
+	background: #000;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
 #banner div {
 	position: absolute;
 	height: 40px;
@@ -22,9 +27,6 @@
 	text-align: center;
 	bottom: 0;
 	left: 0;
-	background: #000;
-	filter: alpha(opacity=70);
-	opacity: 0.7;
 }
 #banner div h3 {
 	color: #fff;
@@ -63,7 +65,7 @@
 	width: 148px;
 	height: 118px;
 }
-#super_info_list li div {
+#super_info_list li > div {
 	position: absolute;
 	left: 148px;
 	top: 5px;
@@ -74,18 +76,23 @@
 #super_info_list li a span:hover {
 	color: #DC5154;
 }
-#super_info_list li div h3 {
+#super_info_list li > div h3 {
 	font-size: 16px;
 	margin-top: 10px;
 	margin-bottom: 5px;
 	color: #000;
+	width: 450px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
-#super_info_list li div p {
+#super_info_list li > div div.text_overflow_ddd {
 	overflow: hidden;
 	height: 40px;
-	line-height: 20px;
-	overflow: hidden;
 	margin-bottom: 10px;
+}
+#super_info_list li > div p {
+	line-height: 20px;
 	color: #6f6f6f;
 }
 #super_info_list .info_time {
@@ -212,19 +219,21 @@
 	height: 72px;
 	width: 125px;
 }
-#hot_info_list li div {
+#hot_info_list li > div {
 	position: absolute;
 	top: 0px;
 	left: 135px;
 }
-#hot_info_list li div p {
+#hot_info_list li > div div.text_overflow_ddd {
 	overflow: hidden;
-	margin-top: 15px;
-	line-height: 20px;
-	height: 40px;
+	margin-top: 10px;
+	height: 50px;
+}
+#hot_info_list li > div p {
+	line-height: 25px;
 	color: #000;
 }
-#hot_info_list li div p:hover {
+#hot_info_list li > div p:hover {
 	color: #DC5154;
 }
 /* hot info end*/
@@ -240,26 +249,31 @@
 	width: 313px;
 	height: 310px;
 }
-#opus_show_info {
+#opus_show_info_bg {
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	background: #000;
+}
+#opus_show_info,
+#opus_show_info_bg {
 	width: 313px;
 	height: 60px;
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	background: #000;
 	color: #fff;
-	filter: alpha(opacity=50);
-	opacity: 0.5;
 	text-align: center;
 	overflow: hidden;
 	padding: 20px 10px;
 }
-#opus_show_info p {
+#opus_show_info div.text_overflow_ddd {
 	width: 293px;
-	margin-top: 5px;
+	margin-top: 10px;
 	overflow: hidden;
-	line-height: 20px;
 	height: 40px;
+}
+#opus_show_info p {
+	line-height: 20px;
 }
 /* opus show end*/
 /* salerank begin */
@@ -302,6 +316,7 @@
 	font-weight: 500;
 	border: 1px solid #c2c2c2;
 	border-top: none;
+	overflow: hidden;
 }
 #salerank table a:hover {
 	color: #DC5154;

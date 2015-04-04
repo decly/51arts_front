@@ -45,6 +45,18 @@ $(document).ready(function() {
 });
 
 
+// for text overflow dotdotdot
+$(document).ready(function() {
+	$(".text_overflow_ddd").each(function(i) {
+		var outer_h = $(this).height();
+		var $p = $("p", $(this)).eq(0);
+		while ($p.outerHeight() > outer_h) {
+			$p.text($p.text().replace(/(\s)*([a-zA-Z0-9]+|\W)(\.\.\.)?$/, "..."));
+		};
+	});
+});
+
+
 // footer shotcut	
 $(document).ready(function() {
 	$('#footer .ft_shot_2').click(favorites);

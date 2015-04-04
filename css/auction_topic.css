@@ -157,6 +157,9 @@
 	padding-bottom: 5px;
 	margin-bottom: 5px;
 	font-size: 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 #other_auction_item .auctioncnt {
 	float: left;

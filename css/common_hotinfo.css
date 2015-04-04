@@ -48,7 +48,7 @@
 	height: 87px;
 	width: 87px;
 }
-#hot_info_list li div {
+#hot_info_list li > div {
 	position: absolute;
 	top: 12px;
 	left: 100px;
@@ -57,9 +57,13 @@
 	color: #8d8d8d;
 	font-weight: 500;
 }
-#hot_info_list li div p {
+#hot_info_list li div.text_overflow_ddd {
 	overflow: hidden;
-	margin-top: 5px;
+	height: 36px;
+	margin-top: 10px;
+}
+#hot_info_list li div p {	
+	line-height: 18px;
 	color: #000;
 	font-weight: 900;
 }

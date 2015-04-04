@@ -15,7 +15,6 @@
 	background: url(img/artist_signed_bg.jpg) top no-repeat;
 }
 /* artist signed end */
-
 /* activity start */
 
 #activity {
@@ -82,7 +81,6 @@
 	left: 10px;
 }
 /* activity end */
-
 /* artinfo begin */
 
 #artinfo_wrap {
@@ -323,15 +321,17 @@
 	margin-top: 20px;
 	padding-left: 8px;
 }
-#artcircle .artists_big li p {
-	color: #8d8d8d;
+#artcircle .artists_big div.text_overflow_ddd {
 	margin-top: 10px;
 	width: 180px;
 	height: 100px;
-	line-height: 20px;
 	overflow: hidden;
-	text-overflow: ellipsis;
 	padding: 0 8px;
+}
+#artcircle .artists_big li p {
+	color: #8d8d8d;
+	line-height: 20px;
+	text-overflow: ellipsis;
 	text-align: justify;
 	text-justify: inter-ideograph;
 }

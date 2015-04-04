@@ -40,6 +40,9 @@
 }
 #auction_today_list .auction_text h2 {
 	font-size: 22px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 #auction_today_list .auction_text p {
 	height: 40px;

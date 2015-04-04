@@ -68,10 +68,15 @@
 #product_title h2 {
 	font-size: 18px;
 	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
-#product_title p {
+#product_title div.text_overflow_ddd {
 	margin-top: 10px;
 	overflow: hidden;
+	height: 40px;
+}
+#product_title p {
 	line-height: 20px;
 	font-size: 12px;
 	text-align: justify;
@@ -259,13 +264,15 @@
 #owner_artist .artist_info h2 span {
 	font-weight: 500;
 }
-#owner_artist .artist_info p.artist_iden {
+#owner_artist .artist_info > div.text_overflow_ddd {
 	padding-bottom: 10px;
 	padding-top: 5px;
 	border-bottom: 1px dotted #e0e0e0;
-	line-height: 20px;
 	height: 20px;
 	overflow: hidden;
+}
+#owner_artist .artist_info p.artist_iden {
+	line-height: 20px;
 }
 #owner_artist .artist_info .artist_deed {
 	margin-top: 10px;
@@ -278,12 +285,14 @@
 	font-weight: 700;
 	margin-left: -8px;
 }
-#owner_artist .artist_info .artist_deed p {
-	line-height: 25px;
+#owner_artist .artist_info .artist_deed div.text_overflow_ddd {
 	height: 75px;
 	width: 550px;
 	overflow: hidden;
 	float: left;
+}
+#owner_artist .artist_info .artist_deed p {
+	line-height: 25px;
 }
 /* owner artist end */
 

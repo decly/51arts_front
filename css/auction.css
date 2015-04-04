@@ -96,6 +96,11 @@
 	border: 1px solid #c2c2c2;
 	border-top: none;
 }
+.auction_unit_list h4 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
 .auction_unit_list p {
 	border-top: 1px dotted #c2c2c2;
 	line-height: 20px;

@@ -30,6 +30,7 @@
 	border-collapse: separate;
 	border-spacing: 25px 10px;
 	margin-left: -25px;
+	margin-top: 15px;
 }
 #salerank table .salerank_item td,
 #salerank table .salerank_item td img {
@@ -52,6 +53,13 @@
 #salerank table .salerank_name,
 #salerank table .salerank_name span {
 	text-align: center;
+	line-height: 16px;
 	color: #6F6F6F;
+}
+#salerank table .salerank_name td span {
+	height: 16px;
+	width: 180px;
+	overflow: hidden;
+	display: block;
 }
 /* salerank end */

@@ -106,7 +106,7 @@
 #artorg_list {
 	margin-top: 30px;
 }
-#artorg_list div {
+#artorg_list a > div {
 	width: 465px;
 }
 #artorg_list div img {
@@ -122,14 +122,21 @@
 #artorg_list h4 {
 	font-size: 15px;
 	margin: 20px 20px 0 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
-#artorg_list p {
-	color: #8d8d8d;
+#artorg_list div.text_overflow_ddd {
 	margin: 10px 20px;
 	padding-top: 10px;
-	line-height: 20px;
 	height: 60px;
 	border-top: 1px dotted #e0e0e0;
+}
+#artorg_list p {
+	color: #8d8d8d;	
+	line-height: 20px;
+
+	
 	text-align: justify;
 	text-justify: inter-ideograph;
 }
@@ -165,20 +172,23 @@
 	width: 196px;
 	height: 184px;
 }
-#art_collector_list li div {
+#art_collector_list li > div {
 	width: 176px;
 	padding: 10px;
 }
-#art_collector_list li div h4 {
+#art_collector_list li > div h4 {
 	margin: 10px auto;
 	color: #000;
 	font-weight: 900;
 }
-#art_collector_list li div p {
-	line-height: 20px;
+#art_collector_list li > div div.text_overflow_ddd {
 	height: 100px;
 	overflow: hidden;
 	margin-bottom: 10px;
+}
+#art_collector_list li > div p {
+	line-height: 20px;
+	
 	text-align: justify;
 	text-justify: inter-ideograph;
 }

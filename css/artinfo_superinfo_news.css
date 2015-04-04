@@ -310,19 +310,24 @@
 	height: 72px;
 	width: 125px;
 }
-#hot_info_list li div {
+#hot_info_list li > div {
 	position: absolute;
 	top: 0px;
 	left: 135px;
 }
-#hot_info_list li div p {
+#hot_info_list li > div div.text_overflow_ddd {
 	overflow: hidden;
-	margin-top: 15px;
-	line-height: 20px;
-	height: 40px;
+	margin-top: 10px;
+	height: 50px;
+	
+}
+#hot_info_list li > div p {
+	
+	line-height: 25px;
+	
 	color: #000;
 }
-#hot_info_list li div p:hover {
+#hot_info_list li > div p:hover {
 	color: #DC5154;
 }
 /* hot info end*/
