@@ -60,10 +60,10 @@
 	overflow: hidden;
 }
 #auction_soon .auction_unit_title {
-	background: url("img/lv2_auction_auctionsoon_title.jpg") no-repeat left bottom;
+	background: url("img/lv2_auction_auctiontobe_title.jpg") no-repeat left bottom;
 }
 #auction_before .auction_unit_title {
-	background: url("img/lv2_auction_auctionafter_title.jpg") no-repeat left bottom;
+	background: url("img/lv2_auction_auctionbefore_title.jpg") no-repeat left bottom;
 }
 .auction_unit_title {
 	height: 30px;
