@@ -1,8 +1,16 @@
 /* logo_custom bg start */
 
-#logo_custom {
+#logo_custom.superinfo_logo {
 	width: 100px;
 	background: url("img/lv3_artinfo_superinfo_logo.jpg") no-repeat left bottom;
+}
+#logo_custom.arteye_logo {
+	width: 100px;
+	background: url("img/lv3_artinfo_arteye_logo.jpg") no-repeat left bottom;
+}
+#logo_custom.artdecode_logo {
+	width: 100px;
+	background: url("img/lv3_artinfo_artdecode_logo.jpg") no-repeat left bottom;
 }
 /* logo_custom bg end */
 /* banner start */
@@ -52,31 +60,43 @@
 }
 /* super info start */
 
-#super_info_title {
+#artinfo_elem_title.superinfo_title {
 	height: 30px;
 	width: 125px;
 	margin-bottom: 30px;
 	background: url("img/lv2_artinfo_superinfo_title.png") no-repeat left bottom;
 }
-#super_info_list li {
+#artinfo_elem_title.arteye_title {
+	height: 32px;
+	width: 91px;
+	margin-bottom: 30px;
+	background: url("img/lv2_artinfo_arteye_title.png") no-repeat left bottom;
+}
+#artinfo_elem_title.artdecode_title {
+	height: 30px;
+	width: 123px;
+	margin-bottom: 30px;
+	background: url("img/lv2_artinfo_artdecode_title.png") no-repeat left bottom;
+}
+#artinfo_elem_list li {
 	position: relative;
 }
-#super_info_list li img {
+#artinfo_elem_list li img {
 	width: 148px;
 	height: 118px;
 }
-#super_info_list li > div {
+#artinfo_elem_list li > div {
 	position: absolute;
 	left: 148px;
 	top: 5px;
 	height: 96px;
 	padding: 0 20px 20px 20px;
 }
-#super_info_list li a h3:hover,
-#super_info_list li a span:hover {
+#artinfo_elem_list li a h3:hover,
+#artinfo_elem_list li a span:hover {
 	color: #DC5154;
 }
-#super_info_list li > div h3 {
+#artinfo_elem_list li > div h3 {
 	font-size: 16px;
 	margin-top: 10px;
 	margin-bottom: 5px;
@@ -86,36 +106,36 @@
 	white-space: nowrap;
 	overflow: hidden;
 }
-#super_info_list li > div div.text_overflow_ddd {
+#artinfo_elem_list li > div div.text_overflow_ddd {
 	overflow: hidden;
 	height: 40px;
 	margin-bottom: 10px;
 }
-#super_info_list li > div p {
+#artinfo_elem_list li > div p {
 	line-height: 20px;
 	color: #6f6f6f;
 }
-#super_info_list .info_time {
+#artinfo_elem_list .info_time {
 	float: left;
 }
-#super_info_list .info_comment {
+#artinfo_elem_list .info_comment {
 	float: right;
 }
-#super_info_list .comment_praise {
+#artinfo_elem_list .comment_praise {
 	width: 14px;
 	height: 14px;
 	padding-left: 18px;
 	background: url("img/lv3_artinfo_superinfo_praise.jpg") no-repeat left;
 }
-#super_info_list .info_time span,
-#super_info_list .info_comment span,
-#super_info_list .comment_praise span {
+#artinfo_elem_list .info_time span,
+#artinfo_elem_list .info_comment span,
+#artinfo_elem_list .comment_praise span {
 	font-size: 12px;
 }
-#super_info_list .info_sepa {
+#artinfo_elem_list .info_sepa {
 	margin: 0 5px;
 }
-#super_info_list div.dotted_line {
+#artinfo_elem_list div.dotted_line {
 	margin: 20px auto;
 }
 #page_ctl {
