@@ -1,8 +1,16 @@
 /* logo_custom bg start */
 
-#logo_custom {
+#logo_custom.artists_logo {
 	width: 74px;
-	background: url("img/lv3_artcircle_artists.jpg") no-repeat left bottom;
+	background: url("img/lv3_artcircle_artists_logo.jpg") no-repeat left bottom;
+}
+#logo_custom.artorgs_logo {
+	width: 74px;
+	background: url("img/lv3_artcircle_artorgs_logo.jpg") no-repeat left bottom;
+}
+#logo_custom.artcollectors_logo {
+	width: 74px;
+	background: url("img/lv3_artcircle_artcollectors_logo.jpg") no-repeat left bottom;
 }
 /* logo_custom bg end */
 /* banner begin */
@@ -52,23 +60,23 @@
 /* banner end */
 /* artists classify start */
 
-#artists_classify > ul {
+#artcircle_elem_classify > ul {
 	border-top: 1px solid #e9e9e9;
 }
-#artists_classify > ul > li ul li {
+#artcircle_elem_classify > ul > li ul li {
 	float: left;
 	color: #666666;
 }
-#artists_classify > ul > li ul a li:hover {
+#artcircle_elem_classify > ul > li ul a li:hover {
 	color: #DC5154;
 }
-#artists_classify > ul > li {
+#artcircle_elem_classify > ul > li {
 	clear: both;
 	border-bottom: 1px solid #e9e9e9;
 	height: 60px;
 	line-height: 60px;
 }
-#artists_classify .classify_title {
+#artcircle_elem_classify .classify_title {
 	width: 70px;
 	text-align: center;
 	text-align: justify;
@@ -76,30 +84,30 @@
 	color: #a0a0a0;
 	letter-spacing: 2px;
 }
-#artists_classify span.nbsp_font {
+#artcircle_elem_classify span.nbsp_font {
 	font-family: 'Times New Roman';
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-	#artists_classify span.nbsp_font {
+	#artcircle_elem_classify span.nbsp_font {
 		letter-spacing: 1px;
 	}
 }
-#artists_classify > ul > li > ul > li {
+#artcircle_elem_classify > ul > li > ul > li {
 	margin: 0 12px;
 }
-#artists_classify .letter_classify a li {
+#artcircle_elem_classify .letter_classify a li {
 	margin: 0 7px;
 }
 /* artists classify end */
 /* artists sort start */
 
-#artartists_wrap {
+#artcircle_elem_wrap {
 	margin-top: 65px;
 }
-#artists_sort {
+#artcircle_elem_sort {
 	margin-top: 20px;
 }
-#artists_sort a {
+#artcircle_elem_sort a {
 	border: 1px solid #e9e9e9;
 	padding: 0 5px;
 	height: 24px;
@@ -107,7 +115,7 @@
 	display: block;
 	float: left;
 }
-#artists_sort a:hover {
+#artcircle_elem_sort a:hover {
 	color: #DC5154;
 }
 #sort_left {
@@ -134,29 +142,29 @@
 /* artists sort end */
 /* artists list start */
 
-#artists_list {
+#artcircle_elem_list {
 	margin-top: 40px;
 }
-#artists_list table {
+#artcircle_elem_list table {
 	border-collapse: separate;
 	border-spacing: 16px;
 	margin-left: -16px;
 }
-#artists_list table td {
+#artcircle_elem_list table td {
 	width: 220px;
 	height: 278px;
 	padding: 8px;
 	border: 1px solid #e9e9e9;
 	cursor: pointer;
 }
-#artists_list table td:hover {
+#artcircle_elem_list table td:hover {
 	background: #e9e9e9;
 }
-#artists_list table td img {
+#artcircle_elem_list table td img {
 	width: 220px;
 	height: 220px;
 }
-#artists_list table td h4 {
+#artcircle_elem_list table td h4 {
 	text-align: center;
 	line-height: 54px;
 	font-weight: 500;
