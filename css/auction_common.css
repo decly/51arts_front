@@ -96,7 +96,7 @@
 	width: 514px;
 	height: 184px;
 	padding: 45px 20px;
-	border: 1px solid #c2c2c2;
+	border: 1px solid #e0e0e0;
 	border-left: none;
 	overflow: hidden;
 }
@@ -106,12 +106,13 @@
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
+#auction_list .auction_text div.dotted_line2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 #auction_list .auction_text p {
-	height: 40px;
-	line-height: 40px;
-	border-top: 1px dotted #e0e0e0;
-	border-bottom: 1px dotted #e0e0e0;
-	margin: 15px 0;
+	height: 25px;
+	line-height: 25px;
 	position: relative;
 }
 #auction_list .auction_text p span {
@@ -127,6 +128,7 @@
 	width: 107px;
 	height: 107px;
 	margin-right: 28px;
+	margin-top: 10px;
 }
 #auction_list .auction_text ul li.last_img {
 	margin-right: 0;

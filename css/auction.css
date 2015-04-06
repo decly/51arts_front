@@ -33,7 +33,7 @@
 	width: 199px;
 	height: 174px;
 	padding: 50px 40px;
-	border: 1px solid #c2c2c2;
+	border: 1px solid #e0e0e0;
 	border-left: none;
 	overflow: hidden;
 }
@@ -44,12 +44,14 @@
 	line-height: 25px;
 	overflow: hidden;
 }
+#auction_today_text div.dotted_line2 {
+	margin: 15px auto;
+}
 #auction_today_text .auction_count {
 	width: 199px;
-	border-top: 1px dotted #c2c2c2;
-	border-bottom: 1px dotted #c2c2c2;
-	line-height: 50px;
-	margin: 15px 0;
+	line-height: 20px;
+	
+	
 }
 /* auction today end */
 /* auction_soon & auction_before start */
@@ -90,23 +92,27 @@
 	height: 200px;
 	float: left;
 }
-.auction_unit_list ul div {
+.auction_unit_list ul li >div {
 	clear: both;
 	padding: 10px 20px;
-	border: 1px solid #c2c2c2;
+	border: 1px solid #e0e0e0;
 	border-top: none;
 }
 .auction_unit_list h4 {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+	padding-top: 10px;
+}
+.auction_unit_list div.dotted_line2 {
+	margin: 10px 0;
 }
 .auction_unit_list p {
-	border-top: 1px dotted #c2c2c2;
+	/*border-top: 1px dotted #e0e0e0;*/
 	line-height: 20px;
 	height: 20px;
-	padding-top: 10px;
-	margin-top: 10px;
+	/*padding-top: 10px;*/
+	/*margin-top: 10px;*/
 	overflow: hidden;
 }
 /* auction_soon & auction_before end */
