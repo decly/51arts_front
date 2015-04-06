@@ -248,8 +248,8 @@
 #classitem table td p span.item_name {
 	display: inline;
 	line-height: 20px;
-	text-align: bottom;
 	border-bottom: 1px solid #b1ada9;
+	padding-bottom: 3px;
 }
 #classitem table td p span.item_price {
 	line-height: 20px;
