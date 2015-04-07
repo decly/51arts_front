@@ -1,16 +1,16 @@
 /* logo_custom bg start */
 
-#logo_custom.artists_logo {
-	width: 74px;
-	background: url("img/lv3_artcircle_artists_logo.jpg") no-repeat left bottom;
+#logo_custom.logo_artists {
+	width: 52px;
+	background: url("img/logo_artcircle_artists.jpg") no-repeat left bottom;
 }
-#logo_custom.artorgs_logo {
-	width: 74px;
-	background: url("img/lv3_artcircle_artorgs_logo.jpg") no-repeat left bottom;
+#logo_custom.logo_artorgs {
+	width: 69px;
+	background: url("img/logo_artcircle_artorgs.jpg") no-repeat left bottom;
 }
-#logo_custom.artcollectors_logo {
-	width: 74px;
-	background: url("img/lv3_artcircle_artcollectors_logo.jpg") no-repeat left bottom;
+#logo_custom.logo_artcollectors {
+	width: 85px;
+	background: url("img/logo_artcircle_artcollectors.jpg") no-repeat left bottom;
 }
 /* logo_custom bg end */
 /* banner begin */

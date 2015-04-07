@@ -1,3 +1,10 @@
+/* logo_custom bg start */
+
+#logo_custom {
+	width: 96px;
+	background: url("img/logo_index.jpg") no-repeat left bottom;
+}
+/* logo_custom bg end */
 /* artist signed start */
 
 #artist_signed {

@@ -1,3 +1,10 @@
+/* logo_custom bg start */
+
+#logo_custom {
+	width: 69px;
+	background: url("img/logo_artrepos.jpg") no-repeat left bottom;
+}
+/* logo_custom bg end */
 /* banner begin */
 
 #banner {
