@@ -1,8 +1,8 @@
 /* logo_custom bg start */
 
 #logo_custom {
-	width: 100px;
-	background: url("img/lv3_artinfo_superinfo_logo.jpg") no-repeat left bottom;
+	width: 69px;
+	background: url("img/logo_artinfo_superinfo.jpg") no-repeat left bottom;
 }
 /* logo_custom bg end */
 
@@ -233,7 +233,6 @@
 }
 #comment_area_list li .cmt_usertext {
 	width: 600px;
-	
 	overflow: hidden;
 }
 #comment_area_list .cmt_usertext a {
@@ -299,7 +298,6 @@
 	margin: 0 auto;
 }
 #hot_info_list div.dotted_line {
-	
 	margin: 18px auto;
 }
 #hot_info_list li {
@@ -319,12 +317,9 @@
 	overflow: hidden;
 	margin-top: 10px;
 	height: 50px;
-	
 }
 #hot_info_list li > div p {
-	
 	line-height: 25px;
-	
 	color: #000;
 }
 #hot_info_list li > div p:hover {
