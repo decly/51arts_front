@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>多元主义-注册</title>
+		<meta name="keywords" content="多元主义;当代多元文化艺术；文创艺术品" />
+		<meta name="description" content="本来没有艺术......" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/register.css" />
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/common_function.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/register.js"></script>
+
+	</head>
+
+	<body>
+		<div id="wrap">
+
+			<div id="header" class="fitwidth">
+				<a href="#">
+					<div id="logo"></div>
+				</a>
+			</div>
+
+			<div id="content_wrap" class="fitwidth">
+				<div id="register_wrap">
+					<ul id="register_items">
+						<li><span class="ness">*</span>用户名</li>
+						<li><span class="ness">*</span>密码</li>
+						<li><span class="ness">*</span>确认密码</li>
+						<li><span>*</span>Email</li>
+						<li><span>*</span>手机</li>
+						<li><span>*</span>短信验证码</li>
+						<li><span class="ness">*</span>验证码</li>
+					</ul>
+					<ul id="register_content">
+						<form>
+							<li>
+								<input type="text" id="username" />
+							</li>
+							<li>
+								<input type="text" id="password" />
+							</li>
+							<li>
+								<input type="text" id="password2" />
+							</li>
+							<li>
+								<input type="text" id="email" />
+							</li>
+							<li>
+								<input type="text" id="phonenum" />
+							</li>
+							<li>
+								<input type="text" />
+							</li>
+							<li class="vrfcode">
+								<input type="text" />
+								<img src="img/register_vrfcode.jpg" alt="验证码">
+							</li>
+							<li>
+								<input id="reg_btn" type="submit" value="注册" />
+							</li>
+						</form>
+					</ul>
+					<ul id="register_prom">
+						<li class="username_prom">
+							<span class="prompt">请输入您的昵称！</span>
+							<span class="prompt_dy">用户名至少6个字符，最多18个字符</span>
+						</li>
+						<li class="password_prom">
+							<span class="prompt">请输入密码！</span>
+							<span class="prompt_dy">密码至少6个字符，最多18个字符</span>
+						</li>
+						<li class="password2_prom">
+							<span class="prompt">请确认密码！</span>
+							<span class="prompt_dy">请确认您的密码！</span>
+						</li>
+						<li class="email_prom">
+							<span class="prompt">请输入您的邮箱！</span>
+							<span class="prompt_dy">请输入您的邮箱！</span>
+						</li>
+						<li class="phonenum_prom">
+							<span class="prompt">请输入您的手机号码！</span>
+							<span class="prompt_dy">请输入您的手机号码！</span>
+						</li>
+						<li>
+							<input id="get_phonecode" type="button" value="获取手机验证码" />
+						</li>
+						<li>
+							<a href="#">看不清？换一张</a>
+						</li>
+					</ul>
+				</div>
+				<div id="login_wrap">
+					<a href="#">我已有帐号，我要登陆</a>
+					<a href="#">您忘记密码了吗？</a>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
