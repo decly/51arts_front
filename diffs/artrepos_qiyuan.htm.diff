@@ -1,0 +1,132 @@
+--- artrepos_qiyuan_old/artrepos_qiyuan.htm	2015-04-10 02:50:58.384582400 +0800
++++ artrepos_qiyuan/artrepos_qiyuan.htm	2015-04-10 03:08:46.155655400 +0800
+@@ -328,16 +328,14 @@
+ 
+ 				<form name="selectPageForm" action="/category.php" method="get">
+ 					<div id="pager" class="pagebar">
+-						<span class="f_l f6" style="margin-right:10px;">总计 <b>15</b>  个记录</span>
++						
+ 						<ul>
+-							<li><a class="prev" href="http://120.26.36.118/category.php?id=1&amp;price_min=0&amp;price_max=0&amp;page=1&amp;sort=goods_id&amp;order=DESC">上一页</a>
+-							</li> <a href="http://120.26.36.118/category.php?id=1&amp;price_min=0&amp;price_max=0&amp;page=1&amp;sort=goods_id&amp;order=DESC">[1]</a>
++							<li><a class="prev" href="http://120.26.36.118/category.php?id=1&amp;price_min=0&amp;price_max=0&amp;page=1&amp;sort=goods_id&amp;order=DESC">上一页</a></li>
++							<li><a href="http://120.26.36.118/category.php?id=1&amp;price_min=0&amp;price_max=0&amp;page=1&amp;sort=goods_id&amp;order=DESC">1</a></li>
+ 							<li class="page_now">2</li>
+-							<a href="http://120.26.36.118/category.php?id=1&amp;price_min=0&amp;price_max=0&amp;page=3&amp;sort=goods_id&amp;order=DESC">[3]</a>
+-							<a href="http://120.26.36.118/category.php?id=1&amp;price_min=0&amp;price_max=0&amp;page=4&amp;sort=goods_id&amp;order=DESC">[4]</a>
+-
+-							<li><a class="next" href="http://120.26.36.118/category.php?id=1&amp;price_min=0&amp;price_max=0&amp;page=3&amp;sort=goods_id&amp;order=DESC">下一页</a>
+-							</li>
++							<li><a href="http://120.26.36.118/category.php?id=1&amp;price_min=0&amp;price_max=0&amp;page=3&amp;sort=goods_id&amp;order=DESC">3</a></li>
++							<li><a href="http://120.26.36.118/category.php?id=1&amp;price_min=0&amp;price_max=0&amp;page=4&amp;sort=goods_id&amp;order=DESC">4</a></li>
++							<li><a class="next" href="http://120.26.36.118/category.php?id=1&amp;price_min=0&amp;price_max=0&amp;page=3&amp;sort=goods_id&amp;order=DESC">下一页</a></li>
+ 						</ul>
+ 					</div>
+ 				</form>
+@@ -358,76 +356,59 @@
+ 							<ul>
+ 								<li>
+ 									<ul class="ft_sec_nav">
+-										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=5">新手上路 </a>
++										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=5">购买艺术 </a>
+ 										</li>
+ 										<li><a href="#">购买流程</a>
+ 										</li>
+-										<li><a href="#">购买流程</a>
+-										</li>
+-										<li><a href="#">购买流程</a>
+-										</li>
+-									</ul>
+-								</li>
+-								<li>
+-									<ul class="ft_sec_nav">
+-										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=6">手机常识 </a>
+-										</li>
+-										<li><a href="#">购买流程</a>
++										<li><a href="#">支付方式</a>
+ 										</li>
+-										<li><a href="#">购买流程</a>
++										<li><a href="#">提货方式</a>
+ 										</li>
+-										<li><a href="#">购买流程</a>
++										<li><a href="#">竞拍保证</a>
+ 										</li>
+ 									</ul>
+ 								</li>
+ 								<li>
+ 									<ul class="ft_sec_nav">
+-										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=7">配送与支付 </a>
++										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=6">合作艺术 </a>
+ 										</li>
+-										<li><a href="#">购买流程</a>
++										<li><a href="#">艺术家签约</a>
+ 										</li>
+-										<li><a href="#">购买流程</a>
++										<li><a href="#">在线签约</a>
+ 										</li>
+-										<li><a href="#">购买流程</a>
++										<li><a href="#">包装推广</a>
+ 										</li>
+ 									</ul>
+ 								</li>
+ 								<li>
+ 									<ul class="ft_sec_nav">
+-										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=10">会员中心</a>
+-										</li>
+-										<li><a href="#">购买流程</a>
+-										</li>
+-										<li><a href="#">购买流程</a>
+-										</li>
+-										<li><a href="#">购买流程</a>
++										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=7">专业服务 </a>
+ 										</li>
+-									</ul>
+-								</li>
+-								<li>
+-									<ul class="ft_sec_nav">
+-										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=8">服务保证 </a>
++										<li><a href="#">VIP/SVIP</a>
+ 										</li>
+-										<li><a href="#">购买流程</a>
++										<li><a href="#">联动合作</a>
+ 										</li>
+-										<li><a href="#">购买流程</a>
++										<li><a href="#">常见问题</a>
+ 										</li>
+-										<li><a href="#">购买流程</a>
++										<li><a href="#">法律政策</a>
+ 										</li>
+ 									</ul>
+ 								</li>
+ 								<li>
+ 									<ul class="ft_sec_nav">
+-										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=9">联系我们 </a>
++										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=10">关<span class="nbsp_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>于</a>
+ 										</li>
+-										<li><a href="#">购买流程</a>
++										<li><a href="#">网站地图</a>
+ 										</li>
+-										<li><a href="#">购买流程</a>
++										<li><a href="#">品牌介绍</a>
+ 										</li>
+-										<li><a href="#">购买流程</a>
++										<li><a href="#">联系我们</a>
++										</li>
++										<li><a href="#">友情链接</a>
+ 										</li>
+ 									</ul>
+ 								</li>
++								
+ 							</ul>
+ 						</div>
+ 						<img src="artrepos_qiyuan_files/ft_phone_code.jpg" alt="二维码">
+@@ -438,6 +419,9 @@
+ 							<li><a href="#">回到首页</a>
+ 							</li>
+ 							<li class="ft_shot_sepa">/</li>
++							<li class="ft_shot_2"><a>收藏多元主义</a>
++							</li>
++							<li class="ft_shot_sepa">/</li>
+ 							<li><a>服务热线：400-100-8759</a>
+ 							</li>
+ 						</ul>

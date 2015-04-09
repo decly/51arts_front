@@ -1,0 +1,41 @@
+--- artrepos_qiyuan_old/artrepos_qiyuan_files/artrepos_common.css	2015-04-10 02:50:05.807575100 +0800
++++ artrepos_qiyuan/artrepos_qiyuan_files/artrepos_common.css	2015-04-10 03:00:03.735774700 +0800
+@@ -135,17 +135,17 @@
+ /* repos list end */
+ /* page control start */
+ 
+-#page_ctl {
++#pager {
+ 	overflow: hidden;
+ 	margin-top: 50px;
+ 	margin-bottom: 60px;
+ }
+-#page_ctl ul {
++#pager ul {
+ 	margin: 0 auto;
+ 	overflow: hidden;
+ 	width: 340px;
+ }
+-#page_ctl ul li {
++#pager ul li {
+ 	float: left;
+ 	border: 1px solid #e9e9e9;
+ 	margin: 0 5px;
+@@ -153,14 +153,14 @@
+ 	line-height: 20px;
+ 	text-align: center;
+ }
+-#page_ctl ul li.current {
++#pager ul li.page_now {
+ 	background: #e9e9e9;
+ }
+-#page_ctl ul li.ellipsis {
++#pager ul li.ellipsis {
+ 	border: none;
+ 	line-height: 15px;
+ }
+-#page_ctl ul li.ellipsis:hover {
++#pager ul li.ellipsis:hover {
+ 	background: #fff;
+ }
+ /* page control end */
