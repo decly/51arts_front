@@ -1,7 +1,7 @@
 var timer = null;
 var offset = 5000;
 var index = -1;
-
+var target = ["pic-01", "pic-02", "pic-03", "pic-04", "pic-05", "pic-06", "pic-07"];
 //大图交替轮换
 function slideImage(i) {
 		var id = 'image_' + target[i];
@@ -82,12 +82,30 @@ function auto() {
 	timer = window.setTimeout(auto, offset);
 }
 $(function() {
-	//change opacity
-//	$('div.word').css({
-//		opacity: 0.85
-//	});
 	auto();
 	hookThumb();
 	hookBtn();
 
+});
+
+
+
+// for content table
+
+$(document).ready(function() {
+	var _navs = $('#content_right_bottom div.content_tbl_btn');
+	var _plates = $('#content > div.content_plate');
+
+	_navs.click(function() {
+		var i = $.inArray(this, _navs);
+		_navs.removeClass('current').eq(i).addClass('current');
+		_plates.removeClass('current').eq(i).addClass('current');
+	});
+
+	_navs.eq(0).click();
+});
+
+//  for page ctl
+$(document).ready(function() {
+	$.divselect("#pagectl_divselect", "#pagectl_inputselect");
 });

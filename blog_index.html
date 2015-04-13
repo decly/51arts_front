@@ -9,14 +9,14 @@
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
 		<link rel="stylesheet" type="text/css" href="css/blog_common.css" />
+		<link rel="stylesheet" type="text/css" href="css/blog_index.css" />
 		<link rel="stylesheet" type="text/css" href="css/common_rmenu.css" />
-
 		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 		<script type="text/javascript" src="js/common_function.js"></script>
 		<script type="text/javascript" src="js/common.js"></script>
 		<script type="text/javascript" src="js/common_rmenu.js"></script>
-		<script type="text/javascript" src="js/blog_DD_roundies.min.js"></script>
-		<script type="text/javascript" src="js/blog_slide.js"></script>
+		<!--<script type="text/javascript" src="js/blog_common_roundies.min.js"></script>-->
+		<script type="text/javascript" src="js/blog_index.js"></script>
 	</head>
 
 	<body>
@@ -33,6 +33,7 @@
 						<span>/</span>
 						<a href="#">注册</a>
 					</div>
+
 					<div id="search">
 
 						<form action="" method="post" name="search" id="top_form">
@@ -42,17 +43,13 @@
 										<div id="divselect">
 											<cite>筛选</cite>
 											<ul>
-												<li><a href="javascript:;" selectid="1">木元</a>
+												<li><a href="javascript:;" selectid="1" class="short_text">所有</a>
 												</li>
-												<li><a href="javascript:;" selectid="2">陶元</a>
+												<li><a href="javascript:;" selectid="2">艺术品</a>
 												</li>
-												<li><a href="javascript:;" selectid="3">漆元</a>
+												<li><a href="javascript:;" selectid="3">艺术家</a>
 												</li>
-												<li><a href="javascript:;" selectid="4">石元</a>
-												</li>
-												<li><a href="javascript:;" selectid="5">艺元</a>
-												</li>
-												<li><a href="javascript:;" selectid="6">银元</a>
+												<li><a href="javascript:;" selectid="4" class="short_text">资讯</a>
 												</li>
 											</ul>
 										</div>
@@ -77,652 +74,721 @@
 			</div>
 			<div id="rmenu"></div>
 
-			<div id="banner" class="fullwidth" style="background-image: url(css/img/blog_banner.jpg);;">
+			<div id="banner" class="fullwidth" style="background-image: url(img/blog_banner.jpg);;">
 
 				<div id="pic_wrap">
-					<div id="picround" />
-					<img alt="" class="iepicround" width="100px" height="100px" src="img/blog_artist_icon.jpg" />
-				</div>
-				<script type="text/javascript">
-					DD_roundies.addRule('.iepicround', '50px', true);
-				</script>
-				<span id="artist_name">陈光艺</span>
-				<span id="artist_msg">工艺美术师、福建美术协会成员</span>
-			</div>
-
-			<a id="bgedit" href="#"></a>
-
-		</div>
-
-		<div id="content_wrap">
-			<div id="content_left">
-				<div id="code">
-					<div id="codeword"></div>
-					<img id="codepic" src="img/blog_codepic.jpg">
-				</div>
-
-				<div id="artist">
-					<div id="artistbg"></div>
-					<div id="describe">工艺美术师/福建美术协会成员</div>
-					<div class="dotted_line"></div>
-					<div id="area">
-						<div class="artists_pre">地<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>区</div>
-						<div id="place" class="artist_detail">福建</div>
+					<div id="picround">
+						<img alt="" class="iepicround" width="100px" height="100px" src="img/blog_artist_icon.jpg" />
 					</div>
-
-					<div class="clear_float"></div>
-					<div class="dotted_line"></div>
-
-					<div id="awars">
-						<div class="artists_pre">获奖记录</div>
-						<ul class="artist_detail">
-							<li>第九届中国工艺美术展金奖</li>
-							<li>第九届中国工艺美术展金奖</li>
-							<li>第九届中国工艺美术展金奖</li>
-						</ul>
-					</div>
-					<div class="clear_float"></div>
-					<div class="dotted_line"></div>
-
-					<div id="introduce">
-						<div class="artists_pre">个人简介</div>
-						<p class="artist_detail">关于我的事关于我的事关于我的事关于我的事</p>
-					</div>
-
-				</div>
-
-				<div id="article">
-					<div id="hotarticle"></div>
-					<ul id="super_article_list">
-						<li>
-							<img alt="super article info" src="img/blog_article_01.jpg">
-							<div>
-								<a href="#">法国枫丹白露宫中国馆被盗文物不止15件</a>
-							</div>
-						</li>
-						<div class="dotted_line"></div>
-						<li>
-							<img alt="super article info" src="img/blog_article_02.jpg">
-							<div>
-								<a href="#">法国枫丹白露宫中国馆被盗文物不止15件</a>
-							</div>
-						</li>
-						<div class="dotted_line"></div>
-						<li>
-							<img alt="super article info" src="img/blog_article_03.jpg">
-							<div>
-								<a href="#">法国枫丹白露宫中国馆被盗文物不止15件</a>
-							</div>
-						</li>
-					</ul>
-
-					<div class="more">
-						<a href="#">查看更多</a>
-					</div>
-
-				</div>
-
-				<div id="photo">
-					<h1 class="titlebg"></h1>
-
-					<table class="show_photo">
-						<tbody>
-							<tr>
-								<td>
-									<a href="#">
-										<img src="img/blog_photo_01.jpg" alt="" />
-									</a>
-								</td>
-								<td>
-									<a href="#">
-										<img src="img/blog_photo_02.jpg" alt="" />
-									</a>
-								</td>
-
-							</tr>
-							<tr>
-								<td>
-									<a href="#">
-										<img src="img/blog_photo_03.jpg" alt="" />
-									</a>
-								</td>
-								<td>
-									<a href="#">
-										<img src="img/blog_photo_04.jpg" alt="" />
-									</a>
-								</td>
-
-							</tr>
-							<tr>
-								<td>
-									<a href="#">
-										<img src="img/blog_photo_05.jpg" alt="" />
-									</a>
-								</td>
-								<td>
-									<a href="#">
-										<img src="img/blog_photo_06.jpg" alt="" />
-									</a>
-								</td>
-
-							</tr>
-						</tbody>
-					</table>
-					<div class="more">
-						<a href="#">查看更多</a>
-					</div>
-				</div>
-				<div id="artist_other">
-
-					<h1 class="titlebg"></h1>
-
-					<table class="show_photo">
-						<tbody>
-							<tr>
-								<td>
-									<a href="#">
-										<img src="img/blog_artistsother_01.jpg" alt="" />
-									</a>
-									<span class="artistname">陶清</span>
-								</td>
-								<td>
-									<a href="#">
-										<img src="img/blog_artistsother_02.jpg" alt="" />
-									</a>
-									<span class="artistname">陶清</span>
-								</td>
-
-							</tr>
-							<tr>
-								<td>
-									<a href="#">
-										<img src="img/blog_artistsother_03.jpg" alt="" />
-									</a>
-									<span class="artistname">陶清</span>
-								</td>
-								<td>
-									<a href="#">
-										<img src="img/blog_artistsother_04.jpg" alt="" />
-									</a>
-									<span class="artistname">陶清</span>
-								</td>
-
-							</tr>
-							<tr>
-								<td>
-									<a href="#">
-										<img src="img/blog_artistsother_05.jpg" alt="" />
-									</a>
-									<span class="artistname">陶清</span>
-								</td>
-								<td>
-									<a href="#">
-										<img src="img/blog_artistsother_06.jpg" alt="" />
-									</a>
-									<span class="artistname">陶清</span>
-								</td>
-
-							</tr>
-						</tbody>
-					</table>
-					<div class="more">
-						<a href="#">查看更多艺术家</a>
-					</div>
-
-				</div>
-			</div>
-			<div id="content_right">
-
-				<div class="picbox">
-					<h1 class="opus_titlebg"></h1>
-					<div id="featured">
-
-						<div class="image" id="image_pic-01">
-							<img src="img/blog_opus_01.jpg">
-							<div class="word">
-								<div></div>
-								<p>内容介绍1</p>
-							</div>
-						</div>
-						<div class="image" id="image_pic-02">
-							<img src="img/blog_opus_02.jpg">
-							<div class="word">
-								<div></div>
-								<p>内容介绍2</p>
-
-							</div>
-						</div>
-						<div class="image" id="image_pic-03">
-							<img src="img/blog_opus_03.jpg">
-							<div class="word">
-								<div></div>
-								<p>内容介绍3</p>
-							</div>
-						</div>
-						<div class="image" id="image_pic-04">
-							<img src="img/blog_opus_04.jpg">
-							<div class="word">
-								<div></div>
-								<p>内容介绍4</p>
-							</div>
-						</div>
-						<div class="image" id="image_pic-05">
-							<img src="img/blog_opus_05.jpg">
-							<div class="word">
-								<div></div>
-								<p>内容介绍5</p>
-							</div>
-						</div>
-						<div class="image" id="image_pic-06">
-							<img src="img/blog_opus_06.jpg">
-							<div class="word">
-								<div></div>
-								<p>内容介绍6</p>
-							</div>
-						</div>
-						<div class="image" id="image_pic-07">
-							<img src="img/blog_opus_07.jpg">
-							<div class="word">
-								<div></div>
-								<p>内容介绍7</p>
-							</div>
-						</div>
-
-					</div>
-
-					<div id="thumbs">
-						<ul>
-							<li class="first btnPrev">
-								<div id="play_prev"></div>
-
-							</li>
-							<li class="slideshowItem">
-								<a id="thumb_pic-01" href="javascript:" class="current">
-									<img src="img/blog_opus_01.jpg">
-								</a>
-							</li>
-							<li class="slideshowItem">
-								<a id="thumb_pic-02" href="javascript:">
-									<img src="img/blog_opus_02.jpg">
-								</a>
-							</li>
-							<li class="slideshowItem">
-								<a id="thumb_pic-03" href="javascript:">
-									<img src="img/blog_opus_03.jpg">
-								</a>
-							</li>
-							<li class="slideshowItem">
-								<a id="thumb_pic-04" href="javascript:">
-									<img src="img/blog_opus_04.jpg">
-								</a>
-							</li>
-							<li class="slideshowItem">
-								<a id="thumb_pic-05" href="javascript:">
-									<img src="img/blog_opus_05.jpg">
-								</a>
-							</li>
-							<li class="slideshowItem">
-								<a id="thumb_pic-06" href="javascript:">
-									<img src="img/blog_opus_06.jpg">
-								</a>
-							</li>
-							<li class="slideshowItem lastitem">
-								<a id="thumb_pic-07" href="javascript:">
-									<img src="img/blog_opus_07.jpg">
-								</a>
-							</li>
-							<li class="last btnNext">
-								<div id="play_next"></div>
-
-							</li>
-						</ul>
-					</div>
-
-				</div>
-
-				<div class="content_right_bottom">
-					<script>
-						function setTab(current) {
-							if (current == 1) {
-								document.getElementById("right_bottom_tab1").style.width = "335px";
-								document.getElementById("right_bottom_tab1").style.height = "68px";
-								document.getElementById("right_bottom_tab2").style.backgroundColor = "#f9f9f9";
-								document.getElementById("right_bottom_tab1").style.backgroundImage = "url(css/img/wenzhang_03.jpg)";
-								document.getElementById("right_bottom_tab2").style.backgroundImage = "url(css/img/xiangce_05.jpg)";
-								document.getElementById("right_bottom_tab1").style.backgroundColor = "#FFFFFF";
-								document.getElementById("right_bottom_tab2").style.width = "334";
-								document.getElementById("right_bottom_tab2").style.height = "67px";
-								document.getElementById("right_bottom_tab2").style.borderLeft = "1px solid #e0e0e0";
-								document.getElementById("right_bottom_tab2").style.borderBottom = "1px solid #e0e0e0";
-								document.getElementById("right_bottom_tab1").style.borderBottom = "0px";
-								document.getElementById("right_bottom_tab1").style.float = "left";
-								document.getElementById("right_bottom_tab2").style.float = "left";
-								document.getElementById("q1").style.display = "block";
-								document.getElementById("q2").style.display = "none";
-							};
-							if (current == 2) {
-								document.getElementById("right_bottom_tab1").style.width = "335px";
-								document.getElementById("right_bottom_tab1").style.height = "67px";
-								document.getElementById("right_bottom_tab1").style.backgroundColor = "#f9f9f9";
-								document.getElementById("right_bottom_tab1").style.backgroundImage = "url(css/img/wenzhang2_03.jpg)";
-								document.getElementById("right_bottom_tab2").style.backgroundImage = "url(css/img/xiangce2_05.jpg)";
-								document.getElementById("right_bottom_tab2").style.backgroundColor = "#FFFFFF";
-								document.getElementById("right_bottom_tab2").style.width = "334";
-								document.getElementById("right_bottom_tab2").style.height = "68px";
-								document.getElementById("right_bottom_tab2").style.borderLeft = "1px solid #e0e0e0";
-								document.getElementById("right_bottom_tab1").style.borderBottom = "1px solid #e0e0e0";
-								document.getElementById("right_bottom_tab2").style.borderBottom = "0px";
-								document.getElementById("right_bottom_tab1").style.float = "left";
-								document.getElementById("right_bottom_tab2").style.float = "left";
-								document.getElementById("q2").style.display = "block";
-								document.getElementById("q1").style.display = "none";
-							};
-						}
+					<script type="text/javascript">
+						DD_roundies.addRule('.iepicround', '50px', true);
 					</script>
-					<div>
-						<div id="right_bottom_tab1" onmousedown="setTab(1)">
+					<span id="artist_name">陈光艺</span>
+					<span id="artist_msg">工艺美术师、福建美术协会成员</span>
+				</div>
+
+				<a id="bgedit" href="#"></a>
+
+			</div>
+
+			<div id="content_wrap">
+				<div id="content_left">
+					<div id="code">
+						<div id="codeword"></div>
+						<img id="codepic" src="img/blog_codepic.jpg">
+					</div>
+
+					<div id="artist">
+						<div id="artistbg"></div>
+						<div id="describe">工艺美术师/福建美术协会成员</div>
+						<div class="dotted_line"></div>
+						<div id="area">
+							<div class="artists_pre">地<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>区</div>
+							<div id="place" class="artist_detail">福建</div>
 						</div>
-						<div id="right_bottom_tab2" onmousedown="setTab(2)"></div>
+
+						<div class="clear_float"></div>
+						<div class="dotted_line"></div>
+
+						<div id="awars">
+							<div class="artists_pre">获奖记录</div>
+							<ul class="artist_detail">
+								<li>第九届中国工艺美术展金奖</li>
+								<li>第九届中国工艺美术展金奖</li>
+								<li>第九届中国工艺美术展金奖</li>
+							</ul>
+						</div>
+						<div class="clear_float"></div>
+						<div class="dotted_line"></div>
+
+						<div id="introduce">
+							<div class="artists_pre">个人简介</div>
+							<p class="artist_detail">关于我的事关于我的事关于我的事关于我的事</p>
+						</div>
 
 					</div>
 
-					<div id="q1">
-						<ul id="super_info_list">
-							<a href="#">
-								<li>
-									<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
-									<div>
-										<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
-										<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
-										<span class="span_l">5月29日 19:00</span><span class="span_r">评论12|<img class="supportpic" src="css/support_13.jpg" />15</span>
-									</div>
-								</li>
-							</a>
-							<hr>
-							<a href="#">
-								<li>
-									<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
-									<div>
-										<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
-										<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
-										<span class="span_l">5月29日 19:00</span><span class="span_r">评论12|<img class="supportpic" src="css/support_13.jpg" />15</span>
-									</div>
-								</li>
-							</a>
-							<hr>
-							<a href="#">
-								<li>
-									<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
-									<div>
-										<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
-										<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
-										<span class="span_l">5月29日 19:00</span><span class="span_r">评论12|<img class="supportpic" src="css/support_13.jpg" />15</span>
-									</div>
-								</li>
-							</a>
-							<hr>
-							<a href="#">
-								<li>
-									<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
-									<div>
-										<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
-										<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
-										<span class="span_l">5月29日 19:00</span><span class="span_r">评论12|<img class="supportpic" src="css/support_13.jpg" />15</span>
-									</div>
-								</li>
-							</a>
-							<hr>
-							<a href="#">
-								<li>
-									<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
-									<div>
-										<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
-										<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
-										<span class="span_l">5月29日 19:00</span><span class="span_r">评论12|<img class="supportpic" src="css/support_13.jpg" />15</span>
-									</div>
-								</li>
-							</a>
-							<hr>
-							<a href="#">
-								<li>
-									<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
-									<div>
-										<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
-										<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
-										<span class="span_l">5月29日 19:00</span><span class="span_r">评论12|<img class="supportpic" src="css/support_13.jpg" />15</span>
-									</div>
-								</li>
-							</a>
-							<hr>
-							<a href="#">
-								<li>
-									<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
-									<div>
-										<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
-										<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
-										<span class="span_l">5月29日 19:00</span><span class="span_r">评论12|<img class="supportpic" src="css/support_13.jpg" />15</span>
-									</div>
-								</li>
-							</a>
-							<hr>
-							<a href="#">
-								<li>
-									<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
-									<div>
-										<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
-										<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
-										<span class="span_l">5月29日 19:00</span><span class="span_r">评论12|<img class="supportpic" src="css/support_13.jpg" />15</span>
-									</div>
-								</li>
-							</a>
-
+					<div id="article">
+						<div id="hotarticle"></div>
+						<ul id="super_article_list">
+							<li>
+								<img alt="super article info" src="img/blog_article_01.jpg">
+								<div>
+									<a href="#">法国枫丹白露宫中国馆被盗文物不止15件</a>
+								</div>
+							</li>
+							<div class="dotted_line"></div>
+							<li>
+								<img alt="super article info" src="img/blog_article_02.jpg">
+								<div>
+									<a href="#">法国枫丹白露宫中国馆被盗文物不止15件</a>
+								</div>
+							</li>
+							<div class="dotted_line"></div>
+							<li>
+								<img alt="super article info" src="img/blog_article_03.jpg">
+								<div>
+									<a href="#">法国枫丹白露宫中国馆被盗文物不止15件</a>
+								</div>
+							</li>
 						</ul>
 
-					</div>
-					<div id="q2" style="display: none;">
-						<div id="super_pic_list">
-							<table border="0px" cellspacing="25px" cellpadding="">
-								<tr>
-									<td>
-										<img src="img/xiangcepic1.jpg" />
-									</td>
-									<td>
-										<img src="img/xiangcepic2.jpg" />
-									</td>
-									<td>
-										<img src="img/xiangcepic3.jpg" />
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<img src="img/xiangcepic1.jpg" />
-									</td>
-									<td>
-										<img src="img/xiangcepic2.jpg" />
-									</td>
-									<td>
-										<img src="img/xiangcepic3.jpg" />
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<img src="img/xiangcepic2.jpg" />
-									</td>
-									<td>
-										<img src="img/xiangcepic1.jpg" />
-									</td>
-									<td>
-										<img src="img/xiangcepic3.jpg" />
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<img src="img/xiangcepic3.jpg" />
-									</td>
-									<td>
-										<img src="img/xiangcepic2.jpg" />
-									</td>
-									<td>
-										<img src="img/xiangcepic1.jpg" />
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<img src="img/xiangcepic1.jpg" />
-									</td>
-									<td>
-										<img src="img/xiangcepic3.jpg" />
-									</td>
-									<td>
-										<img src="img/xiangcepic2.jpg" />
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<img src="img/xiangcepic3.jpg" />
-									</td>
-									<td>
-										<img src="img/xiangcepic1.jpg" />
-									</td>
-									<td>
-										<img src="img/xiangcepic2.jpg" />
-									</td>
-								</tr>
-							</table>
-
-							<div style="clear: both;"></div>
+						<div class="more">
+							<a href="#">查看更多</a>
 						</div>
 
 					</div>
-					<div id="page_ctl">
-						<ul>
-							<li><a href="#">上一页</a>
-							</li>
-							<li id="page_select">
 
-								<div id="pagectl_divselect">
-									<cite>第1页</cite>
-									<ul>
-										<li><a selectid="1" href="javascript:;">第2页</a>
+					<div id="photo">
+						<h1 class="titlebg"></h1>
+
+						<table class="show_photo">
+							<tbody>
+								<tr>
+									<td>
+										<a href="#">
+											<img src="img/blog_photo_01.jpg" alt="" />
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/blog_photo_02.jpg" alt="" />
+										</a>
+									</td>
+
+								</tr>
+								<tr>
+									<td>
+										<a href="#">
+											<img src="img/blog_photo_03.jpg" alt="" />
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/blog_photo_04.jpg" alt="" />
+										</a>
+									</td>
+
+								</tr>
+								<tr>
+									<td>
+										<a href="#">
+											<img src="img/blog_photo_05.jpg" alt="" />
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/blog_photo_06.jpg" alt="" />
+										</a>
+									</td>
+
+								</tr>
+							</tbody>
+						</table>
+						<div class="more">
+							<a href="#">查看更多</a>
+						</div>
+					</div>
+					<div id="artist_other">
+
+						<h1 class="titlebg"></h1>
+
+						<table class="show_photo">
+							<tbody>
+								<tr>
+									<td>
+										<a href="#">
+											<img src="img/blog_artistsother_01.jpg" alt="" />
+											<span class="artistname">陶清</span>
+										</a>
+
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/blog_artistsother_02.jpg" alt="" />
+											<span class="artistname">陶清</span>
+										</a>
+
+									</td>
+
+								</tr>
+								<tr>
+									<td>
+										<a href="#">
+											<img src="img/blog_artistsother_03.jpg" alt="" />
+											<span class="artistname">陶清</span>
+										</a>
+
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/blog_artistsother_04.jpg" alt="" />
+											<span class="artistname">陶清</span>
+										</a>
+
+									</td>
+
+								</tr>
+								<tr>
+									<td>
+										<a href="#">
+											<img src="img/blog_artistsother_05.jpg" alt="" />
+											<span class="artistname">陶清</span>
+										</a>
+
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/blog_artistsother_06.jpg" alt="" />
+											<span class="artistname">陶清</span>
+										</a>
+
+									</td>
+
+								</tr>
+							</tbody>
+						</table>
+						<div class="more">
+							<a href="#">查看更多艺术家</a>
+						</div>
+
+					</div>
+				</div>
+				<div id="content_right">
+
+					<div class="picbox">
+						<h1 class="opus_titlebg"></h1>
+						<div id="featured">
+
+							<div class="image" id="image_pic-01">
+								<img src="img/blog_opus_01.jpg">
+								<div class="word">
+									<div></div>
+									<p>内容介绍1</p>
+								</div>
+							</div>
+							<div class="image" id="image_pic-02">
+								<img src="img/blog_opus_02.jpg">
+								<div class="word">
+									<div></div>
+									<p>内容介绍2</p>
+
+								</div>
+							</div>
+							<div class="image" id="image_pic-03">
+								<img src="img/blog_opus_03.jpg">
+								<div class="word">
+									<div></div>
+									<p>内容介绍3</p>
+								</div>
+							</div>
+							<div class="image" id="image_pic-04">
+								<img src="img/blog_opus_04.jpg">
+								<div class="word">
+									<div></div>
+									<p>内容介绍4</p>
+								</div>
+							</div>
+							<div class="image" id="image_pic-05">
+								<img src="img/blog_opus_05.jpg">
+								<div class="word">
+									<div></div>
+									<p>内容介绍5</p>
+								</div>
+							</div>
+							<div class="image" id="image_pic-06">
+								<img src="img/blog_opus_06.jpg">
+								<div class="word">
+									<div></div>
+									<p>内容介绍6</p>
+								</div>
+							</div>
+							<div class="image" id="image_pic-07">
+								<img src="img/blog_opus_07.jpg">
+								<div class="word">
+									<div></div>
+									<p>内容介绍7</p>
+								</div>
+							</div>
+
+						</div>
+
+						<div id="thumbs">
+							<ul>
+								<li class="first btnPrev">
+									<div id="play_prev"></div>
+
+								</li>
+								<li class="slideshowItem">
+									<a id="thumb_pic-01" href="javascript:" class="current">
+										<img src="img/blog_opus_01.jpg">
+									</a>
+								</li>
+								<li class="slideshowItem">
+									<a id="thumb_pic-02" href="javascript:">
+										<img src="img/blog_opus_02.jpg">
+									</a>
+								</li>
+								<li class="slideshowItem">
+									<a id="thumb_pic-03" href="javascript:">
+										<img src="img/blog_opus_03.jpg">
+									</a>
+								</li>
+								<li class="slideshowItem">
+									<a id="thumb_pic-04" href="javascript:">
+										<img src="img/blog_opus_04.jpg">
+									</a>
+								</li>
+								<li class="slideshowItem">
+									<a id="thumb_pic-05" href="javascript:">
+										<img src="img/blog_opus_05.jpg">
+									</a>
+								</li>
+								<li class="slideshowItem">
+									<a id="thumb_pic-06" href="javascript:">
+										<img src="img/blog_opus_06.jpg">
+									</a>
+								</li>
+								<li class="slideshowItem lastitem">
+									<a id="thumb_pic-07" href="javascript:">
+										<img src="img/blog_opus_07.jpg">
+									</a>
+								</li>
+								<li class="last btnNext">
+									<div id="play_next"></div>
+
+								</li>
+							</ul>
+						</div>
+
+					</div>
+
+					<div id="content_right_bottom">
+						<div>
+							<div id="right_bottom_tab1" class="content_tbl_btn">
+							</div>
+							<div id="right_bottom_tab2" class="content_tbl_btn"></div>
+						</div>
+						<div class="clear_float"></div>
+
+						<div id="content">
+							<div class="content_plate">
+								<ul id="super_info_list">
+
+									<li>
+										<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
+										<div>
+											<a href="#">
+												<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
+												<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
+											</a>
+											<span class="span_l">5月29日 19:00</span>
+											<span class="span_r">
+												<a href="#">评论12</a>
+												<span class="sepa">|</span>
+											<a href="#">
+												<img class="supportpic" src="" />15</a>
+											</span>
+
+										</div>
+									</li>
+
+									<div class="clear_float"></div>
+									<div class="dotted_line"></div>
+									<li>
+										<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
+										<div>
+											<a href="#">
+												<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
+												<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
+											</a>
+											<span class="span_l">5月29日 19:00</span>
+											<span class="span_r">
+												<a href="#">评论12</a>
+												<span class="sepa">|</span>
+											<a href="#">
+												<img class="supportpic" src="" />15</a>
+											</span>
+
+										</div>
+									</li>
+									<div class="clear_float"></div>
+									<div class="dotted_line"></div>
+									<li>
+										<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
+										<div>
+											<a href="#">
+												<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
+												<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
+											</a>
+											<span class="span_l">5月29日 19:00</span>
+											<span class="span_r">
+												<a href="#">评论12</a>
+												<span class="sepa">|</span>
+											<a href="#">
+												<img class="supportpic" src="" />15</a>
+											</span>
+
+										</div>
+									</li>
+									<div class="clear_float"></div>
+									<div class="dotted_line"></div>
+									<li>
+										<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
+										<div>
+											<a href="#">
+												<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
+												<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
+											</a>
+											<span class="span_l">5月29日 19:00</span>
+											<span class="span_r">
+												<a href="#">评论12</a>
+												<span class="sepa">|</span>
+											<a href="#">
+												<img class="supportpic" src="" />15</a>
+											</span>
+
+										</div>
+									</li>
+									<div class="clear_float"></div>
+									<div class="dotted_line"></div>
+									<li>
+										<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
+										<div>
+											<a href="#">
+												<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
+												<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
+											</a>
+											<span class="span_l">5月29日 19:00</span>
+											<span class="span_r">
+												<a href="#">评论12</a>
+												<span class="sepa">|</span>
+											<a href="#">
+												<img class="supportpic" src="" />15</a>
+											</span>
+
+										</div>
+									</li>
+									<div class="clear_float"></div>
+									<div class="dotted_line"></div>
+									<li>
+										<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
+										<div>
+											<a href="#">
+												<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
+												<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
+											</a>
+											<span class="span_l">5月29日 19:00</span>
+											<span class="span_r">
+												<a href="#">评论12</a>
+												<span class="sepa">|</span>
+											<a href="#">
+												<img class="supportpic" src="" />15</a>
+											</span>
+
+										</div>
+									</li>
+									<div class="clear_float"></div>
+									<div class="dotted_line"></div>
+									<li>
+										<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
+										<div>
+											<a href="#">
+												<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
+												<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
+											</a>
+											<span class="span_l">5月29日 19:00</span>
+											<span class="span_r">
+												<a href="#">评论12</a>
+												<span class="sepa">|</span>
+											<a href="#">
+												<img class="supportpic" src="" />15</a>
+											</span>
+
+										</div>
+									</li>
+									<div class="clear_float"></div>
+									<div class="dotted_line"></div>
+									<li>
+										<img class="wenzhangpicsize" alt="super info" src="img/lv2_artinfo_superinfo_01.jpg">
+										<div>
+											<a href="#">
+												<h3>法国枫丹白露宫中国馆被盗文物不止15件</h3>
+												<p>法国枫丹白露宫中国馆本月1日失窃，当时博物馆方面公布15件文物遭窃。但十天过去，法方始终没有公开遭窃细节或案情进展，倒是泰国官方与法方接触后，泰国媒体披露失窃文物不是15件，而是多达20件。</p>
+											</a>
+											<span class="span_l">5月29日 19:00</span>
+											<span class="span_r">
+												<a href="#">评论12</a>
+												<span class="sepa">|</span>
+											<a href="#">
+												<img class="supportpic" src="" />15</a>
+											</span>
+
+										</div>
+									</li>
+
+								</ul>
+
+							</div>
+							<div class="content_plate">
+								<div id="super_pic_list">
+									<table>
+										<tr>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_01.jpg" />
+												</a>
+											</td>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_02.jpg" />
+												</a>
+											</td>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_03.jpg" />
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_01.jpg" />
+												</a>
+											</td>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_02.jpg" />
+												</a>
+											</td>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_03.jpg" />
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_01.jpg" />
+												</a>
+											</td>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_02.jpg" />
+												</a>
+											</td>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_03.jpg" />
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_01.jpg" />
+												</a>
+											</td>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_02.jpg" />
+												</a>
+											</td>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_03.jpg" />
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_01.jpg" />
+												</a>
+											</td>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_02.jpg" />
+												</a>
+											</td>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_03.jpg" />
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_01.jpg" />
+												</a>
+											</td>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_02.jpg" />
+												</a>
+											</td>
+											<td>
+												<a href="#">
+													<img src="img/blog_content_photo_03.jpg" />
+												</a>
+											</td>
+										</tr>
+									</table>
+
+									<div style="clear: both;"></div>
+								</div>
+
+							</div>
+							<div id="page_ctl">
+								<ul>
+									<li><a href="#">上一页</a>
+									</li>
+									<li id="page_select">
+										<form>
+											<div id="pagectl_divselect">
+												<cite>第1页</cite>
+												<ul>
+													<li><a selectid="1" href="javascript:;">第2页</a>
+													</li>
+													<li><a selectid="2" href="javascript:;">第3页</a>
+													</li>
+													<li><a selectid="3" href="javascript:;">第4页</a>
+													</li>
+													<li><a selectid="4" href="javascript:;">第5页</a>
+													</li>
+													<li><a selectid="5" href="javascript:;">第6页</a>
+													</li>
+												</ul>
+											</div>
+											<input type="hidden" id="pagectl_inputselect" value="" name="">
+										</form>
+									</li>
+									<li><a href="#">下一页</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="clear_float"></div>
+				</div>
+				<div class="clear_float"></div>
+			</div>
+
+			<div id="footer_wrap" class="fullwidth">
+				<div id="footer" class="fitwidth">
+					<div id="ft_nav_wrap">
+
+						<div id="ft_nav">
+							<ul>
+								<li>
+									<ul class="ft_sec_nav">
+										<li class="ft_title"><a href="#">购买艺术</a>
 										</li>
-										<li><a selectid="2" href="javascript:;">第3页</a>
+										<li><a href="#">购买流程</a>
 										</li>
-										<li><a selectid="3" href="javascript:;">第4页</a>
+
+										<li><a href="#">支付方式</a>
 										</li>
-										<li><a selectid="4" href="javascript:;">第5页</a>
+
+										<li><a href="#">提货方式</a>
 										</li>
-										<li><a selectid="5" href="javascript:;">第6页</a>
+
+										<li><a href="#">竞拍保证</a>
 										</li>
 									</ul>
-								</div>
-								<input type="hidden" id="pagectl_inputselect" value="" name="">
-							</li>
-							<li><a href="#">下一页</a>
-							</li>
-						</ul>
+								</li>
+								<li>
+									<ul class="ft_sec_nav">
+										<li class="ft_title"><a href="#">合作艺术</a>
+										</li>
+										<li><a href="#">艺术家签约</a>
+										</li>
+
+										<li><a href="#">在线签约</a>
+										</li>
+
+										<li><a href="#">包装推广</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="ft_sec_nav">
+										<li class="ft_title"><a href="#">专业服务</a>
+										</li>
+										<li><a href="#">VIP/SVIP</a>
+										</li>
+
+										<li><a href="#">联动合作</a>
+										</li>
+
+										<li><a href="#">常见问题</a>
+										</li>
+
+										<li><a href="#">法律政策</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="ft_sec_nav">
+										<li class="ft_title"><a href="#">关<span class="nbsp_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>于</a>
+										</li>
+										<li><a href="#">网站地图</a>
+										</li>
+
+										<li><a href="#">品牌介绍</a>
+										</li>
+
+										<li><a href="#">联系我们</a>
+										</li>
+
+										<li><a href="#">友情链接</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+
+						<img src="img/ft_phone_code.jpg" alt="二维码" />
+						<img class="ft_second_code" src="img/ft_weixin_code.jpg" alt="二维码" />
+
 					</div>
-
-					<div style="clear: both;"></div>
-				</div>
-				<div style="clear: both;"></div>
-			</div>
-			<div style="clear: both;"></div>
-		</div>
-		<script type="text/javascript">
-			var target = ["pic-01", "pic-02", "pic-03", "pic-04", "pic-05", "pic-06", "pic-07"];
-		</script>
-		<div id="footer_wrap" class="fullwidth">
-			<div id="footer" class="fitwidth">
-				<div id="ft_nav_wrap">
-
-					<div id="ft_nav">
+					<div id="ft_shot">
 						<ul>
-							<li>
-								<ul class="ft_sec_nav">
-									<li class="ft_title"><a href="#">购买艺术</a>
-									</li>
-									<li><a href="#">购买流程</a>
-									</li>
-
-									<li><a href="#">支付方式</a>
-									</li>
-
-									<li><a href="#">提货方式</a>
-									</li>
-
-									<li><a href="#">竞拍保证</a>
-									</li>
-								</ul>
+							<li><a href="#">回到首页</a>
 							</li>
-							<li>
-								<ul class="ft_sec_nav">
-									<li class="ft_title"><a href="#">合作艺术</a>
-									</li>
-									<li><a href="#">艺术家签约</a>
-									</li>
-
-									<li><a href="#">在线签约</a>
-									</li>
-
-									<li><a href="#">包装推广</a>
-									</li>
-								</ul>
+							<li class="ft_shot_sepa">/</li>
+							<li class="ft_shot_2"><a>收藏多元主义</a>
 							</li>
-							<li>
-								<ul class="ft_sec_nav">
-									<li class="ft_title"><a href="#">专业服务</a>
-									</li>
-									<li><a href="#">VIP/SVIP</a>
-									</li>
-
-									<li><a href="#">联动合作</a>
-									</li>
-
-									<li><a href="#">常见问题</a>
-									</li>
-
-									<li><a href="#">法律政策</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<ul class="ft_sec_nav">
-									<li class="ft_title"><a href="#">关&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;于</a>
-									</li>
-									<li><a href="#">网站地图</a>
-									</li>
-
-									<li><a href="#">品牌介绍</a>
-									</li>
-
-									<li><a href="#">联系我们</a>
-									</li>
-
-									<li><a href="#">友情链接</a>
-									</li>
-								</ul>
+							<li class="ft_shot_sepa">/</li>
+							<li><a>服务热线：400-100-8759</a>
 							</li>
 						</ul>
 					</div>
-
-					<img src="img/ft_phone_code.jpg" alt="二维码" />
-					<img class="ft_second_code" src="img/ft_weixin_code.jpg" alt="二维码" />
-
-				</div>
-				<div id="ft_shot">
-					<ul>
-						<li><a href="#">回到首页</a>
-						</li>
-						<li class="ft_shot_sepa">/</li>
-						<li class="ft_shot_2"><a>收藏多元主义</a>
-						</li>
-						<li class="ft_shot_sepa">/</li>
-						<li><a>服务热线：400-100-8759</a>
-						</li>
-					</ul>
 				</div>
 			</div>
-		</div>
+
 		</div>
 
 	</body>
