@@ -35,14 +35,53 @@ img {
 	margin: 0 auto;
 	letter-spacing: 2px;
 }
+.color_black {
+	color: #000;
+}
+.color_white {
+	color: #fff;
+}
+.color_gray {
+	color: #6f6f6f;
+}
+.color_lightgray {
+	color: #a9a9a9;
+}
+.color_text {
+	color: #666666;
+}
+.font_bold {
+	font-weight: 900;
+}
+.font_thin {
+	font-weight: 500;
+}
+.hover_color:hover,
+.hover_color a:hover {
+	color: #DC5154;
+}
+.wrap_top_border {
+	border-top: 1px solid #e0e0e0;
+}
+.wrap_bottom_border {
+	border-bottom: 1px solid #e0e0e0;
+}
 .clear_float {
 	clear: both;
 	height: 0;
 	width: 0;
 }
+.content_block {
+	margin-bottom: 80px;
+	overflow: hidden;
+}
 .dotted_line {
 	height: 1px;
 	background: url("img/dotted_line_bg.png") repeat;
+}
+.dotted_line2 {
+	height: 1px;
+	background: url("img/dotted_line_bg2.png") repeat;
 }
 /* top begin */
 
