@@ -7,156 +7,40 @@
 		<meta name="Keywords" content="">
 		<meta name="Description" content="">
 
-		<title>购物流程_ECSHOP演示站 - Powered by ECShop</title>
+		<title>多元主义-购物车</title>
 
 		<link rel="shortcut icon" href="http://120.26.36.118/favicon.ico">
 		<link rel="icon" href="http://120.26.36.118/animated_favicon.gif" type="image/gif">
 		<link href="style_files/style.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" type="text/css" href="style_files/common.css">
-		<link rel="stylesheet" type="text/css" href="css/common.css" />
 		<link rel="alternate" type="application/rss+xml" title="RSS|购物流程_ECSHOP演示站 - Powered by ECShop" href="">
-
-		<script type="text/javascript" src="style_files/jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/cart_common.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="style_files/jquery_002.js"></script>
 		<script type="text/javascript" src="style_files/common.js"></script>
 		<script type="text/javascript" src="style_files/shopping_flow.js"></script>
-		<script type="text/javascript" src="js/common_function.js"></script>
-		<script type="text/javascript" src="js/common.js"></script>
 	</head>
 
 	<body>
 		<div id="wrap">
 			<script type="text/javascript" src="style_files/transport.js"></script>
 			<script type="text/javascript" src="style_files/utils.js"></script>
-			<div id="top_wrap" class="fullwidth">
-				<div id="top" class="fitwidth">
-					<div id="topleft">
-						<span id="welcome">您好，<font class="f4_b">sinfey</font>，欢迎来到多元主义！</span>
+
+			<div id="cart_top_wrap" class="fullwidth">
+				<div id="cart_top" class="fitwidth">
+					<a href="#" id="cart_logo"></a>
+					<div id="cart_top_right">
+						<span>您好，<font class="f4_b">sinfey</font>，欢迎来到多元主义！</span>
+						<a href="#" class="cart_to_index">多元主义首页</a>
 						<a href="http://120.26.36.118/user.php">用户中心</a>
-						<span>/</span>
-						<a href="http://120.26.36.118/user.php?act=logout">退出</a>
+
+						<a href="http://120.26.36.118/user.php?act=logout">退出登录</a>
 					</div>
-					<div id="search">
-
-						<form name="searchForm" method="get" action="search.php" onsubmit="return checkSearchForm()" id="top_form">
-							<table>
-								<tbody>
-									<tr>
-										<td>
-											<div id="divselect">
-												<cite>筛选</cite>
-												<ul>
-													<li><a href="javascript:;" selectid="1" class="short_text">所有</a>
-													</li>
-													<li><a href="javascript:;" selectid="2">艺术品</a>
-													</li>
-													<li><a href="javascript:;" selectid="3">艺术家</a>
-													</li>
-													<li><a href="javascript:;" selectid="4" class="short_text">资讯</a>
-													</li>
-												</ul>
-											</div>
-											<input name="" value="0" id="inputselect" type="hidden">
-										</td>
-										<td>
-											<label for="keyword">
-												<span id="keyword_def">热门搜索：银器/玉石...</span>
-												<input id="keyword" name="keywords" type="text">
-											</label>
-										</td>
-										<td>
-											<input id="submit" name="submit" value="" type="submit">
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</form>
-
-					</div>
-
 				</div>
 			</div>
-			<div id="header" class="fitwidth">
-				<a href="http://120.26.36.118/index.php">
-					<div id="logo"></div>
-				</a>
-				<div id="logo_sub">
-					<a href="http://120.26.36.118/index.php">
-						<div id="logo_custom"></div>
-					</a>
-					<div id="logo_url"></div>
-				</div>
 
-				<div id="nav">
-					<ul class="main_nav">
-						<li class="navs navs_index">
-							<a href="http://120.26.36.118/index.php" class="nav_a">首页</a>
-						</li>
-
-						<li class="nav_sep">/</li>
-						<li class="navs">
-							<a href="http://120.26.36.118/category.php?id=6" class="nav_a">艺术仓库</a>
-							<ul id="subNav_2" class="sub_nav subnav_artrepos">
-								<li><a href="http://120.26.36.118/category.php?id=6">木元</a>
-								</li>
-								<li><a href="http://120.26.36.118/category.php?id=12">陶元</a>
-								</li>
-								<li><a href="http://120.26.36.118/category.php?id=1">漆元</a>
-								</li>
-								<li><a href="http://120.26.36.118/category.php?id=16">石元</a>
-								</li>
-								<li><a href="http://120.26.36.118/category.php?id=17">艺元</a>
-								</li>
-								<li><a href="http://120.26.36.118/category.php?id=18">银元</a>
-								</li>
-								<li><a href="http://120.26.36.118/category.php?id=19">多元</a>
-								</li>
-							</ul>
-						</li>
-						<li class="nav_sep">/</li>
-						<li class="navs">
-							<a href="http://120.26.36.118/artcircle.html" class="nav_a">艺术圈</a>
-							<ul id="subNav_3" class="sub_nav subnav_artcircle">
-								<li><a href="http://120.26.36.118/artcircle_artists.html">艺<span>&nbsp;&nbsp;</span>术<span>&nbsp;&nbsp;</span>家</a>
-								</li>
-								<li><a href="http://120.26.36.118/artcircle_artorgs.html">艺术机构</a>
-								</li>
-								<li><a href="http://120.26.36.118/artcircle_artcollectors.html">艺术收藏家</a>
-								</li>
-							</ul>
-						</li>
-						<li class="nav_sep">/</li>
-						<li class="navs">
-							<a href="http://120.26.36.118/auction.php?act=index" class="nav_a">在线拍卖</a>
-							<ul id="subNav_4" class="sub_nav subnav_auction">
-								<li><a href="http://120.26.36.118/auction_tobe.html">预<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>展</a>
-								</li>
-								<li><a href="http://120.26.36.118/auction_ing.html">正在拍卖</a>
-								</li>
-								<li><a href="http://120.26.36.118/auction_before.html">往期拍卖</a>
-								</li>
-							</ul>
-						</li>
-						<li class="nav_sep">/</li>
-						<li class="navs">
-							<a href="http://120.26.36.118/artinfo.html" class="nav_a">艺术情报</a>
-							<ul id="subNav_5" class="sub_nav subnav_artinfo">
-								<li><a href="http://120.26.36.118/artinfo_superinfo.html">重磅快讯</a>
-								</li>
-								<li><a href="http://120.26.36.118/artinfo_arteye.html">艺<span>&nbsp;&nbsp;</span>术<span>&nbsp;&nbsp;</span>眼</a>
-								</li>
-								<li><a href="http://120.26.36.118/artinfo_artdecode.html">艺术解码</a>
-								</li>
-							</ul>
-						</li>
-
-						<li class="clear"></li>
-
-					</ul>
-
-					<a href="http://120.26.36.118/flow.php" title="查看购物车"><span class="nav_cart"><span class="nav_cart_cnt">您的购物车中有 3 件商品，总计金额 ￥1970.66元。</span></span></a> </div>
-			</div>
 			<div id="rmenu"></div>
+
 			<div class="block">
 
 				<script type="text/javascript" src="style_files/showdiv.js"></script>
@@ -170,12 +54,13 @@
 					var show_div_text = "请点击更新购物车按钮";
 					var show_div_exit = "关闭";
 				</script>
+
 				<div class="flowBox">
 					<h6><span>商品列表</span></h6>
 					<form id="formCart" name="formCart" method="post" action="flow.php">
 						<table align="center" bgcolor="#dddddd" border="0" cellpadding="5" cellspacing="1" width="99%">
 							<tbody>
-								<tr>
+								<tr class="cart_title">
 									<th bgcolor="#ffffff">商品名称</th>
 									<th bgcolor="#ffffff">属性</th>
 									<th bgcolor="#ffffff">市场价</th>
@@ -184,7 +69,8 @@
 									<th bgcolor="#ffffff">小计</th>
 									<th bgcolor="#ffffff">操作</th>
 								</tr>
-								<tr>
+
+								<tr class="cart_item">
 									<td align="center" bgcolor="#ffffff">
 										<a href="http://120.26.36.118/goods.php?id=46" target="_blank">
 											<img src="style_files/46_thumb_G_1428592903979.jpg" title="yiyuan1" border="0">
@@ -204,7 +90,8 @@
 										<a href="javascript:if%20(confirm('%E6%82%A8%E7%A1%AE%E5%AE%9E%E8%A6%81%E6%8A%8A%E8%AF%A5%E5%95%86%E5%93%81%E7%A7%BB%E5%87%BA%E8%B4%AD%E7%89%A9%E8%BD%A6%E5%90%97%EF%BC%9F'))%20location.href='flow.php?step=drop_to_collect&amp;id=11';" class="f6">放入收藏夹</a>
 									</td>
 								</tr>
-								<tr>
+
+								<tr class="cart_item">
 									<td align="center" bgcolor="#ffffff">
 										<a href="http://120.26.36.118/goods.php?id=51" target="_blank">
 											<img src="style_files/51_thumb_G_1428595338730.jpg" title="qiyuan1" border="0">
@@ -224,7 +111,7 @@
 										<a href="javascript:if%20(confirm('%E6%82%A8%E7%A1%AE%E5%AE%9E%E8%A6%81%E6%8A%8A%E8%AF%A5%E5%95%86%E5%93%81%E7%A7%BB%E5%87%BA%E8%B4%AD%E7%89%A9%E8%BD%A6%E5%90%97%EF%BC%9F'))%20location.href='flow.php?step=drop_to_collect&amp;id=12';" class="f6">放入收藏夹</a>
 									</td>
 								</tr>
-								<tr>
+								<tr class="cart_item">
 									<td align="center" bgcolor="#ffffff">
 										<a href="http://120.26.36.118/goods.php?id=55" target="_blank">
 											<img src="style_files/55_thumb_G_1428595681917.jpg" title="yimingjingren2" border="0">
@@ -244,33 +131,39 @@
 										<a href="javascript:if%20(confirm('%E6%82%A8%E7%A1%AE%E5%AE%9E%E8%A6%81%E6%8A%8A%E8%AF%A5%E5%95%86%E5%93%81%E7%A7%BB%E5%87%BA%E8%B4%AD%E7%89%A9%E8%BD%A6%E5%90%97%EF%BC%9F'))%20location.href='flow.php?step=drop_to_collect&amp;id=13';" class="f6">放入收藏夹</a>
 									</td>
 								</tr>
-							</tbody>
-						</table>
-						<table align="center" bgcolor="#dddddd" border="0" cellpadding="5" cellspacing="1" width="99%">
-							<tbody>
-								<tr>
-									<td bgcolor="#ffffff">
-										购物金额小计 ￥1970.66元，比市场价 ￥2049.19元 节省了 ￥78.53元 (4%) </td>
-									<td align="right" bgcolor="#ffffff">
+								<tr class="cart_update">
+									<td align="right" colspan="7">
 										<input value="清空购物车" class="bnt_blue_1" onclick="location.href='flow.php?step=clear'" type="button">
 										<input name="submit" class="bnt_blue_1" value="更新购物车" type="submit">
+										<input name="step" value="update_cart" type="hidden">
 									</td>
 								</tr>
 							</tbody>
 						</table>
-						<input name="step" value="update_cart" type="hidden">
+
+						<table align="center" border="0" cellpadding="5" cellspacing="1" width="100%">
+							<tbody>
+								<tr class="cart_price_cal">
+									<td class="cart_price_info"><span>原价：2049.19元</span><span>节省了：78.53元 (4%)</span>
+									</td>
+									<td class="cart_price_key">购物金额合计:<span> 1970.66</span>元</td>
+								</tr>
+
+							</tbody>
+						</table>
+
 					</form>
 					<table align="center" bgcolor="#dddddd" border="0" cellpadding="5" cellspacing="0" width="99%">
 						<tbody>
-							<tr>
+							<tr class="cart_accounts">
 								<td bgcolor="#ffffff">
 									<a href="http://120.26.36.118/">
-										<img src="style_files/continue.gif" alt="continue">
+										<img src="css/img/cart_shopping.jpg" alt="continue">
 									</a>
 								</td>
 								<td align="right" bgcolor="#ffffff">
 									<a href="http://120.26.36.118/flow.php?step=checkout">
-										<img src="style_files/checkout.gif" alt="checkout">
+										<img src="css/img/cart_accounts.jpg" alt="checkout">
 									</a>
 								</td>
 							</tr>
@@ -311,7 +204,7 @@
 
 				<div class="flowBox">
 					<h6><span>我的收藏</span></h6>
-					<table align="center" bgcolor="#dddddd" border="0" cellpadding="5" cellspacing="1" width="99%">
+					<table class="collect" align="center" bgcolor="#dddddd" border="0" cellpadding="5" cellspacing="1" width="99%">
 						<tbody>
 							<tr>
 								<td bgcolor="#ffffff"><a href="http://120.26.36.118/goods.php?id=41" class="f6">muyuan2</a>
@@ -347,89 +240,87 @@
 			<div id="footer_wrap" class="fullwidth">
 				<div id="footer" class="fitwidth">
 					<div id="ft_nav_wrap">
+
 						<div id="ft_nav">
 							<ul>
 								<li>
 									<ul class="ft_sec_nav">
-										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=5">新手上路 </a>
+										<li class="ft_title"><a href="#">购买艺术</a>
 										</li>
 										<li><a href="#">购买流程</a>
 										</li>
-										<li><a href="#">购买流程</a>
+
+										<li><a href="#">支付方式</a>
 										</li>
-										<li><a href="#">购买流程</a>
+
+										<li><a href="#">提货方式</a>
+										</li>
+
+										<li><a href="#">竞拍保证</a>
 										</li>
 									</ul>
 								</li>
 								<li>
 									<ul class="ft_sec_nav">
-										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=6">手机常识 </a>
+										<li class="ft_title"><a href="#">合作艺术</a>
 										</li>
-										<li><a href="#">购买流程</a>
+										<li><a href="#">艺术家签约</a>
 										</li>
-										<li><a href="#">购买流程</a>
+
+										<li><a href="#">在线签约</a>
 										</li>
-										<li><a href="#">购买流程</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<ul class="ft_sec_nav">
-										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=7">配送与支付 </a>
-										</li>
-										<li><a href="#">购买流程</a>
-										</li>
-										<li><a href="#">购买流程</a>
-										</li>
-										<li><a href="#">购买流程</a>
+
+										<li><a href="#">包装推广</a>
 										</li>
 									</ul>
 								</li>
 								<li>
 									<ul class="ft_sec_nav">
-										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=10">会员中心</a>
+										<li class="ft_title"><a href="#">专业服务</a>
 										</li>
-										<li><a href="#">购买流程</a>
+										<li><a href="#">VIP/SVIP</a>
 										</li>
-										<li><a href="#">购买流程</a>
+
+										<li><a href="#">联动合作</a>
 										</li>
-										<li><a href="#">购买流程</a>
+
+										<li><a href="#">常见问题</a>
 										</li>
-									</ul>
-								</li>
-								<li>
-									<ul class="ft_sec_nav">
-										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=8">服务保证 </a>
-										</li>
-										<li><a href="http://www.ecshop.com/">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span></strong></a>
-										</li>
-										<li><a href="#">购买流程</a>
-										</li>
-										<li><a href="#">购买流程</a>
+
+										<li><a href="#">法律政策</a>
 										</li>
 									</ul>
 								</li>
 								<li>
 									<ul class="ft_sec_nav">
-										<li class="ft_title"><a href="http://120.26.36.118/article_cat.php?id=9">联系我们 </a>
+										<li class="ft_title"><a href="#">关<span class="nbsp_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>于</a>
 										</li>
-										<li><a href="#">购买流程</a>
+										<li><a href="#">网站地图</a>
 										</li>
-										<li><a href="#">购买流程</a>
+
+										<li><a href="#">品牌介绍</a>
 										</li>
-										<li><a href="#">购买流程</a>
+
+										<li><a href="#">联系我们</a>
+										</li>
+
+										<li><a href="#">友情链接</a>
 										</li>
 									</ul>
 								</li>
 							</ul>
 						</div>
-						<img src="style_files/ft_phone_code.jpg" alt="二维码">
-						<img class="ft_second_code" src="style_files/ft_weixin_code.jpg" alt="二维码">
+
+						<img src="img/ft_phone_code.jpg" alt="二维码" />
+						<img class="ft_second_code" src="img/ft_weixin_code.jpg" alt="二维码" />
 
 					</div>
 					<div id="ft_shot">
 						<ul>
 							<li><a href="#">回到首页</a>
+							</li>
+							<li class="ft_shot_sepa">/</li>
+							<li class="ft_shot_2"><a>收藏多元主义</a>
 							</li>
 							<li class="ft_shot_sepa">/</li>
 							<li><a>服务热线：400-100-8759</a>
@@ -438,7 +329,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="ft_bottom" class="fitwidth"></div>
+
 		</div>
 
 	</body>
