@@ -1,0 +1,125 @@
+#auction_time {
+	margin-top: 20px;
+	font-size: 16px;
+	padding: 20px 10px;
+	border-top: 1px dotted #e0e0e0;
+	border-bottom: 1px dotted #e0e0e0;
+	overflow: hidden;
+}
+#auction_time .auct_t {
+	float: left;
+	width: 77px;
+	height: 27px;
+	background: url("img/auctiondetail_timer_title.jpg") no-repeat center;
+}
+#auction_time .auct_text {
+	float: left;
+	margin-left: 10px;
+	height: 27px;
+	line-height: 27px;
+}
+#auction_time .auct_text p {
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0;
+}
+#auction_time .auct_text span {
+	font-size: 18px;
+	color: #de5451;
+	letter-spacing: 0;
+	margin-left: -3px;
+	margin-right: 3px;
+}
+#auction_price {
+	margin-top: 10px;
+}
+#auction_price table {
+	border-collapse: separate;
+	border-spacing: 60px 10px;
+	margin-left: -50px;
+}
+#auction_price table td.pricenow {
+	font-weight: 700;
+}
+#auction_price table td.pricenow span {
+	color: #de5451;
+}
+#auction_price .price_ctl {
+	border: 1px solid #e0e0e0;
+	height: 33px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+#auction_price .price_ctl div.price_sub_btn {
+	float: left;
+	width: 34px;
+	height: 33px;
+	background: url("img/auctiondetail_price_btn_sub.jpg") no-repeat center;
+	cursor: pointer;
+}
+#auction_price .price_ctl div.price_add_btn {
+	float: left;
+	width: 34px;
+	height: 33px;
+	background: url("img/auctiondetail_price_btn_add.jpg") no-repeat center;
+	cursor: pointer;
+}
+#auction_price .price_ctl input.price_now {
+	width: 88px;
+	height: 33px;
+	background-color: #fff;
+	border: none;
+	display: block;
+	float: left;
+	line-height: 33px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+}
+#auction_price .price_offer {
+	margin-top: 20px;
+}
+#auction_price .price_offer input {
+	width: 107px;
+	height: 35px;
+	border: none;
+	cursor: pointer;
+	background: url("img/auctiondetail_price_offer.jpg") no-repeat center;
+}
+#product_misc {
+	border-top: 1px dotted #e0e0e0;
+}
+#product_button {
+	margin-top: 10px;
+}
+/* bids record start */
+
+#bids_record > ul {
+	/*padding: 0 20px;*/
+}
+#bids_record > ul li ul li {
+	float: left;
+	letter-spacing: 1px;
+	text-align: left;
+}
+#bids_record li.bids_username {
+	width: 240px;
+	margin-left: 30px;
+}
+#bids_record li.bids_userprice {
+	width: 180px;
+}
+#bids_record li.bids_usertime {
+	width: 250px;
+}
+#bids_record .bids_record_title {
+	height: 50px;
+	line-height: 50px;
+	background: #f7f7f7;
+}
+#bids_record .bids_record {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #e0e0e0;
+}
+/* bids record end */

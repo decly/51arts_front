@@ -1,0 +1,680 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>多元主义-拍卖详情</title>
+		<meta name="keywords" content="多元主义;当代多元文化艺术；文创艺术品" />
+		<meta name="description" content="本来没有艺术......" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/common_rmenu.css" />
+		<link rel="stylesheet" type="text/css" href="css/productdetail.css" />
+		<link rel="stylesheet" type="text/css" href="css/auctiondetail.css" />
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/common_function.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/common_rmenu.js"></script>
+		<script type="text/javascript" src="js/productdetail.js"></script>
+	</head>
+
+	<body>
+		<div id="wrap">
+
+			<div id="top_wrap" class="fullwidth">
+				<div id="top" class="fitwidth">
+					<div id="topleft">
+						<span id="welcome">您好，欢迎来到多元主义！</span>
+						<a href="#" id="login_top">登录</a>
+						<span>/</span>
+						<a href="#">注册</a>
+					</div>
+					<div id="search">
+
+						<form action="" method="post" name="search" id="top_form">
+							<table>
+								<tr>
+									<td>
+										<div id="divselect">
+											<cite>筛选</cite>
+											<ul>
+												<li><a href="javascript:;" selectid="1" class="short_text">所有</a>
+												</li>
+												<li><a href="javascript:;" selectid="2">艺术品</a>
+												</li>
+												<li><a href="javascript:;" selectid="3">艺术家</a>
+												</li>
+												<li><a href="javascript:;" selectid="4" class="short_text">资讯</a>
+												</li>
+											</ul>
+										</div>
+										<input name="" type="hidden" value="0" id="inputselect" />
+									</td>
+									<td>
+										<label for="keyword">
+											<span id="keyword_def">热门搜索：银器/玉石...</span>
+											<input id="keyword" type="text" name="searchvalue" />
+										</label>
+									</td>
+									<td>
+										<input id="submit" type="submit" name="submit" value="" />
+									</td>
+								</tr>
+							</table>
+						</form>
+
+					</div>
+
+				</div>
+			</div>
+			<div id="header" class="fitwidth">
+				<a href="#">
+					<div id="logo"></div>
+				</a>
+				<div id="logo_sub">
+					<a href="#">
+						<div id="logo_custom"></div>
+					</a>
+					<div id="logo_url"></div>
+				</div>
+
+				<div id="nav">
+					<ul class="main_nav">
+						<li class="navs navs_index">
+							<a href="index.html" class="nav_a">首页</a>
+						</li>
+
+						<li class="nav_sep">/</li>
+						<li class="navs">
+							<a href="artrepos.html" class="nav_a">艺术仓库</a>
+							<ul id="subNav_2" class="sub_nav subnav_artrepos">
+								<li><a href="artrepos_muyuan.html">木元</a>
+								</li>
+								<li><a href="artrepos_taoyuan.html">陶元</a>
+								</li>
+								<li><a href="artrepos_qiyuan.html">漆元</a>
+								</li>
+								<li><a href="artrepos_shiyuan.html">石元</a>
+								</li>
+								<li><a href="artrepos_yiyuan.html">艺元</a>
+								</li>
+								<li><a href="artrepos_yinyuan.html">银元</a>
+								</li>
+								<li><a href="artrepos_duoyuan.html">多元</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav_sep">/</li>
+						<li class="navs">
+							<a href="artcircle.html" class="nav_a">艺术圈</a>
+							<ul id="subNav_3" class="sub_nav subnav_artcircle">
+								<li><a href="artcircle_artists.html">艺<span>&nbsp;&nbsp;</span>术<span>&nbsp;&nbsp;</span>家</a>
+								</li>
+								<li><a href="artcircle_artorgs.html">艺术机构</a>
+								</li>
+								<li><a href="artcircle_artcollectors.html">艺术收藏家</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav_sep">/</li>
+						<li class="navs">
+							<a href="auction.html" class="nav_a">在线拍卖</a>
+							<ul id="subNav_4" class="sub_nav subnav_auction">
+								<li><a href="auction_tobe.html">预<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>展</a>
+								</li>
+								<li><a href="auction_ing.html">正在拍卖</a>
+								</li>
+								<li><a href="auction_before.html">往期拍卖</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav_sep">/</li>
+						<li class="navs">
+							<a href="artinfo.html" class="nav_a">艺术情报</a>
+							<ul id="subNav_5" class="sub_nav subnav_artinfo">
+								<li><a href="artinfo_superinfo.html">重磅快讯</a>
+								</li>
+								<li><a href="artinfo_arteye.html">艺<span>&nbsp;&nbsp;</span>术<span>&nbsp;&nbsp;</span>眼</a>
+								</li>
+								<li><a href="artinfo_artdecode.html">艺术解码</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="clear"></li>
+
+					</ul>
+					<a href="#">
+						<span class="nav_cart">
+							<span class="nav_cart_cnt"></span>
+						</span>
+					</a>
+				</div>
+			</div>
+
+			<div id="rmenu"></div>
+
+			<div id="product_show" class="fitwidth">
+
+				<div id="product_imgs">
+					<div id="product_img_big">
+						<img src="" alt="product show" />
+					</div>
+					<div id="product_img_lit">
+						<ul>
+							<li>
+								<img src="img/productdetail_productshow_01.jpg" alt="product show" />
+							</li>
+							<li>
+								<img src="img/productdetail_productshow_02.jpg" alt="product show" />
+							</li>
+							<li>
+								<img src="img/productdetail_productshow_03.jpg" alt="product show" />
+							</li>
+							<li class="last_one">
+								<img src="img/productdetail_productshow_04.jpg" alt="product show" />
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="product_info" class="wrap_top_border wrap_bottom_border">
+					<form>
+						<div id="product_title">
+							<h2>明代大师制作工笔花鸟五彩瓷盘</h2>
+							<div class="text_overflow_ddd">
+								<p class="color_gray"><span>【商品特点】</span>名代大师制作工笔花鸟五彩瓷盘名代大师制作工笔花鸟五彩瓷盘名代大师制作工笔大师制作工笔</p>
+							</div>
+						</div>
+
+						<div id="auction_time">
+							<div class="auct_t"></div>
+							<div class="auct_text">
+								<p>距结束&nbsp;
+									<span>2</span>天
+									<span>10</span>时
+									<span>11</span>分
+									<span>11</span>秒
+								</p>
+
+							</div>
+						</div>
+
+						<div id="auction_price">
+							<table>
+								<tr>
+									<td class="pricenow">
+										当前价：<span>2500</span>元
+									</td>
+									<td>
+										起拍价：<span>1500</span>元
+									</td>
+								</tr>
+								<tr>
+									<td>
+										保证金：<span>1000</span>元
+									</td>
+									<td>
+										加价幅度：<span>200</span>元
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="price_ctl">
+											<div class="price_sub_btn"></div>
+											<input class="price_now" type="text">
+											<div class="price_add_btn"></div>
+										</div>
+									</td>
+									<td>
+										<div class="price_offer">
+											<input type="button">
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+
+						<div id="product_misc">
+							<p class="product_num">商品编号:<span>N0.245584</span>号 </p>
+							<p class="product_type">所属类目：<span>陶元</span>
+							</p>
+						</div>
+
+						<div id="product_button">
+							<ul>
+								<a href="#">
+									<li class="share_sina"></li>
+								</a>
+								<a href="#">
+									<li class="share_qq"></li>
+								</a>
+								<a href="#">
+									<li class="share_zone"></li>
+								</a>
+								<a href="#">
+									<li class="share_dou"></li>
+								</a>
+							</ul>
+						</div>
+					</form>
+				</div>
+
+				<div id="product_code">
+					<img src="img/productdetail_productshow_code.jpg" alt="code" />
+				</div>
+			</div>
+
+			<div id="owner_artist" class="fitwidth wrap_top_border">
+				<div class="lookmore">
+					<a href="#">查看更多信息</a>
+				</div>
+				<div class="artist_img">
+					<img src="img/productdetail_ownerartist.jpg" alt="artist" />
+				</div>
+
+				<div class="artist_info">
+					<h2>所属艺术家 <span>/陈光艺</span></h2>
+					<div class="text_overflow_ddd">
+						<p class="artist_iden">中国美术家协会会员/工艺美术师福建省美协会员/中国美术家协会会员/工艺美术师</p>
+					</div>
+					<div class="artist_deed">
+						<span>【个人事迹】</span>
+						<div class="text_overflow_ddd">
+							<p>代表作品/代表作品/代表作品代表作品/代表作品/代表作品/代表作品/代表作品/代表作品/代表作品/代表作品/代表作品/代表作品/代表作品/代表作品/代表作品/代表作品/代表作品/代表作品/代表作品/代表作品/代表作品 </p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div id="content_wrap" class="fitwidth">
+
+				<div id="content_left">
+					<div id="hot_products" class="wrap_top_border">
+						<div id="hot_products_title">
+							<a href="#"></a>
+						</div>
+						<ul id="hot_products_list">
+							<a href="#">
+								<li>
+									<img src="img/productdetail_hotproduct_01.jpg" alt="hot product" />
+									<p class="color_gray">景德镇名家陶瓷器具</p>
+								</li>
+							</a>
+							<a href="#">
+								<li>
+									<img src="img/productdetail_hotproduct_02.jpg" alt="hot product" />
+									<p class="color_gray">景德镇名家陶瓷器具</p>
+								</li>
+							</a>
+							<a href="#">
+								<li>
+									<img src="img/productdetail_hotproduct_03.jpg" alt="hot product" />
+									<p class="color_gray">景德镇名家陶瓷器具</p>
+								</li>
+							</a>
+
+						</ul>
+
+					</div>
+				</div>
+
+				<div id="content_right">
+
+					<div id="product_nav">
+						<ul>
+							<li><a href="javascript:;">商品介绍</a>
+							</li>
+							<li><a href="javascript:;">出价记录(<span id="comment_cnt">235</span>)</a>
+							</li>
+							<li><a href="javascript:;">猜你喜欢</a>
+							</li>
+							<li><a href="javascript:;">最近浏览</a>
+							</li>
+						</ul>
+					</div>
+					<div class="clear_float"></div>
+
+					<div id="product_plate">
+						<div id="product_introduce">
+							<p>商品介绍</p>
+						</div>
+
+						<div id="product_comment">
+							<div id="bids_wrap">
+								<div id="bids_record">
+									<ul>
+										<li class="bids_record_title">
+											<ul>
+												<li class="bids_username">竞拍会员</li>
+												<li class="bids_userprice">出价</li>
+												<li class="bids_usertime">出价时间</li>
+											</ul>
+										</li>
+										<li class="bids_record">
+											<ul>
+												<li class="bids_username">多元主义会员</li>
+												<li class="bids_userprice">2500</li>
+												<li class="bids_usertime">2015年4月16日 22:11:12</li>
+											</ul>
+										</li>
+										<li class="bids_record">
+											<ul>
+												<li class="bids_username">多元主义会员</li>
+												<li class="bids_userprice">2500</li>
+												<li class="bids_usertime">2015年4月16日 22:11:12</li>
+											</ul>
+										</li>
+										<li class="bids_record">
+											<ul>
+												<li class="bids_username">多元主义会员</li>
+												<li class="bids_userprice">2500</li>
+												<li class="bids_usertime">2015年4月16日 22:11:12</li>
+											</ul>
+										</li>
+										<li class="bids_record">
+											<ul>
+												<li class="bids_username">多元主义会员</li>
+												<li class="bids_userprice">2500</li>
+												<li class="bids_usertime">2015年4月16日 22:11:12</li>
+											</ul>
+										</li>
+										<li class="bids_record">
+											<ul>
+												<li class="bids_username">多元主义会员</li>
+												<li class="bids_userprice">2500</li>
+												<li class="bids_usertime">2015年4月16日 22:11:12</li>
+											</ul>
+										</li>
+										<li class="bids_record">
+											<ul>
+												<li class="bids_username">多元主义会员</li>
+												<li class="bids_userprice">2500</li>
+												<li class="bids_usertime">2015年4月16日 22:11:12</li>
+											</ul>
+										</li>
+
+									</ul>
+								</div>
+
+								<div id="cmt_page_ctl">
+									<ul>
+										<li class="hover_color cmt_sepa"><a href="#">上一页</a>
+										</li>
+										<li class="hover_color"><a href="#">下一页</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div id="guessyoulike" class="plate_table_temp">
+							<table cellspacing="14px">
+								<tr>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_guessyoulike_01.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_guessyoulike_02.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_guessyoulike_03.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_guessyoulike_04.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_guessyoulike_05.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_guessyoulike_06.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_guessyoulike_07.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_guessyoulike_08.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_guessyoulike_09.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+								</tr>
+							</table>
+
+						</div>
+						<div id="recently_viewed" class="plate_table_temp">
+							<table cellspacing="14px">
+								<tr>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_recentlyviewed_01.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_recentlyviewed_02.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_recentlyviewed_03.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_recentlyviewed_04.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_recentlyviewed_05.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_recentlyviewed_06.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_recentlyviewed_07.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_recentlyviewed_08.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+									<td>
+										<a href="#">
+											<img src="img/productdetail_recentlyviewed_09.jpg" alt="guess you like" />
+											<div class="productname">
+												<h4>名代大师汝窑陶瓷花瓶</h4>
+											</div>
+										</a>
+									</td>
+								</tr>
+							</table>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="footer_wrap" class="fullwidth">
+				<div id="footer" class="fitwidth">
+					<div id="ft_nav_wrap">
+
+						<div id="ft_nav">
+							<ul>
+								<li>
+									<ul class="ft_sec_nav">
+										<li class="ft_title"><a href="#">购买艺术</a>
+										</li>
+										<li><a href="#">购买流程</a>
+										</li>
+
+										<li><a href="#">支付方式</a>
+										</li>
+
+										<li><a href="#">提货方式</a>
+										</li>
+
+										<li><a href="#">竞拍保证</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="ft_sec_nav">
+										<li class="ft_title"><a href="#">合作艺术</a>
+										</li>
+										<li><a href="#">艺术家签约</a>
+										</li>
+
+										<li><a href="#">在线签约</a>
+										</li>
+
+										<li><a href="#">包装推广</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="ft_sec_nav">
+										<li class="ft_title"><a href="#">专业服务</a>
+										</li>
+										<li><a href="#">VIP/SVIP</a>
+										</li>
+
+										<li><a href="#">联动合作</a>
+										</li>
+
+										<li><a href="#">常见问题</a>
+										</li>
+
+										<li><a href="#">法律政策</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="ft_sec_nav">
+										<li class="ft_title"><a href="#">关<span class="nbsp_font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>于</a>
+										</li>
+										<li><a href="#">网站地图</a>
+										</li>
+
+										<li><a href="#">品牌介绍</a>
+										</li>
+
+										<li><a href="#">联系我们</a>
+										</li>
+
+										<li><a href="#">友情链接</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+
+						<img src="img/ft_phone_code.jpg" alt="二维码" />
+						<img class="ft_second_code" src="img/ft_weixin_code.jpg" alt="二维码" />
+
+					</div>
+					<div id="ft_shot">
+						<ul>
+							<li><a href="#">回到首页</a>
+							</li>
+							<li class="ft_shot_sepa">/</li>
+							<li class="ft_shot_2"><a>收藏多元主义</a>
+							</li>
+							<li class="ft_shot_sepa">/</li>
+							<li><a>服务热线：400-100-8759</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+
+</html>

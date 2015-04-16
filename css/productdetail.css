@@ -55,7 +55,7 @@
 /* product info start */
 
 #product_info {
-	height: 441px;
+	min-height: 441px;
 	width: 438px;
 	float: left;
 	margin-left: 22px;
