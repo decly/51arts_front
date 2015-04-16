@@ -16,6 +16,7 @@
 		<script type="text/javascript" src="js/common.js"></script>
 		<script type="text/javascript" src="js/common_rmenu.js"></script>
 		<script type="text/javascript" src="js/productdetail.js"></script>
+		<script type="text/javascript" src="js/auctiondetail.js"></script>
 	</head>
 
 	<body>
@@ -191,12 +192,12 @@
 							<div class="auct_t"></div>
 							<div class="auct_text">
 								<p>距结束&nbsp;
-									<span>2</span>天
-									<span>10</span>时
-									<span>11</span>分
-									<span>11</span>秒
+									<span id="day_show">0</span>天
+									<span id="hour_show">0</span>时
+									<span id="minute_show">0</span>分
+									<span id="second_show">0</span>秒
 								</p>
-
+								<input type="hidden" value="100000" id="time_remaining" />
 							</div>
 						</div>
 
@@ -204,7 +205,7 @@
 							<table>
 								<tr>
 									<td class="pricenow">
-										当前价：<span>2500</span>元
+										当前价：<span id="price_current">2600</span>元
 									</td>
 									<td>
 										起拍价：<span>1500</span>元
@@ -215,14 +216,14 @@
 										保证金：<span>1000</span>元
 									</td>
 									<td>
-										加价幅度：<span>200</span>元
+										加价幅度：<span id="per_price">200</span>元
 									</td>
 								</tr>
 								<tr>
 									<td>
 										<div class="price_ctl">
 											<div class="price_sub_btn"></div>
-											<input class="price_now" type="text">
+											<input id="price_custom" class="price_now" type="text">
 											<div class="price_add_btn"></div>
 										</div>
 									</td>
