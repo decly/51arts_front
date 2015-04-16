@@ -200,8 +200,9 @@ p {
 	overflow: hidden;
 }
 .box_1 {
-	border: 1px solid #c5e4ff;
+	border: 1px solid #e0e0e0;
 	background-color: #fff;
+	padding: 10px 0;
 }
 .box_2 {
 	border: 1px solid #c5e4ff;
@@ -264,8 +265,8 @@ h6 {
 	font-size: 14px;
 	background: #f7f7f7;
 	color: #3f3f3f;
-	
 	/*border: 1px solid #fff;*/
+	
 	padding-right: 10px;
 }
 h6 span {
@@ -296,7 +297,7 @@ h6 span {
 	margin-right: 10px;
 }
 .AreaR {
-	width: 750px;
+	width: 790px;
 	float: left;
 }
 /* ====================
@@ -422,15 +423,16 @@ h6 span {
 /*当前位置*/
 
 #ur_here {
-	border: 1px solid #c5e4ff;
+	border: 1px solid #e0e0e0;
 	border-top: none;
 	background: url(images/uh_bg.gif) repeat-x left top;
 	height: 36px;
 	line-height: 36px;
 	padding: 0 12px;
+	background-color: #fff;
 }
 #ur_here a {
-	color: #006cce;
+	/*color: #006cce;*/
 	text-decoration: none;
 }
 /* ====================
@@ -1100,7 +1102,8 @@ h6 span {
 ==================== */
 
 .box_1 .userCenterBox {
-	border: 4px solid #f1faff;
+	/*border: 1px solid #e0e0e0;*/
+	
 	background-color: #fff;
 }
 .usBox {
@@ -1274,8 +1277,8 @@ h6 span {
 }
 .flowBox table {
 	margin: 5px auto;
-	border-collapse:collapse;
-	border:none;
+	border-collapse: collapse;
+	border: none;
 }
 /*2.62在购物车里面显示相关配件*/
 
@@ -1354,14 +1357,15 @@ h6 span {
 /*底部导航+友情链接*/
 
 #bottomNav {
-	width: 958px;
+	width: 998px;
 }
 .bNavList {
 	border: 1px solid #fff;
-	background: #eef6f9;
+	background: #fff;
 	height: 27px;
 	line-height: 27px;
 	padding: 0 12px;
+	
 }
 .links {
 	border: 1px solid #fff;
@@ -1459,21 +1463,14 @@ h6 span {
 	float: left;
 	width: 300px;
 }
-
-
-
 /* add for cart by wd start */
 
 .flowBox .cart_title {
 	height: 45px;
 	line-height: 45px;
 }
-
-
 .flowBox .cart_item {
 	border-top: 2px dotted #d8d8d8;
-	
-	
 }
 .flowBox .cart_item td {
 	text-align: center;
@@ -1482,13 +1479,13 @@ h6 span {
 }
 .flowBox .cart_price_cal {
 	height: 50px;
-	line-height: 50px;	
+	line-height: 50px;
 	font-size: 14px;
 	letter-spacing: 1px;
 	background-color: #f7f7f7;
 }
 .flowBox .cart_price_info span {
-		margin: 0 15px;	
+	margin: 0 15px;
 }
 .flowBox .cart_price_key {
 	text-align: right;
@@ -1499,15 +1496,12 @@ h6 span {
 	font-size: 18px;
 	font-weight: 900;
 	margin-right: 5px;
-	
-		
 }
-
 .flowBox .cart_update input {
-	color:#006bd0;
+	color: #006bd0;
 }
 .flowBox .cart_update input:hover {
-	color:#DC5154;
+	color: #DC5154;
 }
 .flowBox .cart_accounts td {
 	padding: 10px 0;
@@ -1517,8 +1511,21 @@ h6 span {
 }
 .flowBox .collect td {
 	padding: 10px 0 10px 15px;
-	
+}
+.pst_box {
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	height: 36px;
+	width: 980px;
+	line-height: 36px;
+	padding: 0 10px;
 }
 
+.f1_font_color a {
+	color: #666666;
+}
+.user_btmnav {
+	margin-bottom: 50px;	
+}
 
 /* add for cart by wd end */
