@@ -1,3 +1,34 @@
+// for login
+$(document).ready(function() {
+
+	$('#login_wrap input').focus(function() {
+		$(this).siblings('span').css({
+			'display': 'none'
+		});
+	}).blur(function() {
+		if (this.value.length == 0)
+			$(this).siblings('span').css({
+				'display': 'inline'
+			});
+	});
+
+	$('#login_top').click(function() {
+		$('#login_mask').fadeIn(100);
+		$('#logowinwrap').slideDown(200);
+	});
+
+	$('.theme-poptit .close').click(function() {
+		$('#login_mask').fadeOut(100);
+		$('#logowinwrap').slideUp(200);
+	});
+
+	$('#login_mask,#logintitle a').click(function() {
+		$('#logowinwrap').slideUp(200);
+		$('#login_mask').fadeOut(100);
+	});
+});
+
+
 //for navigation
 $(document).ready(function() {
 	var $navs = $("#nav .navs");
