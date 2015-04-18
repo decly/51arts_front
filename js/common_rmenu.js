@@ -14,7 +14,7 @@ $(document).ready(function() {
 		</a> \
 		<a class=\"btn btn_suggest\" target=\"_blank\" href=\"#\"> \
 		</a> \
-		<div class=\"btn btn_top\"></div> \
+		<a href=\"#\"><div class=\"btn btn_top\"></div></a> \
 	</div>";
 
 	$("#rmenu").html(tophtml);
@@ -24,11 +24,13 @@ $(document).ready(function() {
 		}).mouseleave(function() {
 			$(this).find(".wxpic").fadeOut("fast");
 		});
-		$(this).find(".btn_top").click(function() {
-			$("html, body").animate({
-				"scroll-top": 0
-			}, "fast");
-		});
+		
+		// BUG in jq 1.3
+//		$(this).find(".btn_top").click(function() {
+//			$("html, body").animate({
+//				"scroll-top": 0
+//			}, "fast");
+//		});
 	});
 	var lastRmenuStatus = false;
 	$(window).scroll(function() {
