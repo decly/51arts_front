@@ -228,7 +228,9 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	width: 250px;
-	height: 148px;
+	position: relative;
+	
+
 }
 #picround {
 	margin: auto;
@@ -260,6 +262,71 @@ img {
 	font-size: 14px;
 	font-weight: 200;
 }
+
+#artist_id {
+	height: 24px;
+	width: 100px;
+	
+	position: absolute;
+	left: 150px;
+	top: 70px;
+	
+	
+	
+}
+#artist_id_value {
+	display: none;
+}
+#artist_id.none {
+	display: none;
+}
+#artist_id.org {
+	width: 86px;
+	background: url(img/blog_id_org.png) no-repeat left center;
+}
+#artist_id.collector {
+	width: 73px;
+	background: url(img/blog_id_clt.png) no-repeat left center;
+}
+#artist_id.muyuan {
+	width: 59px;
+	background: url(img/blog_id_muyuan.png) no-repeat left center;
+}
+#artist_id.taoyuan {
+	width: 59px;
+	background: url(img/blog_id_taoyuan.png) no-repeat left center;
+}
+#artist_id.qiyuan {
+	width: 59px;
+	background: url(img/blog_id_qiyuan.png) no-repeat left center;
+}
+#artist_id.shiyuan {
+	width: 59px;
+	background: url(img/blog_id_shiyuan.png) no-repeat left center;
+}
+#artist_id.yiyuan {
+	width: 59px;
+	background: url(img/blog_id_yiyuan.png) no-repeat left center;
+}
+#artist_id.yinyuan {
+	width: 59px;
+	background: url(img/blog_id_yinyuan.png) no-repeat left center;
+}
+#artist_id.duoyuan {
+	width: 59px;
+	background: url(img/blog_id_duoyuan.png) no-repeat left center;
+}
+
+
+
+
+
+
+
+
+
+
+
 #bgedit {
 	display: block;
 	width: 110px;

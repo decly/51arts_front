@@ -109,3 +109,15 @@ $(document).ready(function() {
 $(document).ready(function() {
 	$.divselect("#pagectl_divselect", "#pagectl_inputselect");
 });
+
+
+// for artist id in banner
+$(document).ready(function() {
+	var artist_id_class = ["none", "org", "collector", "muyuan", "taoyuan", "qiyuan", "shiyuan", "yiyuan", "yinyuan", "duoyuan"];
+	var id_cnts = artist_id_class.length;
+	var idval = parseInt($('#artist_id_value').html());
+
+	if (idval >= 0 && idval < id_cnts) {
+		$('#artist_id').removeClass().addClass(artist_id_class[idval]);
+	}
+});
