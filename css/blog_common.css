@@ -229,23 +229,25 @@ img {
 	margin-right: auto;
 	width: 250px;
 	position: relative;
-	
-
 }
 #picround {
 	margin: auto;
 	width: 100px;
 	height: 100px;
 	border: 2px solid #FFFFFF;
-	-moz-border-radius: 50px;
-	/* Gecko browsers */
-	
-	-webkit-border-radius: 50px;
-	/* Webkit browsers */
-	
-	border-radius: 50px;
 	overflow: hidden;
-	/* W3C syntax */
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	z-index: 2;
+	position: relative;
+	behavior: url(css/iecss3.htc);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100px 100px;
+	-moz-background-size: 100px 100px;
+	-webkit-background-size: 100px 100px;
+	-o-background-size: 100px 100px;
 }
 #artist_name,
 #artist_msg {
@@ -262,17 +264,13 @@ img {
 	font-size: 14px;
 	font-weight: 200;
 }
-
 #artist_id {
 	height: 24px;
 	width: 100px;
-	
+	z-index: 10;
 	position: absolute;
 	left: 150px;
 	top: 70px;
-	
-	
-	
 }
 #artist_id_value {
 	display: none;
@@ -316,17 +314,6 @@ img {
 	width: 59px;
 	background: url(img/blog_id_duoyuan.png) no-repeat left center;
 }
-
-
-
-
-
-
-
-
-
-
-
 #bgedit {
 	display: block;
 	width: 110px;
