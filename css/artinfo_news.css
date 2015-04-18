@@ -63,6 +63,7 @@
 	width: 640px;
 	height: 298px;
 	position: relative;
+	overflow: hidden;
 }
 #news_img #img_pre {
 	position: absolute;
@@ -82,15 +83,23 @@
 	cursor: pointer;
 	background: url("img/picture_next.png") no-repeat center;
 }
-#news_img ul {
+#newsimg_slide {
 	position: absolute;
 	top: 0px;
 	left: 58px;
 	width: 524px;
 	height: 298px;
+	overflow: hidden;
+}
+#news_img ul {
+	width: 9999em;
+	height: 298px;
 }
 #news_img ul li {
 	position: relative;
+	float: left;
+	width: 524px;
+	height: 298px;
 }
 #news_img ul img {
 	width: 524px;
