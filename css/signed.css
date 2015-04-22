@@ -1,0 +1,112 @@
+/* logo_custom bg start */
+
+#logo_custom {
+	width: 66px;
+	background: url("img/logo_signed.jpg") no-repeat left bottom;
+}
+/* logo_custom bg end */
+
+#banner {
+	max-width: 1920px;
+	height: 316px;
+	position: relative;
+	overflow: hidden;
+	background: url("img/signed_banner.jpg") no-repeat center;
+}
+#signed_online {
+	position: absolute;
+	bottom: 54px;
+	left: 50%;
+	margin-left: -312px;
+	width: 176px;
+	height: 51px;
+	background: url("img/signed_online_bg.png") no-repeat bottom;
+}
+#signed_online a {
+	display: block;
+	width: 176px;
+	height: 46px;
+	background: url("img/signed_online.jpg") no-repeat center;
+}
+h1.signed_title {
+	width: 227px;
+	height: 33px;
+	margin-bottom: 40px;
+	margin-top: 80px;
+}
+#flatform h1 {
+	background: url("img/signed_platform_title.jpg") no-repeat left center;
+}
+#flatform p {
+	width: 850px;
+	margin: 0 auto;
+	color: #666666;
+	text-align: center;
+	line-height: 20px;
+}
+#advan h1 {
+	background: url("img/signed_advan_title.jpg") no-repeat left center;
+}
+#advan ul {
+	border-right: 1px solid #e0e0e0;
+	overflow: hidden;
+}
+#advan ul li {
+	float: left;
+	width: 141px;
+	border-left: 1px solid #e0e0e0;
+	overflow: hidden;
+	padding: 10px 0;
+}
+#advan ul li img {
+	max-width: 141px;
+	display: block;
+	height: 58px;
+	margin: 0 auto;
+}
+#advan ul li p {
+	width: 100px;
+	text-align: center;
+	margin: 25px auto 0 auto;
+	line-height: 20px;
+	height: 40px;
+	color: #666666;
+}
+#process {
+	margin-bottom: 100px;
+}
+#process h1 {
+	background: url("img/sidned_process_title.jpg") no-repeat left center;
+}
+#process ul {
+	border-right: 1px solid #e0e0e0;
+	overflow: hidden;
+}
+#process ul li {
+	float: left;
+	width: 248px;
+	border-left: 1px solid #e0e0e0;
+	overflow: hidden;
+	padding: 10px 0;
+}
+#process ul li img {
+	max-width: 248px;
+	display: block;
+	height: 61px;
+	margin: 0 auto;
+}
+#process ul li h4 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	line-height: 20px;
+	color: #666666;
+}
+#process ul li p {
+	width: 170px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 20px;
+	height: 40px;
+	color: #666666;
+}
