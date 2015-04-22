@@ -1,3 +1,11 @@
+/* logo_custom bg start */
+
+#logo_custom {
+	width: 66px;
+	background: url("img/logo_auctiondetail.jpg") no-repeat left bottom;
+}
+/* logo_custom bg end */
+
 #auction_time {
 	margin-top: 20px;
 	font-size: 16px;
