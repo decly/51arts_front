@@ -396,6 +396,56 @@
 	background: #000;
 }
 /* artcircle end */
+/* stress start */
+
+#stress {
+	overflow: hidden;
+	margin: 60px auto;
+}
+#stress ul li {
+	float: left;
+	width: 164px;
+	text-align: center;
+}
+#stress ul li div {
+	width: 45px;
+	height: 45px;
+	margin: 0 auto;
+}
+#stress ul li h4 {
+	margin-top: 10px;
+	font-weight: 900;
+	line-height: 20px;
+}
+#stress ul li p {
+	color: #8d8d8d;
+	line-height: 20px;
+}
+#stress ul li.stress_sepa {
+	width: 1px;
+	height: 60px;
+	margin: 12px 1px;
+	background-color: #e8e8e8;
+}
+#stress .stree_img_01 {
+	background: url("img/stress_01.jpg") no-repeat center;
+}
+#stress .stree_img_02 {
+	background: url("img/stress_02.jpg") no-repeat center;
+}
+#stress .stree_img_03 {
+	background: url("img/stress_03.jpg") no-repeat center;
+}
+#stress .stree_img_04 {
+	background: url("img/stress_04.jpg") no-repeat center;
+}
+#stress .stree_img_05 {
+	background: url("img/stress_05.jpg") no-repeat center;
+}
+#stress .stree_img_06 {
+	background: url("img/stress_06.jpg") no-repeat center;
+}
+/* stress end */
 /* ft bottom start */
 
 #ft_bottom {
