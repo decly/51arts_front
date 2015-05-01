@@ -1,0 +1,42 @@
+/* logo_custom bg start */
+
+#logo_custom {
+	width: 69px;
+	background: url("img/logo_artinfo_news.jpg") no-repeat left bottom;
+}
+/* logo_custom bg end */
+
+#content_wrap {
+	overflow: hidden;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+#news {
+	overflow: hidden;
+	padding: 20px 20px;
+	border: 1px solid #e9e9e9;
+}
+#news_top {
+	position: relative;
+}
+#news_title {
+	margin-top: 10px;
+	text-align: center;
+}
+#news_title p {
+	width: 400px;
+	margin: 40px auto 0 auto;
+	font-size: 24px;
+}
+#news_content {
+	margin: 0 auto;
+	padding-top: 10px;
+}
+#news_text p {
+	line-height: 30px;
+	margin: 20px auto;
+	width: 850px;
+	text-indent: 2em;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
