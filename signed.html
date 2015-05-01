@@ -153,8 +153,54 @@
 
 			<div id="banner" class="fullwidth">
 				<div id="signed_online">
-					<a href="#"></a>
+					<a id="signed_online_btn" href="javascript:;"></a>
 				</div>
+
+				<div id="signed_popup">
+					<div id="signed_popup_title">
+						<a href="javascript:;" title="关闭" class="close">×</a>
+					</div>
+					<form>
+						<ul>
+							<li>
+								<label for="username">
+									<span id="inputlabels">请输入您的姓名</span>
+									<input type="text" id="username" />
+								</label>
+							</li>
+							<li>
+								<label for="phonenum">
+									<span id="inputlabels">请输入您的手机号码</span>
+									<input type="text" id="phonenum" />
+								</label>
+							</li>
+							<li>
+								<input type="submit" value=" 签约" id="signed" />
+							</li>
+						</ul>
+					</form>
+				</div>
+				<div id="signed_mask"></div>
+				<script language="JavaScript">
+					$('#signed_popup input').focus(function() {
+						$(this).siblings('span').css({
+							'display': 'none'
+						});
+					}).blur(function() {
+						if (this.value.length == 0)
+							$(this).siblings('span').css({
+								'display': 'inline'
+							});
+					});
+					$('#signed_online_btn').click(function() {
+						$('#signed_mask').fadeIn(100);
+						$('#signed_popup').slideDown(200);
+					});
+					$('#signed_mask, #signed_popup_title a').click(function() {
+						$('#signed_popup').slideUp(200);
+						$('#signed_mask').fadeOut(100);
+					});
+				</script>
 			</div>
 
 			<div id="flatform" class="fitwidth">

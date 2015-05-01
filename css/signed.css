@@ -110,3 +110,84 @@ h1.signed_title {
 	height: 40px;
 	color: #666666;
 }
+/* signed popup start */
+
+#signed_popup {
+	display: none;
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	margin-left: -161px;
+	background-color: #fff;
+	z-index: 99999;
+	border-bottom: 8px solid #f2f2f2;
+	overflow: hidden;
+	width: 232px;
+	padding: 16px 45px 12px 45px;
+}
+#signed_popup_title {
+	overflow: hidden;
+	height: 20px;
+}
+#signed_popup_title .close {
+	float: right;
+	height: 14px;
+	display: block;
+	color: #999;
+	font: bold 12px/14px simsun;
+	text-shadow: 0 1px 0 #ddd
+}
+#signed_popup_title .close:hover {
+	color: #444;
+}
+#signed_popup li {
+	height: 38px;
+	margin-bottom: 12px;
+	position: relative;
+}
+#signed_popup #inputlabels {
+	position: absolute;
+	top: 2px;
+	left: 10px;
+	z-index: 20;
+	font-size: 16px;
+	line-height: 35px;
+	color: #9d9d9d;
+}
+#signed_popup #username,
+#signed_popup #phonenum {
+	width: 220px;
+	height: 35px;
+	font-size: 16px;
+	line-height: 35px;
+	border: 1px solid #e3e3e3;
+	color: #6f6f6f;
+	padding-left: 10px;
+}
+#signed_popup #signed {
+	height: 35px;
+	width: 232px;
+	line-height: 35px;
+	font-size: 16px;
+	font-weight: 900;
+	letter-spacing: 5px;
+	text-align: center;
+	border: none;
+	background: #dd5451;
+	color: #fff;
+	cursor: pointer;
+}
+#signed_mask {
+	z-index: 99998;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	background: none\9;
+	filter: Alpha(opacity=40);
+	opacity: 0.4;
+	display: none;
+}
+/* signed popup end */
