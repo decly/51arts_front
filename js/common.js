@@ -12,7 +12,7 @@ $(document).ready(function() {
 			});
 	});
 
-	$('#login_top').click(function() {
+	$('#login_top, .misc_login').click(function() {
 		$('#login_mask').fadeIn(100);
 		$('#logowinwrap').slideDown(200);
 	});

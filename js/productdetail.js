@@ -54,3 +54,16 @@ $(document).ready(function() {
 
 	_navs.eq(0).click();
 });
+
+// for commit login
+$(document).ready(function() {
+	if ($('#has_login').val() == 0) {
+		$('#commit_login').css({
+			'display': 'block'
+		});
+		$('#comment_write form textarea').attr("readonly", "readonly").click(function() {
+			$(this).blur();
+			$('#commit_login').click();
+		});
+	}
+});

@@ -498,6 +498,55 @@
 	padding-right: 10px;
 	margin-right: 10px;
 }
+#comment_write {
+	width: 700px;
+	overflow: hidden;
+	margin-top: 30px;
+}
+#my_icon,
+#my_icon img {
+	float: left;
+	height: 70px;
+	width: 70px;
+	background: #d0d0d0;
+}
+#comment_write form {
+	float: right;
+	position: relative;
+	height: 110px;
+	width: 615px;
+}
+#comment_write form textarea {
+	height: 68px;
+	width: 613px;
+	resize: none;
+	overflow-y: auto;
+	border: 1px solid #e0e0e0;
+}
+#comment_write form input {
+	margin-top: 10px;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: right;
+	border: none;
+	background: #e06360;
+	color: #fff;
+	cursor: pointer;
+}
+#comment_write .misc_login {
+	position: absolute;
+	top: 24px;
+	left: 240px;
+	text-align: center;
+	color: #d8d8d8;
+	font-size: 18px;
+	text-decoration: underline;
+	letter-spacing: 0;
+	z-index: 10;
+	display: none;
+}
 /* product comment end */
 /* guess you like AND recently viewed start */
 

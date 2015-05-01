@@ -24,7 +24,42 @@
 				<div id="top" class="fitwidth">
 					<div id="topleft">
 						<span id="welcome">您好，欢迎来到多元主义！</span>
-						<a href="#" id="login_top">登录</a>
+						<a href="javascript:;" id="login_top">登录</a>
+						<div id="logowinwrap">
+							<div id="logintitle">
+								<a href="javascript:;" title="关闭" class="close">×</a>
+								<h3></h3>
+							</div>
+							<div id="login_wrap">
+								<form action="" method="post">
+									<ul>
+										<li>
+											<label for="username">
+												<span id="inputlabels">会员名/手机号/邮箱</span>
+												<input type="text" name="username" id="username" />
+											</label>
+										</li>
+										<li>
+											<label for="password">
+												<span id="inputlabels">密码</span>
+												<input type="password" name="password" id="password" />
+											</label>
+										</li>
+
+										<li>
+											<input type="submit" value="登录" id="login" />
+											<a href="#" id="forget-pwd">忘记密码？</a>
+										</li>
+
+									</ul>
+								</form>
+							</div>
+							<div id="register_guide">
+								<p>您还没有多元帐号?</p>
+								<a href="#">现在注册</a>
+							</div>
+						</div>
+						<div id="login_mask"></div>
 						<span>/</span>
 						<a href="#">注册</a>
 					</div>
@@ -376,6 +411,25 @@
 									</ul>
 								</div>
 							</div>
+
+							<div id="comment_write">
+								<div id="my_icon">
+									<img src="img/lv4_artinfo_superinfo_news_myicon.jpg" alt="icon" />
+								</div>
+								<form>
+									<textarea></textarea>
+									<input type="submit" value="发表评论" />
+									<a id="commit_login" href="javascript:;" class="misc_login">登录发表评论</a>
+									<input id="has_login" type="hidden" value="0" />
+									<!--
+										value of #has_login:
+										0 -- has't login
+										1 -- has login
+									-->	
+								</form>
+
+							</div>
+
 						</div>
 
 						<div id="guessyoulike" class="plate_table_temp">
