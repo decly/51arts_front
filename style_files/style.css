@@ -1477,6 +1477,10 @@ h6 span {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+.flowBox .cart_item td a img {
+	height: 100px;
+	width: 100px;
+}
 .flowBox .cart_price_cal {
 	height: 50px;
 	line-height: 50px;
