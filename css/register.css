@@ -39,6 +39,7 @@
 	padding: 0 10px;
 	width: 230px;
 	border: 1px solid #e0e0e0;
+	line-height: 30px;
 }
 #register_content li.vrfcode input {
 	width: 100px;
@@ -53,6 +54,7 @@
 	width: 120px;
 	color: #fff;
 	border: 1px solid #e0e0e0;
+	cursor: pointer;
 }
 #register_prom {
 	float: left;
