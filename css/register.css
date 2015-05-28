@@ -79,6 +79,7 @@
 	line-height: 28px;
 	padding: 0 5px;
 	border: 1px solid #e0e0e0;
+	cursor: pointer;
 }
 #login_wrap {
 	float: left;
