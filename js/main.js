@@ -81,25 +81,25 @@ $(document).ready(function() {
 
 $(document).ready(function() { // hover for items
 
-	$('table.show_iteminfo td').hover(itemhover, itemleave);
+	$('table.show_iteminfo td img').mouseover(itemhover);
+	$('table.show_iteminfo td p').mouseleave(itemleave);
 
 	function itemhover() {
-		$(this).find('img').css({
+		$(this).css({
 			'filter': 'alpha(opacity=20)',
 			'opacity': '0.2'
 		});
-		$(this).children('p').css({
+		$(this).siblings('p').css({
 			'display': 'block'
 		});
 	}
 
 	function itemleave() {
-
-		$(this).find('img').css({
+		$(this).siblings('img').css({
 			'filter': 'alpha(opacity=100)',
 			'opacity': '1.0'
 		});
-		$(this).children('p').css({
+		$(this).css({
 			'display': 'none'
 		});
 	}
