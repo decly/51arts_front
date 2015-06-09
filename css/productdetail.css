@@ -29,27 +29,31 @@
 }
 #product_img_lit ul {
 	margin-top: 6px;
+	width: 352px;
+	height: 84px;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
 }
 #product_img_lit ul li {
-	float: left;
-	width: 82px;
-	height: 82px;
-	border: 1px solid #e0e0e0;
+	display: inline;
+	width: 84px;
+	height: 84px;
 	background: #f7f7f7;
 	margin-right: 5px;
 	cursor: pointer;
 }
 #product_img_lit ul li.current {
-	border: 1px solid #dd5451;
+	filter: alpha(opacity=40);
+	opacity: 0.4;
 }
 #product_img_lit ul li.last_one {
 	margin-right: 0;
 	margin-left： 6px;
 }
 #product_img_lit ul li img {
-	width: 82px;
-	height: 82px;
-	float: left;
+	width: 84px;
+	height: 84px;
 }
 /* product imgs end */
 /* product info start */
