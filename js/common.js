@@ -26,6 +26,13 @@ $(document).ready(function() {
 		$('#logowinwrap').slideUp(200);
 		$('#login_mask').fadeOut(100);
 	});
+
+	var usertypes = $('#user_sw p');
+	$('#user_sw p').click(function() {
+		$(this).addClass("current").siblings('p').removeClass("current");
+		var i = $.inArray(this, usertypes);
+		$('#user_type').val(i);
+	});
 });
 
 

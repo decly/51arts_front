@@ -220,7 +220,7 @@ img {
 	z-index: 99999;
 	border: 1px solid #e0e0e0;
 	overflow: hidden;
-	width: 450px;
+	width: 420px;
 }
 #logintitle {
 	border-bottom: 1px solid #e0e0e0;
@@ -246,9 +246,10 @@ img {
 }
 #login_wrap {
 	background: #fff;
-	float: left;
-	float left;
 	padding: 5px 15px 15px 15px;
+}
+#login_wrap ul {
+	float: left;
 }
 #login_wrap li {
 	width: 230px;
@@ -268,7 +269,7 @@ img {
 }
 #login_wrap #username,
 #login_wrap #password {
-	width: 200px;
+	width: 190px;
 	height: 25px;
 	font-size: 12px;
 	line-height: 25px;
@@ -315,30 +316,69 @@ img {
 }
 #login_wrap #vry_code {
 	position: absolute;
-	bottom: 5;
+	bottom: 5px;
 	font-size: 12px;
 	background: #e4e4e4;
 	text-align: center;
 	color: #fff;
 }
 #register_guide {
-	float: left;
-	height: 120px;
-	padding-left: 20px;
-	border-left: 1px solid #e0e0e0;
+	float: right;
+	margin-bottom: 20px;
 }
 #register_guide p {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 700;
-	margin-top: 12px;
+	margin-top: 5px;
 }
-#register_guide a {
+#register_guide > a {
 	display: block;
-	margin-top: 8px;
 	margin-left: 2px;
 	font-size: 14px;
 	color: #DC5154;
 	text-decoration: underline;
+}
+#register_guide p > a {
+	width: 19px;
+	height: 18px;
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+#login_coop {
+	padding-left: 10px;
+}
+#login_coop_1 {
+	background: url(img/login_coop_01.jpg) no-repeat left bottom;
+}
+#login_coop_2 {
+	background: url(img/login_coop_02.jpg) no-repeat left bottom;
+}
+#login_coop_3 {
+	background: url(img/login_coop_03.jpg) no-repeat left bottom;
+}
+#login_coop_4 {
+	background: url(img/login_coop_04.jpg) no-repeat left bottom;
+}
+#user_sw {
+	width: 400px;
+	height: 40px;
+	margin: 0 auto;
+	overflow: hidden;
+	cursor: pointer;
+}
+#user_sw p {
+	width: 200px;
+	line-height: 40px;
+	font-weight: 900;
+	font-size: 16px;
+	float: left;
+	text-align: center;
+	border-top: solid 1px #e0e0e0;
+	color: #6f6f6f;
+}
+#user_sw p.current {
+	border-top: solid 1px #dd5451;
 }
 #login_mask {
 	z-index: 99998;
