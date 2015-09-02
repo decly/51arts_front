@@ -28,6 +28,34 @@ $(document).ready(function() {
 });
 
 
+// for product show switch
+$(document).ready(function() {
+	var idx = 0;
+	var slideinterval = 500;
+	var round_size = 4;
+	var size = Math.ceil($('#product_show_lit ul li').length / round_size);
+
+	$('#product_show_lit').siblings('#product_show_pre, #product_show_next').bind('click', function() {
+		var id = this.id;
+		if (id == 'product_show_pre') {
+			idx--;
+			if (idx < 0) idx = size - 1;
+		} else {
+			idx++;
+			if (idx >= size) idx = 0;
+		}
+		showpic(idx);
+	});
+
+	function showpic(index) {
+		var perwidth = $('#product_show_lit').width();
+		$('#product_img_lit ul li').animate({
+			left: -perwidth * index
+		}, slideinterval);
+	}
+});
+
+
 // for product show classify selected
 $(document).ready(function() {
 	var _thumbs = $('#product_classify ul li');
